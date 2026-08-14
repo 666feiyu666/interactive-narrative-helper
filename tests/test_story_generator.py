@@ -140,6 +140,18 @@ class StoryGeneratorTests(unittest.TestCase):
             source,
         )
         self.assertIn("requirements-colab.txt", source)
+        self.assertIn("api_key = getpass.getpass(", source)
+        self.assertIn('load_dotenv(PROJECT_ROOT / ".env")', source)
+        self.assertNotIn("from google.colab import userdata", source)
+        self.assertIn("复制到云端硬盘", source)
+        self.assertIn('drive.mount("/content/drive")', source)
+        self.assertIn(
+            '/content/drive/MyDrive/story-generator-workshop',
+            source,
+        )
+        self.assertIn("不会覆盖你的修改", source)
+        self.assertNotIn('PROJECT_ROOT = Path("/content/story-generator")', source)
+        self.assertIn("只在本次 Colab 运行期间保存在内存中", source)
         self.assertIn("files.download(str(markdown_path))", source)
         for cell in notebook["cells"]:
             if cell["cell_type"] == "code":
