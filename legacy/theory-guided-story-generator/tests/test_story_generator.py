@@ -136,7 +136,11 @@ class StoryGeneratorTests(unittest.TestCase):
         )
         self.assertIn('IN_COLAB = "google.colab" in sys.modules', source)
         self.assertIn(
-            "https://github.com/666feiyu666/story-generator.git",
+            "https://github.com/666feiyu666/interactive-narrative-helper.git",
+            source,
+        )
+        self.assertIn(
+            'COMPONENT_RELATIVE = Path("legacy") / "theory-guided-story-generator"',
             source,
         )
         self.assertIn("requirements-colab.txt", source)
@@ -146,7 +150,7 @@ class StoryGeneratorTests(unittest.TestCase):
         self.assertIn("复制到云端硬盘", source)
         self.assertIn('drive.mount("/content/drive")', source)
         self.assertIn(
-            '/content/drive/MyDrive/story-generator-workshop',
+            '/content/drive/MyDrive/interactive-narrative-helper-workshop',
             source,
         )
         self.assertIn("不会覆盖你的修改", source)

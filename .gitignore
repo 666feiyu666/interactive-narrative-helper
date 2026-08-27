@@ -1,12 +1,29 @@
-runs/*
-!runs/.gitkeep
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
 
+# Python environments and caches
 __pycache__/
 *.py[cod]
-.ipynb_checkpoints/
 .venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets and local configuration
 .env
 .env.*
 !.env.example
-.DS_Store
-story_generator_colab_bundle.zip
+
+# Generated research material
+outputs/*
+!outputs/README.md
+experiments/**/runs/*
+!experiments/**/runs/README.md
+
+# Restricted corpus material is never tracked by default
+corpus/restricted-sources/*
+!corpus/restricted-sources/README.md

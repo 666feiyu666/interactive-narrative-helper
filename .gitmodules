@@ -1,0 +1,3 @@
+[submodule "testbeds/fox-and-crow"]
+	path = testbeds/fox-and-crow
+	url = https://github.com/666feiyu666/Fox-and-Crow.git

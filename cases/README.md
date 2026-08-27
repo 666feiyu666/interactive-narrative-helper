@@ -1,5 +1,9 @@
-# Cases
+# Research cases
 
-这里将在后续 harness 稳定阶段保存固定输入配置和回归案例。
+A case is a stable, bounded input to the counterfactual design task. It defines
+the source, provenance, canonical action, counterfactual question, invariants,
+and permitted changes without prescribing the Agent's answers.
 
-当前只建立五个 section 的逐段生成、人工确认与上下文递归，暂不建立正式评价集或评分规则。
+Cases must not include copyrighted modern wording or assets unless the project
+has documented permission. When a traditional story is public domain, record
+the underlying tradition separately from any modern edition or translation.

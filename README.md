@@ -1,21 +1,68 @@
-# 《狐狸与乌鸦》同人故事生成器
+# Interactive Narrative Helper
 
-这是一个通过 DeepSeek 在 Google Colab 中运行的互动式故事生成实验。它以《狐狸与乌鸦》为原型，将寓言改写成时间循环故事：狐狸每天回到乌鸦叼着奶酪站在树上的清晨，只有狐狸保留此前的记忆。它不断尝试控制乌鸦、破解循环，最终在失败中学会观察、倾听和信任。
+Interactive Narrative Helper is a research program about author-facing AI
+support for adapting classic children's stories into multi-ending interactive
+narratives.
 
-[![在 Colab 中打开](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/666feiyu666/story-generator/blob/main/notebooks/story_generator_deepseek.ipynb)
+## Research question
 
-## 实现思路
+> 在将经典儿童故事改编为多结局互动叙事的过程中，生成式 Agent 在多大程度上能够作为反事实叙事设计伙伴，提出与原作相容且具有实质差异的角色行动，并推演这些行动对情节发展、可能结局、故事主题与教育意义的影响？
 
-故事借用亚里士多德《诗学》关于情节的基本思想：故事应当表现一个完整的行动，具有开端、中段和结局；事件之间不是松散堆积，而应依照因果关系逐步推进。
+The central artifact is a design-time **Counterfactual Narrative Design
+Partner**. It helps an author explore what a character could do differently and
+what those choices might change. It is not a generic full-story generator and
+is distinct from a runtime narrator that responds to players.
 
-本项目把这一思路转化为五个连续部分：
+## Repository map
 
-1. **起因**：狐狸发现自己被困在时间循环中。
-2. **发展**：狐狸反复尝试控制乌鸦和逃离森林，却不断失败。
-3. **转折**：狐狸开始注意乌鸦自身的需要，并发现单纯完成任务不能解除循环。
-4. **高潮**：狐狸放弃操纵，向乌鸦坦白循环的真相；两者开始共同面对困境。
-5. **结局**：循环结束，乌鸦主动找人修桥，狐狸得以离开森林。
+| Path | Responsibility |
+|---|---|
+| `research/` | Research question, constructs, scope, methods, ethics, and decisions |
+| `agent/` | Reusable counterfactual design agent contracts and future implementation |
+| `cases/` | Stable story analyses, pivotal actions, invariants, and design briefs |
+| `corpus/` | Catalogs, annotations, schemas, derived knowledge, and rights records |
+| `experiments/` | Reproducible protocols, conditions, evaluations, and analyses |
+| `testbeds/` | Runnable research instruments used across experiments |
+| `tools/` | Corpus, evaluation, and reporting utilities |
+| `outputs/` | Deliberately selected generated figures, tables, and reports |
+| `legacy/` | Preserved predecessor implementations that are not current research artifacts |
 
-这五部分是对“开端—中段—结局”的生成式改编，并不是把《诗学》机械套成五幕。每一部分都必须由前一部分的行动及其后果引出：狐狸的失败形成新的认识，新的认识改变下一步选择，最终构成从操纵到信任的完整行动。
+## Current components
 
-Notebook 每次只生成一个部分。生成的候选文本先由使用者检查；只有人工确认后的内容，才会连同已建立的事实、角色知识和未解决线索进入下一部分。这样，语言模型负责提出故事候选，而人负责判断情节是否连贯、因果是否成立，以及人物转变是否可信。
+- `cases/fox-and-crow/` defines the first counterfactual adaptation case without
+  prescribing the Agent's answers.
+- `testbeds/fox-and-crow/` is the independently versioned playable
+  Fox-and-Crow application, included as a Git submodule.
+- `legacy/theory-guided-story-generator/` preserves the earlier five-section,
+  theory- and Prompt-guided DeepSeek generator. It is prior work, not yet a
+  validated baseline for the current research question.
+
+The counterfactual design Agent itself has not yet been implemented. Its first
+machine-readable input and output contracts live under `agent/` so future
+experiments can evaluate separate capabilities instead of treating fluent prose
+as sufficient evidence.
+
+## Clone
+
+Clone the research repository and its testbed together:
+
+```powershell
+git clone --recurse-submodules https://github.com/666feiyu666/interactive-narrative-helper.git
+```
+
+Existing clones can initialize the testbed with:
+
+```powershell
+git submodule update --init --recursive
+```
+
+Each executable component owns its own environment and verification commands.
+Read its README before running or changing it.
+
+## Working rules
+
+Read `AGENTS.md` before changing research scope, repository structure, data, or
+executable behavior. In particular, keep confirmed goals, implemented behavior,
+experimental evidence, and interpretation separate; do not commit restricted
+source material, secrets, participant data, or unreviewed external corpus
+content.
