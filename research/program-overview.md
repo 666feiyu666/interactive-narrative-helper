@@ -23,16 +23,7 @@ helps an author who already has a source story, pivotal action, and constraints
 explore substantively different character actions and their consequences for
 later choices, endings, themes, and educational meaning.
 
-The two tracks can connect through a human-reviewed design brief:
-
-```text
-educational intent
-  -> Track A surfaces creator-grounded design directions
-  -> educator or author selects and revises a direction
-  -> reviewed design brief plus a concrete story case
-  -> Track B expands alternative actions and causal branches
-  -> author develops selected directions into branches and runtime design
-```
+![Full Interactive Narrative Helper research framework](figures/full-program-framework.svg)
 
 The bridge does not make the two tracks one undifferentiated Agent. Track A and
 Track B have different inputs, outputs, evidence, and evaluation criteria.
@@ -41,10 +32,12 @@ Their current division and conceptual interface are detailed in
 
 ## Current research stage
 
-The active stage supports Track A through data mining. It studies how creators
-position educational IF on public project pages and currently focuses on
-terminology, candidate coverage, source acquisition, inclusion, and the kinds
-of creator-described design information that can be derived traceably.
+The active stage supports Track A through data mining. The broader source
+universe is educational IF distributed across platforms such as itch.io and
+Steam. The current operational study uses public itch.io project pages and
+focuses on terminology, candidate coverage, source acquisition, inclusion, and
+the kinds of creator-described design information that can be derived
+traceably.
 
 The findings may later support design knowledge, retrieval, and the macro
 Helper. Their detailed contracts are deliberately deferred until mining

@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Current study framework for creator-description mining on itch.io</title>
+  <desc id="desc">The current study treats educational interactive fiction across multiple platforms as the broader source universe, while using a frozen itch.io candidate inventory and public creator pages for the present acquisition. Completed processing leads into active inclusion screening and pilot coding, followed by planned full coding and evidence-scoped synthesis.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#172033" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M 1 1 L 11 6 L 1 11 z" fill="#263247"/>
+    </marker>
+    <style>
+      .title { font: 700 38px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+      .subtitle { font: 400 23px Inter, "Segoe UI", Arial, sans-serif; fill: #4b5565; }
+      .eyebrow { font: 700 17px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 1.8px; fill: #526071; }
+      .panel-title { font: 700 29px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+      .card-title { font: 700 22px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+      .body { font: 400 19px Inter, "Segoe UI", Arial, sans-serif; fill: #344054; }
+      .small { font: 400 17px Inter, "Segoe UI", Arial, sans-serif; fill: #526071; }
+      .status { font: 700 14px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 1.1px; }
+      .arrow { fill: none; stroke: #263247; stroke-width: 4; marker-end: url(#arrow); }
+      .inner { fill: #ffffff; stroke: #2d3748; stroke-width: 2.4; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1080" fill="#ffffff"/>
+
+  <g filter="url(#shadow)">
+    <rect x="40" y="30" width="1720" height="112" rx="26" fill="#f1f3f6" stroke="#263247" stroke-width="2.5"/>
+  </g>
+  <text x="78" y="78" class="title">Current Study — Creator-Description Mining on itch.io</text>
+  <text x="78" y="116" class="subtitle">A platform-specific evidence pipeline; not the full field and not yet an implemented design Helper</text>
+
+  <!-- Source universe -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="180" width="1720" height="180" rx="28" fill="#e8f1fa"/>
+  </g>
+  <text x="72" y="221" class="eyebrow">BROADER SOURCE UNIVERSE</text>
+  <text x="72" y="257" class="panel-title">Educational Interactive Fiction across game platforms and related catalogues</text>
+
+  <rect x="72" y="282" width="380" height="56" rx="15" fill="#b9d9ee" stroke="#4f7692" stroke-width="2.2"/>
+  <text x="94" y="317" class="card-title">itch.io · current candidate source</text>
+
+  <rect x="478" y="282" width="285" height="56" rx="15" fill="#ffffff" stroke="#8ea0b4" stroke-width="2" stroke-dasharray="9 7"/>
+  <text x="506" y="317" class="card-title">Steam · future coverage</text>
+
+  <rect x="789" y="282" width="360" height="56" rx="15" fill="#ffffff" stroke="#8ea0b4" stroke-width="2" stroke-dasharray="9 7"/>
+  <text x="817" y="317" class="card-title">Other platforms · future coverage</text>
+
+  <rect x="1190" y="242" width="535" height="96" rx="17" fill="#d8e9f6" stroke="#6d8ca4" stroke-width="2"/>
+  <text x="1217" y="279" class="card-title">Scope rule</text>
+  <text x="1217" y="310" class="body">The current itch.io inventory does not define the field.</text>
+  <text x="1217" y="331" class="small">Coverage and claims remain platform-specific.</text>
+
+  <path d="M 262 338 L 262 397" class="arrow"/>
+
+  <!-- Current pipeline -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="400" width="1120" height="475" rx="28" fill="#eef4f9"/>
+  </g>
+  <text x="72" y="442" class="eyebrow">CURRENT PROCESSING AND RESEARCH WORK</text>
+  <text x="72" y="479" class="panel-title">From a frozen candidate inventory to evidence-scoped findings</text>
+
+  <rect x="72" y="520" width="235" height="290" rx="20" class="inner"/>
+  <rect x="92" y="540" width="112" height="31" rx="15" fill="#cde4f3"/>
+  <text x="148" y="561" text-anchor="middle" class="status" fill="#315b78">COMPLETED</text>
+  <text x="94" y="609" class="card-title">1 · Candidate</text>
+  <text x="94" y="638" class="card-title">discovery</text>
+  <text x="94" y="679" class="body">Frozen itch.io</text>
+  <text x="94" y="708" class="body">tag inventory</text>
+  <text x="94" y="747" class="panel-title">606</text>
+  <text x="94" y="776" class="small">candidate entries</text>
+
+  <path d="M 307 665 L 342 665" class="arrow"/>
+
+  <rect x="350" y="520" width="260" height="290" rx="20" class="inner"/>
+  <rect x="370" y="540" width="112" height="31" rx="15" fill="#cde4f3"/>
+  <text x="426" y="561" text-anchor="middle" class="status" fill="#315b78">COMPLETED</text>
+  <text x="372" y="609" class="card-title">2 · Acquire and clean</text>
+  <text x="372" y="650" class="body">public creator pages</text>
+  <text x="372" y="679" class="body">page bundles →</text>
+  <text x="372" y="708" class="body">source records</text>
+  <text x="372" y="744" class="panel-title">606 → 585</text>
+  <text x="372" y="773" class="small">processing complete</text>
+  <text x="372" y="797" class="small">no inclusion decisions</text>
+
+  <path d="M 610 665 L 645 665" class="arrow"/>
+
+  <rect x="653" y="520" width="235" height="290" rx="20" fill="#fff1d9" stroke="#9a6c28" stroke-width="2.6"/>
+  <rect x="673" y="540" width="82" height="31" rx="15" fill="#f5c97f"/>
+  <text x="714" y="561" text-anchor="middle" class="status" fill="#6f4710">ACTIVE</text>
+  <text x="675" y="609" class="card-title">3 · Screen and</text>
+  <text x="675" y="638" class="card-title">pilot the codebook</text>
+  <text x="675" y="679" class="body">include · exclude</text>
+  <text x="675" y="708" class="body">uncertain · reason</text>
+  <text x="675" y="746" class="body">test semantic roles</text>
+  <text x="675" y="775" class="small">retain evidence and</text>
+  <text x="675" y="799" class="small">record ambiguity</text>
+
+  <path d="M 888 665 L 923 665" class="arrow"/>
+
+  <rect x="931" y="520" width="197" height="290" rx="20" fill="#ffffff" stroke="#8b98a8" stroke-width="2.2" stroke-dasharray="10 8"/>
+  <rect x="951" y="540" width="88" height="31" rx="15" fill="#e4e7ec"/>
+  <text x="995" y="561" text-anchor="middle" class="status" fill="#596273">PLANNED</text>
+  <text x="953" y="609" class="card-title">4 · Full coding</text>
+  <text x="953" y="638" class="card-title">and synthesis</text>
+  <text x="953" y="679" class="body">coded case matrix</text>
+  <text x="953" y="708" class="body">types and</text>
+  <text x="953" y="737" class="body">combinations</text>
+  <text x="953" y="770" class="body">coverage and limits</text>
+  <text x="953" y="797" class="small">short-term RQ</text>
+
+  <text x="72" y="849" class="small">Status reflects the accepted stable 1.0 acquisition and cleaning evidence as of 2026-08-28.</text>
+
+  <!-- Coding frame -->
+  <g filter="url(#shadow)">
+    <rect x="1210" y="400" width="550" height="475" rx="28" fill="#eee8f8"/>
+  </g>
+  <text x="1242" y="442" class="eyebrow">CODING FRAME</text>
+  <text x="1242" y="479" class="panel-title">What creator statements mean</text>
+
+  <rect x="1242" y="512" width="486" height="226" rx="19" class="inner"/>
+  <text x="1268" y="550" class="card-title">Shared semantic roles</text>
+  <text x="1268" y="588" class="body">educational purpose and topic</text>
+  <text x="1268" y="619" class="body">intended audience · application setting</text>
+  <text x="1268" y="650" class="body">interactive narrative form or mechanics</text>
+  <text x="1268" y="681" class="body">interaction–educational-intent relationship</text>
+  <text x="1268" y="705" class="small">Codebook rules—not column location—</text>
+  <text x="1268" y="725" class="small">create comparability.</text>
+
+  <rect x="1242" y="746" width="486" height="108" rx="19" fill="#e2daf1" stroke="#78649a" stroke-width="2"/>
+  <text x="1268" y="780" class="card-title">Optional lexical aids</text>
+  <text x="1268" y="811" class="body">phrase counts · TF-IDF · similarity · stemming</text>
+  <text x="1268" y="839" class="small">assist discovery and retrieval; do not replace coding.</text>
+
+  <!-- Outputs -->
+  <rect x="40" y="920" width="1720" height="120" rx="24" fill="#fff5d8" stroke="#b48a3a" stroke-width="2"/>
+  <text x="72" y="959" class="eyebrow">EVIDENCE-SCOPED OUTPUTS · NOT A HELPER IMPLEMENTATION</text>
+  <text x="72" y="997" class="card-title">Eligibility decisions</text>
+  <text x="303" y="997" class="body">→</text>
+  <text x="342" y="997" class="card-title">coded creator-description matrix</text>
+  <text x="705" y="997" class="body">→</text>
+  <text x="744" y="997" class="card-title">traceable types and design combinations</text>
+  <text x="1198" y="997" class="body">→</text>
+  <text x="1237" y="997" class="card-title">coverage, bias, and limitation report</text>
+  <text x="72" y="1027" class="small">The current study can support claims about creator positioning within the covered source—not educational effectiveness or the whole IF field.</text>
+</svg>

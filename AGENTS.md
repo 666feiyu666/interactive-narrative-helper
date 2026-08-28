@@ -26,10 +26,6 @@ research agent.
 
 The project retains this long-term research question:
 
-> 在将经典儿童故事改编为多结局互动叙事的过程中，生成式 Agent 在多大程度上能够作为反事实叙事设计伙伴，提出与原作相容且具有实质差异的角色行动，并推演这些行动对情节发展、可能结局、故事主题与教育意义的影响？
-
-Working English formulation:
-
 > To what extent can a generative agent act as a counterfactual narrative
 > design partner in adapting classic children's stories into multi-ending
 > interactive narratives, by proposing distinct yet story-compatible character
@@ -41,12 +37,19 @@ agent can write an entire interactive story.
 
 The confirmed short-term study is narrower and precedes that goal:
 
-> 在公开项目页面中，创作者如何描述 Interactive Fiction 的教育目的、预期对象、应用场景与互动叙事形式，这些描述呈现出哪些可识别、可复用的类型、特征与设计组合？
+> How do creators of educational Interactive Fiction distributed through game
+> platforms describe their educational purposes, intended audiences,
+> application settings, and interactive narrative forms, and what identifiable,
+> reusable types, characteristics, and design combinations appear in those
+> descriptions?
 
 Current work is data mining: clarify terminology and population coverage,
 acquire usable source material, define inclusion, and determine what
-creator-described application and design characteristics the available pages
-can support. Public creator descriptions are the primary evidence for claims
+creator-described application and design characteristics the available source
+layers can support. The broader source universe may include educational IF
+distributed through itch.io, Steam, other game platforms, and related
+catalogues. The current accepted acquisition is limited to public itch.io
+project pages. Public creator descriptions are the primary evidence for claims
 about how creators position their work; they are not required to establish
 learning effectiveness before they can be analyzed for that purpose.
 

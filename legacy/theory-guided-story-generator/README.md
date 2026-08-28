@@ -1,24 +1,47 @@
-# Legacy：《狐狸与乌鸦》同人故事生成器
+# Legacy: The Fox and the Crow Fan-Fiction Story Generator
 
-> 这是当前反事实叙事设计研究之前的理论与 Prompt 驱动实现。它被完整保留，
-> 但尚未被定义为当前研究问题的正式实验基线。
+> This theory- and prompt-guided implementation predates the current
+> counterfactual narrative design study. It is preserved in full but has not
+> been defined as a formal experimental baseline for the current research
+> question.
 
-这是一个通过 DeepSeek 在 Google Colab 中运行的互动式故事生成实验。它以《狐狸与乌鸦》为原型，将寓言改写成时间循环故事：狐狸每天回到乌鸦叼着奶酪站在树上的清晨，只有狐狸保留此前的记忆。它不断尝试控制乌鸦、破解循环，最终在失败中学会观察、倾听和信任。
+This interactive story-generation experiment runs with DeepSeek in Google
+Colab. It reimagines *The Fox and the Crow* as a time-loop story: every day the
+fox returns to the morning when the crow is standing in a tree with cheese in
+its beak, and only the fox remembers the previous loops. The fox repeatedly
+tries to control the crow and escape the loop, eventually learning through
+failure to observe, listen, and trust.
 
-[![在 Colab 中打开](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/666feiyu666/interactive-narrative-helper/blob/main/legacy/theory-guided-story-generator/notebooks/story_generator_deepseek.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/666feiyu666/interactive-narrative-helper/blob/main/legacy/theory-guided-story-generator/notebooks/story_generator_deepseek.ipynb)
 
-## 实现思路
+## Implementation concept
 
-故事借用亚里士多德《诗学》关于情节的基本思想：故事应当表现一个完整的行动，具有开端、中段和结局；事件之间不是松散堆积，而应依照因果关系逐步推进。
+The story draws on Aristotle's basic account of plot in the *Poetics*: a story
+should represent a complete action with a beginning, middle, and end, and its
+events should develop through causal relationships rather than accumulate as
+unconnected incidents.
 
-本项目把这一思路转化为五个连续部分：
+The project translates this idea into five consecutive sections:
 
-1. **起因**：狐狸发现自己被困在时间循环中。
-2. **发展**：狐狸反复尝试控制乌鸦和逃离森林，却不断失败。
-3. **转折**：狐狸开始注意乌鸦自身的需要，并发现单纯完成任务不能解除循环。
-4. **高潮**：狐狸放弃操纵，向乌鸦坦白循环的真相；两者开始共同面对困境。
-5. **结局**：循环结束，乌鸦主动找人修桥，狐狸得以离开森林。
+1. **Cause:** the fox discovers that it is trapped in a time loop.
+2. **Development:** the fox repeatedly tries to control the crow and leave the
+   forest but continues to fail.
+3. **Turning point:** the fox begins to notice the crow's own needs and learns
+   that merely completing a task will not break the loop.
+4. **Climax:** the fox abandons manipulation and tells the crow the truth about
+   the loop; they begin to face the problem together.
+5. **Resolution:** the loop ends, the crow finds people to repair the bridge,
+   and the fox can leave the forest.
 
-这五部分是对“开端—中段—结局”的生成式改编，并不是把《诗学》机械套成五幕。每一部分都必须由前一部分的行动及其后果引出：狐狸的失败形成新的认识，新的认识改变下一步选择，最终构成从操纵到信任的完整行动。
+These sections are a generative adaptation of the beginning–middle–end model,
+not a mechanical conversion of the *Poetics* into five acts. Each section must
+follow from the actions and consequences of the preceding section: failure
+changes what the fox understands, that understanding changes its next choice,
+and the sequence ultimately forms a complete movement from manipulation to
+trust.
 
-Notebook 每次只生成一个部分。生成的候选文本先由使用者检查；只有人工确认后的内容，才会连同已建立的事实、角色知识和未解决线索进入下一部分。这样，语言模型负责提出故事候选，而人负责判断情节是否连贯、因果是否成立，以及人物转变是否可信。
+The notebook generates one section at a time. The user reviews each candidate,
+and only human-approved material moves into the next section together with
+established facts, character knowledge, and unresolved threads. The language
+model proposes story material; the human judges plot continuity, causal logic,
+and the credibility of character change.

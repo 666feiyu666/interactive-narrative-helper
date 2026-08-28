@@ -33,8 +33,11 @@ Track B opens the possibility space of a selected concrete story.
 
 The current short-term evidence target was also refined. Public creator project
 pages are studied as primary evidence of how creators describe and position
-their works. Learning-effect evidence is not required before those descriptions
-can answer that descriptive question.
+their works. The broader source universe is educational IF distributed through
+game platforms such as itch.io and Steam; the current accepted acquisition is
+an itch.io-specific first source layer, not the definition of that universe.
+Learning-effect evidence is not required before creator descriptions can answer
+that descriptive question.
 
 ## Alternatives considered
 
@@ -57,6 +60,8 @@ workflow and an explicit human decision boundary.
 ## Consequences
 
 - The current mining study is Track A evidence work, not an implemented Helper.
+- The source universe is broader than the current itch.io creator-page
+  acquisition; later platform or source layers require explicit protocols.
 - The existing `agent/` schemas remain owned by Track B and are not repurposed
   for macro knowledge extraction.
 - Derived knowledge should represent traceable creator-described precedents and

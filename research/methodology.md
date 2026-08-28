@@ -5,6 +5,8 @@ being scoped; numbered experiments require separate fixed protocols.
 
 ## Current short-term method
 
+![Current itch.io creator-description mining framework](figures/current-study-framework.svg)
+
 The current source unit is a public creator project page; the analytical unit
 is a distinct creator-described educational-IF case after any documented series
 or duplicate handling. The page description and source metadata are primary

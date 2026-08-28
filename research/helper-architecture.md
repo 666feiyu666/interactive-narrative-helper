@@ -12,6 +12,8 @@ selected concrete story direction.
 
 The umbrella contains two connected, independently evaluable tracks.
 
+![Full Interactive Narrative Helper research framework](figures/full-program-framework.svg)
+
 ## Track A — Macro educational design exploration
 
 ### User and problem
@@ -22,10 +24,12 @@ have been used for comparable purposes.
 
 ### Current evidence
 
-The active study mines public creator project pages. Its knowledge claims are
-about how creators describe their educational purposes, intended audiences,
-application settings, interactive forms, and educational–interaction
-relationships.
+The full evidence landscape may include IF distributed through itch.io, Steam,
+and other platforms, with source layers chosen to match each claim. The active
+study currently mines public itch.io creator project pages. Its knowledge
+claims are about how creators describe their educational purposes, intended
+audiences, application settings, interactive forms, and
+educational–interaction relationships.
 
 ### Possible future Helper behavior
 

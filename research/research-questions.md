@@ -7,25 +7,23 @@ implementation contracts are not yet fixed.
 
 ## Current short-term research question
 
-> 在公开项目页面中，创作者如何描述 Interactive Fiction 的教育目的、预期对象、应用场景与互动叙事形式，这些描述呈现出哪些可识别、可复用的类型、特征与设计组合？
-
-Working English formulation:
-
-> How do creators describe the educational purposes, intended audiences,
-> application settings, and interactive narrative forms of Interactive Fiction
-> on public project pages, and what identifiable, reusable types,
-> characteristics, and design combinations appear in those descriptions?
+> How do creators of educational Interactive Fiction distributed through game
+> platforms describe their educational purposes, intended audiences,
+> application settings, and interactive narrative forms, and what identifiable,
+> reusable types, characteristics, and design combinations appear in those
+> descriptions?
 
 The current analytical focus also asks how creators relate interaction to
 educational intent: for example, whether choice and consequence are described
 as supporting comparison, rehearsal, reflection, perspective-taking, or
 another intended learning experience.
 
-The frozen itch.io `Educational + Interactive Fiction` manifest is one
-platform-specific candidate inventory, not the definition of the field. Its
-public creator descriptions are valid primary evidence for claims about how
-creators position their own projects. Conclusions must remain scoped to that
-source coverage and wording.
+The broader source universe may include itch.io, Steam, other game platforms,
+and related catalogues. The frozen itch.io `Educational + Interactive Fiction`
+manifest is the current platform-specific candidate inventory, not the
+definition of the field. Its public creator descriptions are valid primary
+evidence for claims about how creators position their own projects. Conclusions
+must remain scoped to that source coverage and wording.
 
 The mined findings may support the macro Educational Interactive Narrative
 Design Helper, which can pass an educator- or author-selected direction through
@@ -34,10 +32,6 @@ Partner. That program relationship is confirmed; the detailed knowledge,
 retrieval, and software contracts remain future work.
 
 ## Long-term research question
-
-> 在将经典儿童故事改编为多结局互动叙事的过程中，生成式 Agent 在多大程度上能够作为反事实叙事设计伙伴，提出与原作相容且具有实质差异的角色行动，并推演这些行动对情节发展、可能结局、故事主题与教育意义的影响？
-
-Working English formulation:
 
 > To what extent can a generative agent act as a counterfactual narrative
 > design partner in adapting classic children's stories into multi-ending

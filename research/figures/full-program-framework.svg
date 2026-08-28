@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080" role="img" aria-labelledby="title desc">
+  <title id="title">Interactive Narrative Helper full research framework</title>
+  <desc id="desc">The full program begins with educational interactive fiction across multiple platforms, develops traceable design knowledge in Track A, passes a human-reviewed design brief into Track B, and ends with author-controlled branch development. The two tracks have separate evaluation criteria.</desc>
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#172033" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
+      <path d="M 1 1 L 11 6 L 1 11 z" fill="#263247"/>
+    </marker>
+    <style>
+      .title { font: 700 38px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+      .subtitle { font: 400 23px Inter, "Segoe UI", Arial, sans-serif; fill: #4b5565; }
+      .eyebrow { font: 700 17px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 1.8px; fill: #526071; }
+      .panel-title { font: 700 29px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+      .card-title { font: 700 22px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+      .body { font: 400 19px Inter, "Segoe UI", Arial, sans-serif; fill: #344054; }
+      .small { font: 400 17px Inter, "Segoe UI", Arial, sans-serif; fill: #526071; }
+      .status { font: 700 15px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 1.2px; }
+      .arrow { fill: none; stroke: #263247; stroke-width: 4; marker-end: url(#arrow); }
+      .inner { fill: #ffffff; stroke: #2d3748; stroke-width: 2.4; }
+      .soft-line { fill: none; stroke: #738095; stroke-width: 2.2; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1080" fill="#ffffff"/>
+
+  <g filter="url(#shadow)">
+    <rect x="40" y="30" width="1720" height="112" rx="26" fill="#f1f3f6" stroke="#263247" stroke-width="2.5"/>
+  </g>
+  <text x="78" y="78" class="title">Interactive Narrative Helper</text>
+  <text x="1718" y="78" text-anchor="end" class="eyebrow">FULL RESEARCH FRAMEWORK</text>
+  <text x="78" y="116" class="subtitle">Two evidence-grounded design-time capabilities, connected by an educator- or author-reviewed brief</text>
+
+  <!-- Evidence landscape -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="180" width="300" height="650" rx="28" fill="#e7f1fa"/>
+  </g>
+  <circle cx="84" cy="224" r="25" fill="#8bb7d5"/>
+  <text x="84" y="232" text-anchor="middle" class="card-title">E</text>
+  <text x="120" y="216" class="eyebrow">EVIDENCE</text>
+  <text x="120" y="247" class="panel-title">Landscape</text>
+
+  <rect x="68" y="280" width="244" height="126" rx="18" class="inner"/>
+  <text x="90" y="317" class="card-title">Educational IF</text>
+  <text x="90" y="350" class="body">itch.io · Steam</text>
+  <text x="90" y="379" class="body">other game platforms</text>
+
+  <rect x="68" y="430" width="244" height="160" rx="18" class="inner"/>
+  <text x="90" y="467" class="card-title">Evidence layers</text>
+  <text x="90" y="501" class="body">public project records</text>
+  <text x="90" y="531" class="body">creator descriptions</text>
+  <text x="90" y="561" class="body">artifacts or documents</text>
+
+  <rect x="68" y="614" width="244" height="158" rx="18" fill="#d9eaf7" stroke="#5d7892" stroke-width="2"/>
+  <text x="90" y="651" class="card-title">Evidence control</text>
+  <text x="90" y="685" class="body">provenance · rights</text>
+  <text x="90" y="715" class="body">coverage · inclusion</text>
+  <text x="90" y="745" class="body">claim-to-source fit</text>
+  <text x="190" y="804" text-anchor="middle" class="small">No single platform defines the field.</text>
+
+  <!-- Track A -->
+  <g filter="url(#shadow)">
+    <rect x="390" y="180" width="440" height="650" rx="28" fill="#e9f4e4"/>
+  </g>
+  <circle cx="434" cy="224" r="25" fill="#9ac17c"/>
+  <text x="434" y="232" text-anchor="middle" class="card-title">A</text>
+  <text x="470" y="216" class="eyebrow">TRACK A</text>
+  <text x="470" y="247" class="panel-title">Macro design exploration</text>
+
+  <rect x="420" y="280" width="380" height="185" rx="18" class="inner"/>
+  <text x="446" y="318" class="card-title">Research mining</text>
+  <text x="446" y="352" class="body">1 · discover and screen cases</text>
+  <text x="446" y="383" class="body">2 · code creator-described roles</text>
+  <text x="446" y="414" class="body">3 · synthesize cross-case patterns</text>
+  <text x="446" y="445" class="small">with traceable excerpts and uncertainty</text>
+
+  <path d="M 610 465 L 610 496" class="soft-line" marker-end="url(#arrow)"/>
+  <rect x="420" y="500" width="380" height="110" rx="18" fill="#dcefcf" stroke="#587348" stroke-width="2.2"/>
+  <text x="446" y="539" class="card-title">Traceable design knowledge</text>
+  <text x="446" y="573" class="body">precedents · types · combinations</text>
+  <text x="446" y="597" class="small">conditions, gaps, and source links retained</text>
+
+  <path d="M 610 610 L 610 637" class="soft-line" marker-end="url(#arrow)"/>
+  <rect x="420" y="640" width="380" height="165" rx="18" class="inner"/>
+  <text x="446" y="676" class="eyebrow">POSSIBLE FUTURE ARTIFACT</text>
+  <text x="446" y="711" class="card-title">Educational Interactive</text>
+  <text x="446" y="740" class="card-title">Narrative Design Helper</text>
+  <text x="446" y="767" class="small">compares grounded directions;</text>
+  <text x="446" y="789" class="small">does not prescribe</text>
+
+  <!-- Human gate -->
+  <g filter="url(#shadow)">
+    <rect x="880" y="180" width="280" height="650" rx="28" fill="#fff1d9"/>
+  </g>
+  <circle cx="924" cy="224" r="25" fill="#e9b76b"/>
+  <text x="924" y="232" text-anchor="middle" class="card-title">H</text>
+  <text x="960" y="216" class="eyebrow">HUMAN GATE</text>
+  <text x="960" y="249" class="panel-title">Reviewed</text>
+  <text x="960" y="280" class="panel-title">design brief</text>
+
+  <rect x="910" y="300" width="220" height="326" rx="18" class="inner"/>
+  <text x="934" y="340" class="card-title">Selected direction</text>
+  <text x="934" y="378" class="body">• topic and purpose</text>
+  <text x="934" y="411" class="body">• audience and context</text>
+  <text x="934" y="444" class="body">• interaction pattern</text>
+  <text x="934" y="477" class="body">• supporting precedents</text>
+  <text x="934" y="510" class="body">• author constraints</text>
+  <line x1="934" y1="538" x2="1106" y2="538" stroke="#d8b474" stroke-width="2"/>
+  <text x="934" y="571" class="small">review · revise</text>
+  <text x="934" y="598" class="small">combine · reject</text>
+
+  <rect x="910" y="654" width="220" height="120" rx="18" fill="#ffe3b4" stroke="#a8782c" stroke-width="2"/>
+  <text x="1020" y="692" text-anchor="middle" class="card-title">Decision authority</text>
+  <text x="1020" y="727" text-anchor="middle" class="body">educator / author</text>
+  <text x="1020" y="756" text-anchor="middle" class="small">not the Helper</text>
+
+  <!-- Track B -->
+  <g filter="url(#shadow)">
+    <rect x="1210" y="180" width="550" height="650" rx="28" fill="#eee8f8"/>
+  </g>
+  <circle cx="1254" cy="224" r="25" fill="#aa91d0"/>
+  <text x="1254" y="232" text-anchor="middle" class="card-title">B</text>
+  <text x="1290" y="216" class="eyebrow">TRACK B</text>
+  <text x="1290" y="247" class="panel-title">Story-level exploration</text>
+
+  <rect x="1240" y="280" width="490" height="125" rx="18" class="inner"/>
+  <text x="1266" y="318" class="card-title">Concrete story case</text>
+  <text x="1266" y="352" class="body">story situation · pivotal action · character goal</text>
+  <text x="1266" y="382" class="small">invariants, permitted changes, and exploration bounds</text>
+
+  <path d="M 1485 405 L 1485 435" class="soft-line" marker-end="url(#arrow)"/>
+  <rect x="1240" y="440" width="490" height="175" rx="18" fill="#ddd2ef" stroke="#6c578f" stroke-width="2.2"/>
+  <text x="1266" y="480" class="card-title">Counterfactual Narrative</text>
+  <text x="1266" y="511" class="card-title">Design Partner</text>
+  <text x="1266" y="551" class="body">proposes distinct, story-compatible actions</text>
+  <text x="1266" y="582" class="body">and projects inspectable causal developments</text>
+
+  <path d="M 1485 615 L 1485 645" class="soft-line" marker-end="url(#arrow)"/>
+  <rect x="1240" y="650" width="490" height="158" rx="18" class="inner"/>
+  <text x="1266" y="688" class="card-title">Author-controlled development</text>
+  <text x="1266" y="722" class="body">alternative actions · further choices · endings</text>
+  <text x="1266" y="752" class="body">possible thematic and educational shifts</text>
+  <text x="1266" y="776" class="small">selected directions continue to branch writing</text>
+  <text x="1266" y="798" class="small">and implementation</text>
+
+  <!-- Cross-panel arrows -->
+  <path d="M 340 505 L 384 505" class="arrow"/>
+  <path d="M 830 505 L 874 505" class="arrow"/>
+  <path d="M 1160 505 L 1204 505" class="arrow"/>
+
+  <!-- Evaluation -->
+  <rect x="40" y="875" width="790" height="160" rx="24" fill="#f3f8ef" stroke="#86a874" stroke-width="2"/>
+  <text x="72" y="915" class="eyebrow">SEPARATE EVALUATION · TRACK A</text>
+  <text x="72" y="953" class="card-title">Does it help people compare and select grounded directions?</text>
+  <text x="72" y="989" class="body">relevance · diversity · traceability · comprehensibility · design utility</text>
+  <text x="72" y="1019" class="small">Creator-described patterns remain claims about positioning, not measured learning effects.</text>
+
+  <rect x="880" y="875" width="880" height="160" rx="24" fill="#f6f2fb" stroke="#9782b8" stroke-width="2"/>
+  <text x="912" y="915" class="eyebrow">SEPARATE EVALUATION · TRACK B</text>
+  <text x="912" y="953" class="card-title">Does it expand a concrete story's possibility space with author control?</text>
+  <text x="912" y="989" class="body">action diversity · source compatibility · causal coherence · meaning projection</text>
+  <text x="912" y="1019" class="small">Runtime quality and audience learning require additional artifacts and evidence.</text>
+</svg>

@@ -1,5 +1,8 @@
 # Cases
 
-这里将在后续 harness 稳定阶段保存固定输入配置和回归案例。
+This directory will hold fixed input configurations and regression cases after
+the harness becomes stable.
 
-当前只建立五个 section 的逐段生成、人工确认与上下文递归，暂不建立正式评价集或评分规则。
+The current legacy implementation only supports sequential generation of five
+sections, human approval, and recursive context updates. It does not yet define
+a formal evaluation set or scoring rules.

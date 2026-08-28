@@ -17,21 +17,34 @@ These directions belong to the same umbrella Helper but remain separable for
 research and evaluation. See
 [`research/helper-architecture.md`](research/helper-architecture.md).
 
+## Research frameworks
+
+### Full program framework
+
+![Full Interactive Narrative Helper research framework](research/figures/full-program-framework.svg)
+
+The full program begins with educational Interactive Fiction distributed across
+game platforms such as itch.io and Steam. Public project records, creator
+descriptions, playable artifacts, and supporting documents may contribute
+different evidence when a claim requires them. No single platform or source
+layer defines the field.
+
+### Current study framework
+
+![Current itch.io creator-description mining framework](research/figures/current-study-framework.svg)
+
+The current operational study is narrower than the full framework. It uses the
+frozen itch.io candidate inventory and public creator project pages as its first
+source layer. Steam and other platforms are possible future coverage, not part
+of the accepted current acquisition.
+
 ## Current research stage
 
-The current short-term goal is to understand how creators publicly describe
-Interactive Fiction (IF) for educational and learning contexts. Current work
-focuses on population and terminology, source acquisition, inclusion, and the
-creator-described educational and interaction characteristics that project
-pages can support.
-
-The broader direction is intentionally stated only at a high level:
-
-```text
-creator pages -> data mining -> traceable design precedents -> macro design Helper
-                                                         -> reviewed design brief
-                                                         -> story-level Partner
-```
+The current short-term goal is to understand how creators describe Interactive
+Fiction (IF) for educational and learning contexts. Current work focuses on
+population and terminology, source acquisition, inclusion, and the
+creator-described educational and interaction characteristics that the
+available source material can support.
 
 The detailed knowledge representation, retrieval method, macro Helper contract,
 and design-brief schema are deferred until mining shows what can be derived
@@ -40,7 +53,11 @@ to either future Helper capability.
 
 ## Story-level long-term research goal
 
-> 在将经典儿童故事改编为多结局互动叙事的过程中，生成式 Agent 在多大程度上能够作为反事实叙事设计伙伴，提出与原作相容且具有实质差异的角色行动，并推演这些行动对情节发展、可能结局、故事主题与教育意义的影响？
+> To what extent can a generative agent act as a counterfactual narrative
+> design partner in adapting classic children's stories into multi-ending
+> interactive narratives, by proposing distinct yet story-compatible character
+> actions and projecting their consequences for plot development, possible
+> endings, thematic meaning, and educational purpose?
 
 The long-term story-level track retains the design-time **Counterfactual
 Narrative Design Partner** as an ambitious future goal. The current mining stage
@@ -52,14 +69,14 @@ implemented.
 | Path | Responsibility |
 |---|---|
 | `research/` | Research question, constructs, scope, methods, ethics, and decisions |
-| `agent/` | Story-level counterfactual Partner contracts and future implementation |
+| `agent/` | Future macro educational-design Helper and story-level counterfactual Partner |
 | `cases/` | Stable story analyses, pivotal actions, invariants, and design briefs |
 | `corpus/` | Catalogs, annotations, schemas, derived knowledge, and rights records |
 | `experiments/` | Reproducible protocols, conditions, evaluations, and analyses |
 | `testbeds/` | Runnable research instruments used across experiments |
 | `tools/` | Corpus, evaluation, and reporting utilities |
 | `outputs/` | Deliberately selected generated figures, tables, and reports |
-| `legacy/` | Preserved predecessor implementations that are not current research artifacts |
+| `legacy/` | Preserved predecessor implementations(theory-driven narrative ai, credits to ML.Ryan)  |
 
 ## Current components and evidence boundary
 
