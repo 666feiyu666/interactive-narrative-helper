@@ -1,24 +1,41 @@
 # Interactive Narrative Helper
 
-Interactive Narrative Helper is a research program about author-facing AI
-support for adapting classic children's stories into multi-ending interactive
-narratives.
+Interactive Narrative Helper is a research program about evidence-grounded,
+author-facing AI support for interactive narrative design.
 
-## Research question
+## Current research stage
+
+The current short-term goal is to understand how Interactive Fiction (IF) is
+used in educational and learning contexts through data mining. Current work is
+limited to defining the relevant population and terminology, acquiring usable
+source material, and identifying what the available evidence can support.
+
+The broader direction is intentionally stated only at a high level:
+
+```text
+source material -> data mining -> design knowledge -> retrieval-supported Agent
+```
+
+The knowledge representation, retrieval method, Agent contract, and evaluation
+design are deferred until the mining work shows what reliable knowledge can
+actually be obtained. Raw project-page HTML is source material for mining, not
+direct input to the future Agent.
+
+## Long-term research goal
 
 > 在将经典儿童故事改编为多结局互动叙事的过程中，生成式 Agent 在多大程度上能够作为反事实叙事设计伙伴，提出与原作相容且具有实质差异的角色行动，并推演这些行动对情节发展、可能结局、故事主题与教育意义的影响？
 
-The central artifact is a design-time **Counterfactual Narrative Design
-Partner**. It helps an author explore what a character could do differently and
-what those choices might change. It is not a generic full-story generator and
-is distinct from a runtime narrator that responds to players.
+The long-term program retains the design-time **Counterfactual Narrative Design
+Partner** as an ambitious future goal. The current educational-IF mining stage
+does not claim that this Agent, an educational-IF Agent, or a knowledge base has
+been implemented.
 
 ## Repository map
 
 | Path | Responsibility |
 |---|---|
 | `research/` | Research question, constructs, scope, methods, ethics, and decisions |
-| `agent/` | Reusable counterfactual design agent contracts and future implementation |
+| `agent/` | Preserved counterfactual design-agent contracts and future implementation |
 | `cases/` | Stable story analyses, pivotal actions, invariants, and design briefs |
 | `corpus/` | Catalogs, annotations, schemas, derived knowledge, and rights records |
 | `experiments/` | Reproducible protocols, conditions, evaluations, and analyses |
@@ -27,8 +44,15 @@ is distinct from a runtime narrator that responds to players.
 | `outputs/` | Deliberately selected generated figures, tables, and reports |
 | `legacy/` | Preserved predecessor implementations that are not current research artifacts |
 
-## Current components
+## Current components and evidence boundary
 
+- `corpus/catalog/itchio-public-text/manifest.json` is a frozen platform-tag
+  candidate inventory, not a confirmed educational-IF corpus.
+- The explicitly authorized stable 1.0 full-manifest acquisition captured all
+  606 candidate project pages, and the stable 1.0 offline cleaner produced 606
+  source records. This establishes acquisition and transformation completeness
+  for the frozen manifest only; it does not establish educational relevance or
+  IF status.
 - `cases/fox-and-crow/` defines the first counterfactual adaptation case without
   prescribing the Agent's answers.
 - `testbeds/fox-and-crow/` is the independently versioned playable
@@ -37,10 +61,9 @@ is distinct from a runtime narrator that responds to players.
   theory- and Prompt-guided DeepSeek generator. It is prior work, not yet a
   validated baseline for the current research question.
 
-The counterfactual design Agent itself has not yet been implemented. Its first
-machine-readable input and output contracts live under `agent/` so future
-experiments can evaluate separate capabilities instead of treating fluent prose
-as sufficient evidence.
+The counterfactual design Agent remains unimplemented. Its existing
+machine-readable contracts are preserved under `agent/schemas/` as long-term
+work rather than being silently repurposed for the current mining stage.
 
 ## Clone
 

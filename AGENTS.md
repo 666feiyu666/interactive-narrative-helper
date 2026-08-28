@@ -22,9 +22,9 @@ research agent.
   not rewrite history, change submodule provenance, or push without explicit
   authorization.
 
-## Current research question
+## Research program and active study
 
-The project currently asks:
+The project retains this long-term research question:
 
 > 在将经典儿童故事改编为多结局互动叙事的过程中，生成式 Agent 在多大程度上能够作为反事实叙事设计伙伴，提出与原作相容且具有实质差异的角色行动，并推演这些行动对情节发展、可能结局、故事主题与教育意义的影响？
 
@@ -36,16 +36,34 @@ Working English formulation:
 > actions and projecting their consequences for plot development, possible
 > endings, thematic meaning, and educational purpose?
 
-Do not broaden this into the generic question of whether an agent can write an
-entire interactive story. Changes to the research question, target user, or
-agent role require explicit user confirmation.
+Do not broaden the long-term question into the generic question of whether an
+agent can write an entire interactive story.
 
-## Role of the research agent
+The confirmed short-term study is narrower and precedes that goal:
 
-The research artifact is an author-facing, design-time **Counterfactual
-Narrative Design Partner**. It operates after a source story and a pivotal
-canonical action have been identified, and before full branch authoring or
-runtime implementation.
+> Interactive Fiction 在教育和学习情境中被如何使用，其教育目的、目标对象、应用场景与互动叙事形式呈现出哪些可识别的类型和特征？
+
+Current work is data mining: clarify terminology and population coverage,
+acquire usable source material, define inclusion, and determine what
+application or design characteristics the available evidence can support. The
+possible progression from findings to a design knowledge base, information
+retrieval, and an Agent remains a high-level future direction. Do not fix those
+downstream contracts before the mining results justify them. Raw source HTML is
+not intended as direct input to a future Agent.
+
+Changes to either research level, target user, or Agent role require explicit
+user confirmation.
+
+## Current work and long-term research agent
+
+The current research artifact is the collected and analyzed evidence needed to
+answer the short-term educational-IF question. An educational-IF Agent has not
+yet been specified or implemented.
+
+The long-term research artifact remains the author-facing, design-time
+**Counterfactual Narrative Design Partner**. It operates after a source story
+and pivotal canonical action have been identified, and before full branch
+authoring or runtime implementation.
 
 Its core responsibilities are to:
 
@@ -62,11 +80,11 @@ interpretation. These are reasoned possibilities for the author to accept,
 revise, combine, or reject. The author retains creative and interpretive
 authority.
 
-Keep this design-time agent distinct from the runtime `Story Agent` inside the
+Keep the design-time agent distinct from the runtime `Story Agent` inside the
 Fox-and-Crow testbed. The runtime agent reacts to player input and narrates
-visible prose; it is not the primary research artifact defined above.
+visible prose; it is not the long-term research artifact defined above.
 
-## Core capability dimensions
+## Long-term counterfactual capability dimensions
 
 Research designs and implementations should keep these dimensions separable:
 
@@ -167,11 +185,15 @@ after seeing results without documenting the change.
 
 ## Corpus, copyright, and privacy
 
-- Corpus collection is a method serving the RQ, not the project goal by itself.
+- Corpus collection and data mining serve the short-term RQ; acquisition alone
+  is not the research result.
 - Do not commit copyrighted full texts, downloaded game packages, personal
   information, or third-party assets without a documented right to do so.
 - Keep restricted raw sources out of Git by default. Prefer provenance records,
   derived structural annotations, and minimal evidence excerpts.
+- Do not pass restricted raw HTML directly to a future Agent. Detailed
+  knowledge and retrieval handling remain undecided until the mining stage
+  establishes what can be derived reliably.
 - Do not scrape external services, send corpus material to an external model,
   or publish a dataset without explicit authorization and a rights review.
 - Never commit API keys, `.env` files, private URLs, credentials, or participant
@@ -200,12 +222,24 @@ after seeing results without documenting the change.
 
 ## Current implementation boundary
 
-- The repository structure and schemas define intended research behavior; they
-  do not prove that the counterfactual design Agent has been implemented.
+- The repository structure and documents define intended research behavior;
+  they do not prove that data mining has answered the short-term RQ or that any
+  future knowledge base or Agent has been implemented.
+- The frozen itch.io manifest is a candidate discovery snapshot, not a confirmed
+  educational-IF corpus. The stable 1.0 acquisition contains 606 successful page
+  bundles, and the stable 1.0 offline cleaning contains 606 source records;
+  neither result is terminology, relevance, inclusion, or quality evidence.
+- Preserve the accepted full acquisition and cleaning outputs unless a later
+  cleanup is explicitly authorized. Superseded implementation drafts,
+  diagnostic runs, and protocol trials do not require retention once the
+  current contract, tests, and full-run evidence contain the necessary
+  constraints.
 - `legacy/theory-guided-story-generator/` remains runnable prior work. Do not
   silently modify it into the new Agent or call it a baseline until a comparable
   experimental condition is specified.
 - `testbeds/fox-and-crow/` is a runtime research instrument, not the design-time
-  Agent defined by the RQ.
-- New implementation should begin from the contracts under `agent/` and stable
-  task definitions under `cases/`, with experiments added separately.
+  Agent defined by the long-term RQ.
+- Current implementation should focus on the minimum collection and analysis
+  needed for the short-term RQ. Long-term counterfactual implementation still
+  begins from the preserved contracts under `agent/schemas/` and stable task
+  definitions under `cases/`.

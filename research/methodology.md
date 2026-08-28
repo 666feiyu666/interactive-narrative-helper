@@ -1,16 +1,30 @@
 # Methodology
 
-Status: provisional framework. Specific study protocols belong under
-`experiments/` and require separate confirmation before data collection.
+Status: provisional program framework. The current short-term method is still
+being scoped; numbered experiments require separate fixed protocols.
 
-## Unit of analysis
+## Current short-term method
 
-The primary unit is a structured Agent proposal for one bounded
-counterfactual question about a pivotal action in a classic children's story.
-Individual dimensions should be evaluated separately rather than collapsed into
-a judgment of whether the prose “sounds good.”
+The immediate unit of analysis is an eligible educational-IF case represented
+by the source material that can be collected and reviewed. Before full
+collection or coding, the project must clarify:
 
-## Capability dimensions
+- which terms and sources define the candidate population;
+- what makes a case educational and what makes it Interactive Fiction;
+- which application and design characteristics the available material can
+  support; and
+- which claims require project pages, playable artifacts, documentation, or
+  research literature.
+
+The 606-entry itch.io manifest is one candidate inventory. Its complete stable
+acquisition and deterministic cleaning establish source-processing behavior
+only. They do not establish field coverage, inclusion validity, or the answer
+to the short-term RQ.
+
+Any later knowledge-base or Agent method will be specified after the mining
+stage produces evidence about what can be derived reliably.
+
+## Long-term counterfactual capability dimensions
 
 - substantive diversity of alternative actions;
 - compatibility with declared source constraints;
@@ -21,7 +35,7 @@ a judgment of whether the prose “sounds good.”
 - traceability and age-appropriateness of educational implications;
 - author utility and author control.
 
-## Evidence layers
+## Long-term counterfactual evidence layers
 
 1. **Contract validation:** the output has the required structure and preserves
    declared input identifiers.
@@ -32,7 +46,7 @@ a judgment of whether the prose “sounds good.”
 4. **Audience study:** any claims about children require a separately approved
    ethics and data-management process.
 
-## Experimental comparisons
+## Long-term experimental comparisons
 
 Potential conditions include an unstructured model, a structured
 counterfactual prompt, a theory-guided condition, a corpus-derived knowledge

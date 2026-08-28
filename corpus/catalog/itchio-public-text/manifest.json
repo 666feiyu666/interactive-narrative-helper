@@ -1,0 +1,4261 @@
+{
+  "schema_version": "itchio-public-text/v1.0",
+  "manifest_id": "itchio-public-text-2026-08-27",
+  "generated_at_utc": "2026-08-27T08:26:28Z",
+  "source_listing_url": "https://itch.io/games/tag-educational/tag-interactive-fiction",
+  "reported_result_count": 606,
+  "project_count": 606,
+  "acquisition_method": "rendered-browser-document.body.innerText",
+  "policy_review": {
+    "reviewed_at_utc": "2026-08-27T08:24:38Z",
+    "robots_url": "https://itch.io/robots.txt",
+    "robots_sha256": "82fad5f79355e907c73074625296b9af90299aa08851eb737f1104c85887f0dc",
+    "terms_url": "https://itch.io/docs/legal/terms",
+    "api_overview_url": "https://itch.io/docs/api/overview",
+    "confirmation": "Researcher confirmed current robots, terms, access, load, rights, and retention review."
+  },
+  "projects": [
+    {
+      "id": "itchio-0001",
+      "url": "https://minusonepublishing.itch.io/frontiers-of-the-mind",
+      "title_at_listing": "FRONTIERS OF THE MIND",
+      "listing_page": 1,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0002",
+      "url": "https://w.itch.io/itsy-bitsy-exercises",
+      "title_at_listing": "Itsy Bitsy Exercises",
+      "listing_page": 1,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0003",
+      "url": "https://charlesgames.itch.io/attentat1942",
+      "title_at_listing": "Attentat 1942",
+      "listing_page": 1,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0004",
+      "url": "https://soljankas.itch.io/transmit",
+      "title_at_listing": "Transmit",
+      "listing_page": 1,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0005",
+      "url": "https://otherpath.itch.io/crossing",
+      "title_at_listing": "Crossing Lines",
+      "listing_page": 1,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0006",
+      "url": "https://zephyo.itch.io/stink-bug-plague",
+      "title_at_listing": "Stink Bug Plague",
+      "listing_page": 1,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0007",
+      "url": "https://allanxia.itch.io/golden-threads",
+      "title_at_listing": "Golden Threads | 黄金线索",
+      "listing_page": 1,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0008",
+      "url": "https://taxheaven3000.itch.io/tax-heaven-3000",
+      "title_at_listing": "Tax Heaven 3000",
+      "listing_page": 1,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0009",
+      "url": "https://seansleblanc.itch.io/judgement",
+      "title_at_listing": "judgement",
+      "listing_page": 1,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0010",
+      "url": "https://maho-anpu.itch.io/her-time-of-the-month",
+      "title_at_listing": "Her Time of the Month!",
+      "listing_page": 1,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0011",
+      "url": "https://jag.itch.io/honeymoon",
+      "title_at_listing": "HONEYMOON",
+      "listing_page": 1,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0012",
+      "url": "https://jag.itch.io/a-thousand-cuts-early-edition",
+      "title_at_listing": "A Thousand Cuts: Early Edition",
+      "listing_page": 1,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0013",
+      "url": "https://monocular.itch.io/project-basilisk",
+      "title_at_listing": "Project Basilisk",
+      "listing_page": 1,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0014",
+      "url": "https://airemu.itch.io/trespass-demo",
+      "title_at_listing": "Trespass the Game /Demo",
+      "listing_page": 1,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0015",
+      "url": "https://dipsydoodlegames.itch.io/what-would-your-life-look-like-if-you-were-a-peasant-in-medieval-europe",
+      "title_at_listing": "What Would Your Life Look Like if You Were a Peasant in Medieval Europe?",
+      "listing_page": 1,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0016",
+      "url": "https://jordidepaco.itch.io/primado-reig-103",
+      "title_at_listing": "Primado Reig 103",
+      "listing_page": 1,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0017",
+      "url": "https://seriousgames.itch.io/global-conflicts-world",
+      "title_at_listing": "Global Conflicts: World",
+      "listing_page": 1,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0018",
+      "url": "https://bitcrushstudio.itch.io/cyberpedia",
+      "title_at_listing": "Cyberpedia",
+      "listing_page": 1,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0019",
+      "url": "https://manonamora.itch.io/exquisite-cadaver",
+      "title_at_listing": "Exquisite Cadaver",
+      "listing_page": 1,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0020",
+      "url": "https://mkiang.itch.io/beyond-the-silk-sea",
+      "title_at_listing": "Beyond the Silk Sea",
+      "listing_page": 1,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0021",
+      "url": "https://jordidepaco.itch.io/256-cosas",
+      "title_at_listing": "256 cosas en común entre una cama, un libro y una cerveza",
+      "listing_page": 1,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0022",
+      "url": "https://fringfrang.itch.io/donair-academy",
+      "title_at_listing": "Donair Academy",
+      "listing_page": 1,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0023",
+      "url": "https://setoils.itch.io/reinquarantination",
+      "title_at_listing": "Reinquarantination",
+      "listing_page": 1,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0024",
+      "url": "https://3denemy.itch.io/aggies-digital-art-gallery",
+      "title_at_listing": "Aggie's Digital Art Gallery",
+      "listing_page": 1,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0025",
+      "url": "https://redindiegames.itch.io/unauthorised",
+      "title_at_listing": "Unauthorised",
+      "listing_page": 1,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0026",
+      "url": "https://inesalcolea.itch.io/system",
+      "title_at_listing": "[System]",
+      "listing_page": 1,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0027",
+      "url": "https://priory-games.itch.io/the-great-plague-exodus",
+      "title_at_listing": "The Great Plague Exodus",
+      "listing_page": 1,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0028",
+      "url": "https://princessinternetcafe.itch.io/coca-cola-presents-fuck-capitalism-jam-2032",
+      "title_at_listing": "Coca-Cola Presents: 🥤 Fuck Capitalism Jam 2032 🥤",
+      "listing_page": 1,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0029",
+      "url": "https://w.itch.io/interview-a-cat",
+      "title_at_listing": "Interview with a Cat!",
+      "listing_page": 1,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0030",
+      "url": "https://seansleblanc.itch.io/remembering-ramayana",
+      "title_at_listing": "Remembering Ramayana",
+      "listing_page": 1,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0031",
+      "url": "https://causacreations.itch.io/where-phones-go",
+      "title_at_listing": "Where Phones Go",
+      "listing_page": 1,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0032",
+      "url": "https://jag.itch.io/onm",
+      "title_at_listing": "One New Message",
+      "listing_page": 1,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0033",
+      "url": "https://pixel-ghost.itch.io/hidden",
+      "title_at_listing": "Hidden (Playdate)",
+      "listing_page": 1,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0034",
+      "url": "https://common-profyt-games.itch.io/strange-sickness",
+      "title_at_listing": "Strange Sickness",
+      "listing_page": 1,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0035",
+      "url": "https://nightmerik.itch.io/girls-dont-like-me",
+      "title_at_listing": "Girls don't like me",
+      "listing_page": 1,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0036",
+      "url": "https://thesleuthacademy.itch.io/the-case-of-the-solitary-resident",
+      "title_at_listing": "The Case of the Solitary Resident",
+      "listing_page": 1,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0037",
+      "url": "https://maybeclary.itch.io/noble-lady",
+      "title_at_listing": "A Day in the Life of a Noble Lady",
+      "listing_page": 2,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0038",
+      "url": "https://clareiradosjogos.itch.io/polinizamor",
+      "title_at_listing": "Polinizamor",
+      "listing_page": 2,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0039",
+      "url": "https://joreid.itch.io/period-drama-work-in-progress",
+      "title_at_listing": "A Period Drama (work in progress)",
+      "listing_page": 2,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0040",
+      "url": "https://zapjackson.itch.io/poetry-appreciator-2k26",
+      "title_at_listing": "Poetry Appreciator 2K26",
+      "listing_page": 2,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0041",
+      "url": "https://usmgamestudies.itch.io/microaggressions",
+      "title_at_listing": "Microaggressions",
+      "listing_page": 2,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0042",
+      "url": "https://breakfastprincess.itch.io/sweet-dough",
+      "title_at_listing": "sweet dough",
+      "listing_page": 2,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0043",
+      "url": "https://vibhufox.itch.io/cuburbia",
+      "title_at_listing": "CUBURBIA",
+      "listing_page": 2,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0044",
+      "url": "https://cybergnose-cafe.itch.io/citizen-witch",
+      "title_at_listing": "Citizen Witch",
+      "listing_page": 2,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0045",
+      "url": "https://victorialin.itch.io/2072",
+      "title_at_listing": "2072",
+      "listing_page": 2,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0046",
+      "url": "https://winspirationkids.itch.io/bully-busters",
+      "title_at_listing": "Bully Busters",
+      "listing_page": 2,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0047",
+      "url": "https://mindape.itch.io/pathobytes",
+      "title_at_listing": "PathoBytes",
+      "listing_page": 2,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0048",
+      "url": "https://leahgovia.itch.io/ethemblage",
+      "title_at_listing": "Ethemblage",
+      "listing_page": 2,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0049",
+      "url": "https://fyioffice.itch.io/fyesimulator",
+      "title_at_listing": "First Year Experience Simulator",
+      "listing_page": 2,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0050",
+      "url": "https://lunardust.itch.io/the-insomnia-town",
+      "title_at_listing": "The Insomnia Town (Bitsy Jam)",
+      "listing_page": 2,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0051",
+      "url": "https://dalsdoodle.itch.io/a-musicians-solace",
+      "title_at_listing": "A Musician's Solace",
+      "listing_page": 2,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0052",
+      "url": "https://cheerfulgoth.itch.io/rediscovering-earth",
+      "title_at_listing": "Rediscovering Earth",
+      "listing_page": 2,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0053",
+      "url": "https://bubez.itch.io/please-do-not-the-cat",
+      "title_at_listing": "Please do not the cat [TALP]",
+      "listing_page": 2,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0054",
+      "url": "https://azardragneel.itch.io/destination-prague",
+      "title_at_listing": "Destination: Prague",
+      "listing_page": 2,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0055",
+      "url": "https://shiversstories.itch.io/shivers-stories",
+      "title_at_listing": "Shivers Story Time – A Gentle Woodland Story Collection 🐉",
+      "listing_page": 2,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0056",
+      "url": "https://luciellaes.itch.io/my-16-year-old-self-rants",
+      "title_at_listing": "My 16-Year-Old Self Rants About How the Government Wants Them Dead",
+      "listing_page": 2,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0057",
+      "url": "https://men1234567890.itch.io/gamejemsgame",
+      "title_at_listing": "A.U.T.O.",
+      "listing_page": 2,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0058",
+      "url": "https://textfyre.itch.io/jack-toresal-and-the-secret-letter",
+      "title_at_listing": "Jack Toresal and The Secret Letter Deluxe Edition",
+      "listing_page": 2,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0059",
+      "url": "https://ikigai-games.itch.io/hellink",
+      "title_at_listing": "Hellink",
+      "listing_page": 2,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0060",
+      "url": "https://alexyquest.itch.io/louis-pasteur-simulator",
+      "title_at_listing": "Louis Pasteur Simulator",
+      "listing_page": 2,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0061",
+      "url": "https://drone-garden-studios.itch.io/invaseave",
+      "title_at_listing": "InvaSEAve",
+      "listing_page": 2,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0062",
+      "url": "https://thesleuthacademy.itch.io/last-vestiges",
+      "title_at_listing": "Last Vestiges",
+      "listing_page": 2,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0063",
+      "url": "https://vanadiumvalor.itch.io/periodicity-your-chemical-romance",
+      "title_at_listing": "Periodicity: Your Chemical Romance",
+      "listing_page": 2,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0064",
+      "url": "https://goodwolfstudio.itch.io/a-million-faces-of-war",
+      "title_at_listing": "A MILLION FACES OF WAR",
+      "listing_page": 2,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0065",
+      "url": "https://boombren.itch.io/judge-jury-executioner",
+      "title_at_listing": "Judge Jury Executioner",
+      "listing_page": 2,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0066",
+      "url": "https://dearbhla.itch.io/definitely-human",
+      "title_at_listing": "Definitely Human",
+      "listing_page": 2,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0067",
+      "url": "https://terotero-games.itch.io/al-alba",
+      "title_at_listing": "Al Alba",
+      "listing_page": 2,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0068",
+      "url": "https://colileticia.itch.io/hello-catdev",
+      "title_at_listing": "Hello, CatDEV!",
+      "listing_page": 2,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0069",
+      "url": "https://daniella0014.itch.io/patrimonio-en-apuros",
+      "title_at_listing": "Patrimonio en Apuros",
+      "listing_page": 2,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0070",
+      "url": "https://adamburt.itch.io/an-interactive-review-of-outer-wilds",
+      "title_at_listing": "An interactive review of Outer Wilds",
+      "listing_page": 2,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0071",
+      "url": "https://vikkever.itch.io/hidden-heroes",
+      "title_at_listing": "Hidden Heroes",
+      "listing_page": 2,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0072",
+      "url": "https://young-wave-studio.itch.io/hikikomori-journey",
+      "title_at_listing": "Hikikomori's Journey",
+      "listing_page": 2,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0073",
+      "url": "https://dearbhla.itch.io/nine-days-queen",
+      "title_at_listing": "nine days queen",
+      "listing_page": 3,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0074",
+      "url": "https://reliquandary.itch.io/a-tardigrades-tale",
+      "title_at_listing": "a tardigrade's tale",
+      "listing_page": 3,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0075",
+      "url": "https://gerbil789.itch.io/headache",
+      "title_at_listing": "HEADACHE",
+      "listing_page": 3,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0076",
+      "url": "https://lemoncosmos.itch.io/bernd-das-brot",
+      "title_at_listing": "BERND DAS BROT GEDANKENSTROM",
+      "listing_page": 3,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0077",
+      "url": "https://another-gl.itch.io/systemkontrolle",
+      "title_at_listing": "Systemkontrolle",
+      "listing_page": 3,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0078",
+      "url": "https://mmason.itch.io/philosophy-on-rails",
+      "title_at_listing": "Philosophy on Rails: An Introduction to the Western Canon",
+      "listing_page": 3,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0079",
+      "url": "https://halfway-down.itch.io/of-mugs-and-crumpled-concepts",
+      "title_at_listing": "of Mugs and Crumpled Concepts",
+      "listing_page": 3,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0080",
+      "url": "https://30x30.itch.io/atlas",
+      "title_at_listing": "ATLAS",
+      "listing_page": 3,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0081",
+      "url": "https://gustavo-maganha-andria.itch.io/atonia",
+      "title_at_listing": "Atonia",
+      "listing_page": 3,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0082",
+      "url": "https://alyshkalia.itch.io/atrium",
+      "title_at_listing": "The Uncle Sam Atrium",
+      "listing_page": 3,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0083",
+      "url": "https://grapesprig.itch.io/balangiga",
+      "title_at_listing": "Balangiga",
+      "listing_page": 3,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0084",
+      "url": "https://crabman.itch.io/the-day-the-laughter-stopped",
+      "title_at_listing": "The Day the Laughter Stopped",
+      "listing_page": 3,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0085",
+      "url": "https://isi-cano.itch.io/waiting-for-a-friend",
+      "title_at_listing": "Waiting for a friend",
+      "listing_page": 3,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0086",
+      "url": "https://lehxra.itch.io/karaoke-neighbor",
+      "title_at_listing": "Karaoke Neighbor",
+      "listing_page": 3,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0087",
+      "url": "https://mimico-studio.itch.io/mist-of-madness-en",
+      "title_at_listing": "Mist of Madness",
+      "listing_page": 3,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0088",
+      "url": "https://oficinaludica.itch.io/pequenos-nativoz",
+      "title_at_listing": "Pequenos Nativoz [Demo]",
+      "listing_page": 3,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0089",
+      "url": "https://klahom.itch.io/provenance",
+      "title_at_listing": "Provenance",
+      "listing_page": 3,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0090",
+      "url": "https://pencils-of-doom.itch.io/the-scrum-of-it-all",
+      "title_at_listing": "The Scrum Of It All",
+      "listing_page": 3,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0091",
+      "url": "https://j2415-studio.itch.io/bible-quest-prosperity",
+      "title_at_listing": "Bible Quest: Prosperity",
+      "listing_page": 3,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0092",
+      "url": "https://akamis.itch.io/my-dads-car",
+      "title_at_listing": "My Dad's Car",
+      "listing_page": 3,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0093",
+      "url": "https://porchcatgames.itch.io/coming-out",
+      "title_at_listing": "Coming Out",
+      "listing_page": 3,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0094",
+      "url": "https://inesinacio.itch.io/thoughts-in-color",
+      "title_at_listing": "Thoughts In Color",
+      "listing_page": 3,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0095",
+      "url": "https://matesudts.itch.io/nosso-direito-a-consulta",
+      "title_at_listing": "Nosso direito a consulta",
+      "listing_page": 3,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0096",
+      "url": "https://milimouse.itch.io/discorde-sur-la-glorieuse",
+      "title_at_listing": "Discorde sur la Glorieuse",
+      "listing_page": 3,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0097",
+      "url": "https://beags123.itch.io/scrubbica",
+      "title_at_listing": "Scrubbica",
+      "listing_page": 3,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0098",
+      "url": "https://litandunlit.itch.io/beowulf",
+      "title_at_listing": "Beowulf",
+      "listing_page": 3,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0099",
+      "url": "https://aeta.itch.io/next-door",
+      "title_at_listing": "Next Door",
+      "listing_page": 3,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0100",
+      "url": "https://jaciaa.itch.io/slicked",
+      "title_at_listing": "Slicked",
+      "listing_page": 3,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0101",
+      "url": "https://cirnol.itch.io/guardian-of-the-code",
+      "title_at_listing": "Guardian of the Code",
+      "listing_page": 3,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0102",
+      "url": "https://paverson.itch.io/harvey",
+      "title_at_listing": "Harvey",
+      "listing_page": 3,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0103",
+      "url": "https://kostoletskayasonya.itch.io/binaryworld",
+      "title_at_listing": "BinaryWorld",
+      "listing_page": 3,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0104",
+      "url": "https://bananaass.itch.io/venezuela-rota",
+      "title_at_listing": "Venezuela Rota",
+      "listing_page": 3,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0105",
+      "url": "https://graymeditations.itch.io/bitsyku",
+      "title_at_listing": "bitsyku",
+      "listing_page": 3,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0106",
+      "url": "https://appa-dipdip.itch.io/the-lavender-scare-and-homosexual-purges-at-the-university-of-southern-mississip",
+      "title_at_listing": "The Lavender Scare and Homosexual Purges at the University of Southern Mississippi",
+      "listing_page": 3,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0107",
+      "url": "https://charbomber.itch.io/01000110-01110101-01100011-01101011-00100000-01011001-01101111-01110101",
+      "title_at_listing": "01000110 01110101 01100011 01101011 00100000 01011001 01101111 01110101",
+      "listing_page": 3,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0108",
+      "url": "https://alt-merklein.itch.io/projeto-chronos",
+      "title_at_listing": "Projeto Chronos",
+      "listing_page": 3,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0109",
+      "url": "https://p45hk4.itch.io/the-word-you-almost-said",
+      "title_at_listing": "The Word You Almost Said",
+      "listing_page": 4,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0110",
+      "url": "https://mateodarrieumerlou.itch.io/hacked",
+      "title_at_listing": "Hacked",
+      "listing_page": 4,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0111",
+      "url": "https://jigmedatse.itch.io/lets-build-a-chapbook-using-tee-wee",
+      "title_at_listing": "Let's build a Chapbook using Tee-Wee",
+      "listing_page": 4,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0112",
+      "url": "https://quob-interactive.itch.io/ember-of-rest",
+      "title_at_listing": "Ember of Rest",
+      "listing_page": 4,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0113",
+      "url": "https://lizzycat2.itch.io/life-at-davidson",
+      "title_at_listing": "Life at Davidson",
+      "listing_page": 4,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0114",
+      "url": "https://mrsannakonidala.itch.io/brontefamilytherapist",
+      "title_at_listing": "Brontë Family Therapist",
+      "listing_page": 4,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0115",
+      "url": "https://eileencalub.itch.io/aubreys-eatery",
+      "title_at_listing": "Aubrey's Eatery: Let's Reduce Food Waste",
+      "listing_page": 4,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0116",
+      "url": "https://autnes.itch.io/ethicsai1",
+      "title_at_listing": "Ethics AI: Don't Freeze Edition",
+      "listing_page": 4,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0117",
+      "url": "https://chrisleewoo.itch.io/nukeman",
+      "title_at_listing": "NukeMan",
+      "listing_page": 4,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0118",
+      "url": "https://lorebarran.itch.io/no-te-rindas-pablo",
+      "title_at_listing": "No Te Rindas Pablo",
+      "listing_page": 4,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0119",
+      "url": "https://spicyrena.itch.io/microaggressionquest",
+      "title_at_listing": "Microaggression Quest: A Racism Response Game (Beta Vers.)",
+      "listing_page": 4,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0120",
+      "url": "https://giuliach.itch.io/game-on-games",
+      "title_at_listing": "Game on Games",
+      "listing_page": 4,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0121",
+      "url": "https://quasiotter.itch.io/calm-mood-rain-sounds-forest-mushrooms",
+      "title_at_listing": "calm mood rain sounds forest mushrooms",
+      "listing_page": 4,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0122",
+      "url": "https://holyroller.itch.io/myedusmart-demo",
+      "title_at_listing": "MyEduSmart (demo)",
+      "listing_page": 4,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0123",
+      "url": "https://outgrabe.itch.io/horn-coral-collector-beta",
+      "title_at_listing": "horn coral collector (beta version)",
+      "listing_page": 4,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0124",
+      "url": "https://studio-kitchen.itch.io/cook-a-book",
+      "title_at_listing": "Cook A Book",
+      "listing_page": 4,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0125",
+      "url": "https://outgrabe.itch.io/de-las-balas-a-la-beca",
+      "title_at_listing": "De las Balas a la Beca: From Bullets to Bachelor's: Blanca's 25-Year Journey",
+      "listing_page": 4,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0126",
+      "url": "https://firerubies.itch.io/gsp",
+      "title_at_listing": "Gender identity & Sexuality Project",
+      "listing_page": 4,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0127",
+      "url": "https://museum-of-screens.itch.io/web-game-101-episode-3-downpour",
+      "title_at_listing": "Web Game 101 Episode 3 - Downpour",
+      "listing_page": 4,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0128",
+      "url": "https://cheesyholes.itch.io/welcome-rookie",
+      "title_at_listing": "Welcome Rookie",
+      "listing_page": 4,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0129",
+      "url": "https://helenalb.itch.io/regional-spelling-bee",
+      "title_at_listing": "Regional Spelling Bee",
+      "listing_page": 4,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0130",
+      "url": "https://sugarrchaii.itch.io/sadie-is-ace",
+      "title_at_listing": "Sadie's Ace",
+      "listing_page": 4,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0131",
+      "url": "https://adwxyz22.itch.io/madis-story",
+      "title_at_listing": "Madi's Story",
+      "listing_page": 4,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0132",
+      "url": "https://ff-are-flyfly.itch.io/echoes-of-silence",
+      "title_at_listing": "Echoes of silence",
+      "listing_page": 4,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0133",
+      "url": "https://frozencat3030.itch.io/cyverse",
+      "title_at_listing": "CyVerse: The Cybersecurity Training Game",
+      "listing_page": 4,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0134",
+      "url": "https://chloe-ellis.itch.io/hammurabis-laws",
+      "title_at_listing": "Hammurabi's Laws",
+      "listing_page": 4,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0135",
+      "url": "https://laclimsx.itch.io/between-the-lines",
+      "title_at_listing": "Between the Lines",
+      "listing_page": 4,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0136",
+      "url": "https://buildtounderstand.itch.io/the-choice",
+      "title_at_listing": "The Choice: Moral Dilemma Game",
+      "listing_page": 4,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0137",
+      "url": "https://proyectoxaxo.itch.io/xaxo",
+      "title_at_listing": "Xaxo",
+      "listing_page": 4,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0138",
+      "url": "https://jomali.itch.io/con-sumo-cuidado",
+      "title_at_listing": "Con sumo cuidado",
+      "listing_page": 4,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0139",
+      "url": "https://rezajamesahmed.itch.io/mark-dean",
+      "title_at_listing": "Mark Dean: Inventor of the PC Age",
+      "listing_page": 4,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0140",
+      "url": "https://jasminehood.itch.io/the-party",
+      "title_at_listing": "The Party",
+      "listing_page": 4,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0141",
+      "url": "https://marlonvoicesthings.itch.io/how-its-maed",
+      "title_at_listing": "How Its Maed",
+      "listing_page": 4,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0142",
+      "url": "https://hmmdl.itch.io/minesweeper-2",
+      "title_at_listing": "minesweeper 2",
+      "listing_page": 4,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0143",
+      "url": "https://arrigoberton.itch.io/mostascene",
+      "title_at_listing": "Mostascene",
+      "listing_page": 4,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0144",
+      "url": "https://nellwatson.itch.io/ai-guardians",
+      "title_at_listing": "AI Guardians",
+      "listing_page": 4,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0145",
+      "url": "https://pureimprov.itch.io/fart-competitions",
+      "title_at_listing": "Fart Competitions",
+      "listing_page": 5,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0146",
+      "url": "https://saffrongales.itch.io/silence-story-of-one",
+      "title_at_listing": "Silence: Story of One",
+      "listing_page": 5,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0147",
+      "url": "https://jigmedatse.itch.io/come-back-too",
+      "title_at_listing": "Come Back Too",
+      "listing_page": 5,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0148",
+      "url": "https://jomi13.itch.io/virtualzoo",
+      "title_at_listing": "VirtualZoo.exe",
+      "listing_page": 5,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0149",
+      "url": "https://eduardo-riba.itch.io/inflation-paradox",
+      "title_at_listing": "Inflation Paradox",
+      "listing_page": 5,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0150",
+      "url": "https://camilaedias.itch.io/labirinto",
+      "title_at_listing": "Labirinto",
+      "listing_page": 5,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0151",
+      "url": "https://senokos.itch.io/samovar",
+      "title_at_listing": "Participatory Loop (and the Samovar of Time)",
+      "listing_page": 5,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0152",
+      "url": "https://idohtdraw-434.itch.io/you-have-a-notification",
+      "title_at_listing": "You Have A Notification!",
+      "listing_page": 5,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0153",
+      "url": "https://c-finmen.itch.io/cptsd-adventure",
+      "title_at_listing": "CPTSD Adventure - An Educational Game",
+      "listing_page": 5,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0154",
+      "url": "https://kbelflower.itch.io/the-hands-behind-fallout",
+      "title_at_listing": "The Hands Behind Fallout",
+      "listing_page": 5,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0155",
+      "url": "https://laludoflow.itch.io/destinos-cruzados",
+      "title_at_listing": "Destinos Cruzados",
+      "listing_page": 5,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0156",
+      "url": "https://dobertson.itch.io/cleansingdepartment",
+      "title_at_listing": "West Ayrshire Cleansing Department",
+      "listing_page": 5,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0157",
+      "url": "https://museum-of-screens.itch.io/web-games-101-wareware",
+      "title_at_listing": "Web Games 101 Episode 4 - wareware",
+      "listing_page": 5,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0158",
+      "url": "https://jmacpher.itch.io/my-unusual-career",
+      "title_at_listing": "My Unusual Career",
+      "listing_page": 5,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0159",
+      "url": "https://mllerebelle.itch.io/lodysse-du-plastique",
+      "title_at_listing": "L'Odyssée du Plastique",
+      "listing_page": 5,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0160",
+      "url": "https://opalitedays.itch.io/maybeitisthatdamnphone",
+      "title_at_listing": "Maybe it is That Damn Phone - Alpha",
+      "listing_page": 5,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0161",
+      "url": "https://cweis7675.itch.io/haunted-diaries",
+      "title_at_listing": "Haunted Diaries",
+      "listing_page": 5,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0162",
+      "url": "https://yumisuyoworkshop.itch.io/pic",
+      "title_at_listing": "Pollution is Colonialism (Game)",
+      "listing_page": 5,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0163",
+      "url": "https://yanyi.itch.io/intermediary-a-utopian-cure",
+      "title_at_listing": "Intermediary: A Utopian Cure",
+      "listing_page": 5,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0164",
+      "url": "https://portaljumperjen.itch.io/tutor-quest",
+      "title_at_listing": "Tutor Quest",
+      "listing_page": 5,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0165",
+      "url": "https://camulusorageux.itch.io/le-3-novembre",
+      "title_at_listing": "Le 3 novembre",
+      "listing_page": 5,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0166",
+      "url": "https://leo-ding.itch.io/philodiagram",
+      "title_at_listing": "Philodiagram",
+      "listing_page": 5,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0167",
+      "url": "https://edufota.itch.io/download",
+      "title_at_listing": "EDUFOTA -Edukasi FolkTales Betawi",
+      "listing_page": 5,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0168",
+      "url": "https://drnoir.itch.io/cybersecurity-ad",
+      "title_at_listing": "Cybersecurity Attack and Defence",
+      "listing_page": 5,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0169",
+      "url": "https://healthimpactstudio.itch.io/med-connect-patient-interactions",
+      "title_at_listing": "Med Connect: Patient Interactions",
+      "listing_page": 5,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0170",
+      "url": "https://aurorahhh.itch.io/psych-patch",
+      "title_at_listing": "Psych Patch",
+      "listing_page": 5,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0171",
+      "url": "https://garrettwardrichards.itch.io/renewable-energy-frankenstein",
+      "title_at_listing": "Renewable Energy Frankenstein",
+      "listing_page": 5,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0172",
+      "url": "https://sa-akin-to.itch.io/sa-akin-to",
+      "title_at_listing": "Sa Akin 'To!",
+      "listing_page": 5,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0173",
+      "url": "https://alessiaip.itch.io/merletto-and-me",
+      "title_at_listing": "Merletto and Me",
+      "listing_page": 5,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0174",
+      "url": "https://me23j5l.itch.io/thecage",
+      "title_at_listing": "The Cage",
+      "listing_page": 5,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0175",
+      "url": "https://lofiperplexity.itch.io/a-mad-tea-party",
+      "title_at_listing": "A Mad Tea Party",
+      "listing_page": 5,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0176",
+      "url": "https://anthropology.itch.io/the-ethnographer",
+      "title_at_listing": "The Ethnographer",
+      "listing_page": 5,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0177",
+      "url": "https://southscribblecompany.itch.io/typing-tiny-stories",
+      "title_at_listing": "Typing Tiny Stories",
+      "listing_page": 5,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0178",
+      "url": "https://kernelians.itch.io/scadabreach-in-darkness-we-equalize",
+      "title_at_listing": "SCADABreach: In Darkness, We Equalize",
+      "listing_page": 5,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0179",
+      "url": "https://lariihmendesz.itch.io/sweet-sixhunting",
+      "title_at_listing": "Sweet Sixhunting",
+      "listing_page": 5,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0180",
+      "url": "https://ericzinda.itch.io/the-english-restaurant",
+      "title_at_listing": "The English Restaurant",
+      "listing_page": 5,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0181",
+      "url": "https://luismblasco.itch.io/gentrificacin-y-resistencia-poltica-en-el-barrio-de-la-boca",
+      "title_at_listing": "Gentrificación y resistencia política en el barrio de La Boca",
+      "listing_page": 6,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0182",
+      "url": "https://jmacpher.itch.io/aussie-adventure",
+      "title_at_listing": "Aussie Adventure",
+      "listing_page": 6,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0183",
+      "url": "https://artemgamelab.itch.io/detective-nougat",
+      "title_at_listing": "Détective Nougat",
+      "listing_page": 6,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0184",
+      "url": "https://elushis.itch.io/pastportal",
+      "title_at_listing": "PastPortal: AI Powered Offline Chat Suite",
+      "listing_page": 6,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0185",
+      "url": "https://healthimpactstudio.itch.io/steve-campbell",
+      "title_at_listing": "Clinical Encounters: Steve Campbell",
+      "listing_page": 6,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0186",
+      "url": "https://markcarew.itch.io/designadrug",
+      "title_at_listing": "DesignADrug",
+      "listing_page": 6,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0187",
+      "url": "https://hellavelvet.itch.io/im-positive",
+      "title_at_listing": "I'm Positive",
+      "listing_page": 6,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0188",
+      "url": "https://projectvbl1-3.itch.io/budi-daya-visual-novel",
+      "title_at_listing": "Budi Daya Visual Novel with AR",
+      "listing_page": 6,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0189",
+      "url": "https://blank-sans.itch.io/catcher-in-the-rye-the-funny-game",
+      "title_at_listing": "The Catcher in the Rye: The Video Game",
+      "listing_page": 6,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0190",
+      "url": "https://founder-life.itch.io/founder-life",
+      "title_at_listing": "Nell Watson's Founder Life",
+      "listing_page": 6,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0191",
+      "url": "https://taytopotatoe.itch.io/u-me-love",
+      "title_at_listing": "u + me = love",
+      "listing_page": 6,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0192",
+      "url": "https://nowintime.itch.io/illuyanka-a-hittite-story",
+      "title_at_listing": "Illuyanka: A Hittite Story - Text-Based Adventure",
+      "listing_page": 6,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0193",
+      "url": "https://yuan2003.itch.io/teenagepregnancy",
+      "title_at_listing": "命孕之輪",
+      "listing_page": 6,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0194",
+      "url": "https://pchidob.itch.io/ruta-alexandra",
+      "title_at_listing": "Ruta Alexandra",
+      "listing_page": 6,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0195",
+      "url": "https://calveingames.itch.io/the-thief-the-moon",
+      "title_at_listing": "The Thief & The Moon",
+      "listing_page": 6,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0196",
+      "url": "https://acenace.itch.io/las-135-vidas-de-azucena",
+      "title_at_listing": "Las 135 vidas de Azucena",
+      "listing_page": 6,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0197",
+      "url": "https://teatofu.itch.io/which-late-soviet-political-figure-are-you",
+      "title_at_listing": "Which late Soviet Political Figure are you?/你是哪一位晚期苏联政治家？",
+      "listing_page": 6,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0198",
+      "url": "https://honeyb.itch.io/dung-game-23",
+      "title_at_listing": "Joe's Daily Struggle",
+      "listing_page": 6,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0199",
+      "url": "https://egemenart.itch.io/a-conversational-journey-with-leonardo",
+      "title_at_listing": "A Conversational Journey with Leonardo",
+      "listing_page": 6,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0200",
+      "url": "https://resiliencehero.itch.io/headstartkernow",
+      "title_at_listing": "Resilience Hero",
+      "listing_page": 6,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0201",
+      "url": "https://mtwentiethree.itch.io/the-last-voyage-of-the-picasso",
+      "title_at_listing": "The Last Voyage of the Picasso",
+      "listing_page": 6,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0202",
+      "url": "https://weirdstrangegames.itch.io/retail-simulator",
+      "title_at_listing": "Retail Simulator",
+      "listing_page": 6,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0203",
+      "url": "https://healthimpactstudio.itch.io/andrew-turner",
+      "title_at_listing": "Clinical Encounters: Andrew Turner",
+      "listing_page": 6,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0204",
+      "url": "https://pinnguaq.itch.io/safe-travels-ingirrattiarissi",
+      "title_at_listing": "ᐃᖏᕐᕋᑦᑎᐊᕆᔅᓯ- Safe Travels - Ingirrattiarissi",
+      "listing_page": 6,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0205",
+      "url": "https://makkit0.itch.io/be-kind-rewind",
+      "title_at_listing": "Be Kind Rewind",
+      "listing_page": 6,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0206",
+      "url": "https://rainbow-tydye.itch.io/you-teach-romeo-and-juliet",
+      "title_at_listing": "You Teach! Romeo and Juliet",
+      "listing_page": 6,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0207",
+      "url": "https://gwaik.itch.io/knowledge-and-thunder",
+      "title_at_listing": "Knowledge And Thunder",
+      "listing_page": 6,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0208",
+      "url": "https://payyourtaxes.itch.io/tax-heaven-2024",
+      "title_at_listing": "Tax Heaven 2024",
+      "listing_page": 6,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0209",
+      "url": "https://axel-fox-92.itch.io/freuds-bones-the-game",
+      "title_at_listing": "Freud's Bones - the game 112%funded on Kickstarter!",
+      "listing_page": 6,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0210",
+      "url": "https://instant-noodle-studios.itch.io/a-drop-of-perspective",
+      "title_at_listing": "A Drop of Perspective",
+      "listing_page": 6,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0211",
+      "url": "https://beaumont-resilience.itch.io/be-assertive",
+      "title_at_listing": "Be Assertive!",
+      "listing_page": 6,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0212",
+      "url": "https://alonzxo0.itch.io/magic-market",
+      "title_at_listing": "Magic Market 1.0",
+      "listing_page": 6,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0213",
+      "url": "https://usmgamestudies.itch.io/fading-between-pages",
+      "title_at_listing": "Fading Between Pages",
+      "listing_page": 6,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0214",
+      "url": "https://forest-life.itch.io/forest-life",
+      "title_at_listing": "林中人Forest Life",
+      "listing_page": 6,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0215",
+      "url": "https://thegek.itch.io/complexnet",
+      "title_at_listing": "Complex.net",
+      "listing_page": 6,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0216",
+      "url": "https://5olitzo.itch.io/journey-to-earth",
+      "title_at_listing": "Journey To Earth",
+      "listing_page": 6,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0217",
+      "url": "https://riedyt.itch.io/wake",
+      "title_at_listing": "Wake: A Balance of Energy & Hope",
+      "listing_page": 7,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0218",
+      "url": "https://jexed-games.itch.io/anti-plagiarism-quest",
+      "title_at_listing": "Anti-plagiarism Quest",
+      "listing_page": 7,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0219",
+      "url": "https://alystervodka.itch.io/peer-to-peer",
+      "title_at_listing": "Peer To Peer",
+      "listing_page": 7,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0220",
+      "url": "https://coyrestaurado.itch.io/panicpixel",
+      "title_at_listing": "PIXELPANIC",
+      "listing_page": 7,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0221",
+      "url": "https://dgomezandion.itch.io/el-explorador-del-ritmo",
+      "title_at_listing": "El Explorador del Ritmo",
+      "listing_page": 7,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0222",
+      "url": "https://elushis.itch.io/pastportalfree",
+      "title_at_listing": "PastPortal: Chat Suite (Free)",
+      "listing_page": 7,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0223",
+      "url": "https://acg-visual-novels.itch.io/fantastic-poor-vn-android-demo",
+      "title_at_listing": "FPoor Visual Novel (Android Demo)",
+      "listing_page": 7,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0224",
+      "url": "https://darkbriks-studio.itch.io/kronos-44",
+      "title_at_listing": "Kronos 44",
+      "listing_page": 7,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0225",
+      "url": "https://maxee998.itch.io/gulliver-2pc",
+      "title_at_listing": "Gulliver's 2PC",
+      "listing_page": 7,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0226",
+      "url": "https://elwin-games.itch.io/impostory",
+      "title_at_listing": "Impostory",
+      "listing_page": 7,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0227",
+      "url": "https://acul4321.itch.io/kelvins-katch",
+      "title_at_listing": "Kelvin's Katch",
+      "listing_page": 7,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0228",
+      "url": "https://iosdawn.itch.io/telegram-operator",
+      "title_at_listing": "Telegram Operator",
+      "listing_page": 7,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0229",
+      "url": "https://mikester393.itch.io/lifeisblitz",
+      "title_at_listing": "'Life is Blitz' Project",
+      "listing_page": 7,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0230",
+      "url": "https://samillingworth.itch.io/how-hot-is-your-ai",
+      "title_at_listing": "How Hot Is Your AI?",
+      "listing_page": 7,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0231",
+      "url": "https://marlene-melone.itch.io/amsel-entdeckt",
+      "title_at_listing": "Amsel Entdeckt Das Wattenmeer Prototyp",
+      "listing_page": 7,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0232",
+      "url": "https://academiaskipintro.itch.io/microinvasion",
+      "title_at_listing": "Microinvasión",
+      "listing_page": 7,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0233",
+      "url": "https://jac3dg33k.itch.io/mind-and-muscle-maniacs-8-bit-special",
+      "title_at_listing": "Mind And Muscle Maniacs 8 Bit Special",
+      "listing_page": 7,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0234",
+      "url": "https://sunfirewings.itch.io/the-history-of-you",
+      "title_at_listing": "The History of You",
+      "listing_page": 7,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0235",
+      "url": "https://kolektyw-pokrzywy.itch.io/las-legowy",
+      "title_at_listing": "Las Łęgowy",
+      "listing_page": 7,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0236",
+      "url": "https://alexandre-gorin.itch.io/the-better-choice",
+      "title_at_listing": "The (Bet)ter Choice - Team 7",
+      "listing_page": 7,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0237",
+      "url": "https://zooployees.itch.io/zoopany",
+      "title_at_listing": "Zoopany",
+      "listing_page": 7,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0238",
+      "url": "https://earthgamesuw.itch.io/deal-a-green-new-election",
+      "title_at_listing": "Deal: A Green New Election",
+      "listing_page": 7,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0239",
+      "url": "https://ygzabuhan.itch.io/ai99",
+      "title_at_listing": "AI99",
+      "listing_page": 7,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0240",
+      "url": "https://gamegoy.itch.io/mirrorrim",
+      "title_at_listing": "MIRRORRIM",
+      "listing_page": 7,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0241",
+      "url": "https://carolinaperdomo.itch.io/quantum-quest-the-adventure-of-quanta",
+      "title_at_listing": "Quantum Quest The Adventure of Quanta",
+      "listing_page": 7,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0242",
+      "url": "https://spectrum-art.itch.io/pigment",
+      "title_at_listing": "Pigment",
+      "listing_page": 7,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0243",
+      "url": "https://abdiloading.itch.io/silent-expression",
+      "title_at_listing": "Silent Expression",
+      "listing_page": 7,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0244",
+      "url": "https://studio-game-yt.itch.io/sensi-hack-gamer-y1",
+      "title_at_listing": "Sensi HACK YT",
+      "listing_page": 7,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0245",
+      "url": "https://palumbofederico.itch.io/memoire",
+      "title_at_listing": "MEMOIRE",
+      "listing_page": 7,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0246",
+      "url": "https://lordl75.itch.io/monsieur-veto",
+      "title_at_listing": "Monsieur Veto",
+      "listing_page": 7,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0247",
+      "url": "https://zupstarstudio.itch.io/despliega-madrid",
+      "title_at_listing": "Despliega Madrid",
+      "listing_page": 7,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0248",
+      "url": "https://newen-project.itch.io/me-mir-mal",
+      "title_at_listing": "Me miró mal",
+      "listing_page": 7,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0249",
+      "url": "https://jamesf-dev.itch.io/space-walking-sim-prototype",
+      "title_at_listing": "Space Walking Project",
+      "listing_page": 7,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0250",
+      "url": "https://esthervjames.itch.io/legend-and-tenses",
+      "title_at_listing": "Legend and Tenses",
+      "listing_page": 7,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0251",
+      "url": "https://seongyher.itch.io/sprout",
+      "title_at_listing": "Sprout",
+      "listing_page": 7,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0252",
+      "url": "https://cleruu.itch.io/hibla-ng-diwa",
+      "title_at_listing": "Hibla Ng Diwa",
+      "listing_page": 7,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0253",
+      "url": "https://edumeta.itch.io/atomic-shadows",
+      "title_at_listing": "Atomic Shadows - Unstable Realms",
+      "listing_page": 8,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0254",
+      "url": "https://garden-variety.itch.io/flecks-of-mica",
+      "title_at_listing": "flecks of mica",
+      "listing_page": 8,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0255",
+      "url": "https://hi-imlynae.itch.io/glitch",
+      "title_at_listing": "Glitch",
+      "listing_page": 8,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0256",
+      "url": "https://michaeloldziej.itch.io/the-mead-of-poetry",
+      "title_at_listing": "The Mead of Poetry",
+      "listing_page": 8,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0257",
+      "url": "https://vmy20.itch.io/versecraft-10",
+      "title_at_listing": "VerseCraft 1.0",
+      "listing_page": 8,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0258",
+      "url": "https://yuan2003.itch.io/teenagepregnancydownload",
+      "title_at_listing": "命孕之輪",
+      "listing_page": 8,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0259",
+      "url": "https://lakelandarts.itch.io/springfieldstories",
+      "title_at_listing": "Springfield Stories",
+      "listing_page": 8,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0260",
+      "url": "https://drnoir.itch.io/rekaleto-interactive-fiction-games-2019-2021",
+      "title_at_listing": "Rekaleto Interactive Fiction Games 2019 - 2021",
+      "listing_page": 8,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0261",
+      "url": "https://divertifica.itch.io/macbeth-seeds-of-fate",
+      "title_at_listing": "Macbeth: Seeds of Fate",
+      "listing_page": 8,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0262",
+      "url": "https://icidesdragons.itch.io/senescence",
+      "title_at_listing": "Sénescence",
+      "listing_page": 8,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0263",
+      "url": "https://programanave.itch.io/a-space-between-us",
+      "title_at_listing": "A Space Between Us",
+      "listing_page": 8,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0264",
+      "url": "https://homemadeinjapan.itch.io/grandad-ota",
+      "title_at_listing": "Grandad Ota - Introduction game",
+      "listing_page": 8,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0265",
+      "url": "https://mindtenant.itch.io/mindtenant-1-0",
+      "title_at_listing": "心房客",
+      "listing_page": 8,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0266",
+      "url": "https://v-volkotrub02.itch.io/weekend-in-london",
+      "title_at_listing": "Weekend in London",
+      "listing_page": 8,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0267",
+      "url": "https://mysticeden.itch.io/jerga-boriqua",
+      "title_at_listing": "Jerga Boriqua",
+      "listing_page": 8,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0268",
+      "url": "https://murilomir.itch.io/fixing-the-world",
+      "title_at_listing": "Fixing the world",
+      "listing_page": 8,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0269",
+      "url": "https://chichord.itch.io/the-one-and-the-many",
+      "title_at_listing": "The One and The Many",
+      "listing_page": 8,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0270",
+      "url": "https://ritoramos.itch.io/boat-literature",
+      "title_at_listing": "Boat-Literature",
+      "listing_page": 8,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0271",
+      "url": "https://luoyuxuan.itch.io/days-in-the-life-of-mental-illness-singaporean-edition",
+      "title_at_listing": "Days in the Life of Mental Illness - Singaporean Edition",
+      "listing_page": 8,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0272",
+      "url": "https://dobertson.itch.io/blethers",
+      "title_at_listing": "Blethers",
+      "listing_page": 8,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0273",
+      "url": "https://tellymcguire.itch.io/interactivelearningdsa",
+      "title_at_listing": "Interactive Learning : Data-Structures & Algorithms",
+      "listing_page": 8,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0274",
+      "url": "https://arthur-graupe-rietveld.itch.io/buracos-negros-sugando-tudo-comum",
+      "title_at_listing": "Buracos Negros Sugando Tudo",
+      "listing_page": 8,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0275",
+      "url": "https://sifrstudios.itch.io/astracipher",
+      "title_at_listing": "AstraCipher",
+      "listing_page": 8,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0276",
+      "url": "https://mobbarley.itch.io/pyotr",
+      "title_at_listing": "Pyotr",
+      "listing_page": 8,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0277",
+      "url": "https://hamita.itch.io/greenchoice",
+      "title_at_listing": "בחירה ירוקה",
+      "listing_page": 8,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0278",
+      "url": "https://marsdhe.itch.io/lilis-long-day-build-1",
+      "title_at_listing": "Lili's Long Day",
+      "listing_page": 8,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0279",
+      "url": "https://angelos-shiapani.itch.io/japanese-game-environment",
+      "title_at_listing": "Japanese Game Environment",
+      "listing_page": 8,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0280",
+      "url": "https://bcaszatt.itch.io/ghost-streets",
+      "title_at_listing": "Ghost Streets",
+      "listing_page": 8,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0281",
+      "url": "https://dd-onezero.itch.io/live-peggle-reaction",
+      "title_at_listing": "Live Peggle Reaction",
+      "listing_page": 8,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0282",
+      "url": "https://j-h-reedlake.itch.io/oppariprojektij-h",
+      "title_at_listing": "Opinnäyteprojekti - Interaktiivinen Itch.io Ohje",
+      "listing_page": 8,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0283",
+      "url": "https://borderandry.itch.io/black-box",
+      "title_at_listing": "Black Box",
+      "listing_page": 8,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0284",
+      "url": "https://rileysilva.itch.io/one-foot-out",
+      "title_at_listing": "One foot out of the Closet",
+      "listing_page": 8,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0285",
+      "url": "https://youarenotwhite4343.itch.io/neftcoin",
+      "title_at_listing": "NEFTCOIN",
+      "listing_page": 8,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0286",
+      "url": "https://oudarya.itch.io/lexeme",
+      "title_at_listing": "Lexeme",
+      "listing_page": 8,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0287",
+      "url": "https://ihearn.itch.io/cold-air",
+      "title_at_listing": "Cold Air",
+      "listing_page": 8,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0288",
+      "url": "https://r3kap.itch.io/field-study",
+      "title_at_listing": "Field Study",
+      "listing_page": 8,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0289",
+      "url": "https://cartersande.itch.io/lets-explore-geography-canadian-commodities-trader-simulation-exercise",
+      "title_at_listing": "Let's Explore Geography! Canadian Commodities Trader Simulation Exercise",
+      "listing_page": 9,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0290",
+      "url": "https://dnd-games.itch.io/la-encrucijada",
+      "title_at_listing": "La Encrucijada",
+      "listing_page": 9,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0291",
+      "url": "https://beseda.itch.io/conversatio-machina",
+      "title_at_listing": "Conversatio Machina",
+      "listing_page": 9,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0292",
+      "url": "https://homemadeinjapan.itch.io/grandad-ota-2-choushi-falls",
+      "title_at_listing": "Grandad Ota 2 - Choushi Falls",
+      "listing_page": 9,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0293",
+      "url": "https://elisabettaiannone.itch.io/just-another-day",
+      "title_at_listing": "Just Another Day",
+      "listing_page": 9,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0294",
+      "url": "https://james-leske.itch.io/that-one-game",
+      "title_at_listing": "That One Game",
+      "listing_page": 9,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0295",
+      "url": "https://ebrintn.itch.io/leukemiasim-updatedversion",
+      "title_at_listing": "LeukemiaSIM-UpdatedVersion",
+      "listing_page": 9,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0296",
+      "url": "https://storybound.itch.io/sej",
+      "title_at_listing": "Silvermore's Educational Journey [PL/EN]",
+      "listing_page": 9,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0297",
+      "url": "https://jesuis-lisa.itch.io/open-research",
+      "title_at_listing": "Open Research: A Research Journey",
+      "listing_page": 9,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0298",
+      "url": "https://leafletgames.itch.io/mermaid-adventure-talp",
+      "title_at_listing": "Mermaid Adventure TALP",
+      "listing_page": 9,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0299",
+      "url": "https://emilyphila.itch.io/inkumbi",
+      "title_at_listing": "Inkumbi",
+      "listing_page": 9,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0300",
+      "url": "https://homemadeinjapan.itch.io/grandad-ota-3-hirakata-bridge",
+      "title_at_listing": "Grandad Ota 3 - Hirakata Bridge",
+      "listing_page": 9,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0301",
+      "url": "https://isaac0.itch.io/the-stranger",
+      "title_at_listing": "The Stranger",
+      "listing_page": 9,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0302",
+      "url": "https://brianvalenciac29.itch.io/regiones-vivas",
+      "title_at_listing": "Regiones Vivas",
+      "listing_page": 9,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0303",
+      "url": "https://batbeato.itch.io/nmtourism",
+      "title_at_listing": "New Mexico Tourism Simulator",
+      "listing_page": 9,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0304",
+      "url": "https://ultra-slimer.itch.io/the-troubleshooter",
+      "title_at_listing": "The Troubleshooter",
+      "listing_page": 9,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0305",
+      "url": "https://ffracaro.itch.io/as-lendas-de-mboi",
+      "title_at_listing": "As Lendas de M'boi",
+      "listing_page": 9,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0306",
+      "url": "https://edugamento.itch.io/bermain-aksara",
+      "title_at_listing": "Bermain Aksara",
+      "listing_page": 9,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0307",
+      "url": "https://ebrintn.itch.io/leukemiasim-originalversion",
+      "title_at_listing": "LeukemiaSIM-OriginalVersion",
+      "listing_page": 9,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0308",
+      "url": "https://detayuli.itch.io/moses-journey",
+      "title_at_listing": "Moses Journey",
+      "listing_page": 9,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0309",
+      "url": "https://rkuhl.itch.io/my-brother-sam-is-dead",
+      "title_at_listing": "My Brother Sam is Dead",
+      "listing_page": 9,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0310",
+      "url": "https://tamar007.itch.io/the-book-of-lost-souls",
+      "title_at_listing": "The Book Of Lost Souls",
+      "listing_page": 9,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0311",
+      "url": "https://vivekp2510.itch.io/digitruth-a-digital-odyssey",
+      "title_at_listing": "DigiTruth: A Digital Odyssey!",
+      "listing_page": 9,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0312",
+      "url": "https://kaelynmauve.itch.io/carboncopy",
+      "title_at_listing": "Carbon Copy",
+      "listing_page": 9,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0313",
+      "url": "https://eximeno.itch.io/itaca",
+      "title_at_listing": "Ítaca",
+      "listing_page": 9,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0314",
+      "url": "https://mesiasleon.itch.io/astronauta-corredor-sin-fin",
+      "title_at_listing": "ASTRONAUTA corredor sin fin",
+      "listing_page": 9,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0315",
+      "url": "https://wienerkreisel.itch.io/kandidate",
+      "title_at_listing": "KandiDate",
+      "listing_page": 9,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0316",
+      "url": "https://paradise-reimagined.itch.io/paradise-lost-books-v-viii",
+      "title_at_listing": "Paradise Lost Books V-VIII (Chapbook Format)",
+      "listing_page": 9,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0317",
+      "url": "https://the-gamedev-owl.itch.io/droit-lerreur",
+      "title_at_listing": "Droit à l'erreur",
+      "listing_page": 9,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0318",
+      "url": "https://expungedspongegames.itch.io/xhana",
+      "title_at_listing": "Xhana",
+      "listing_page": 9,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0319",
+      "url": "https://x-and-y.itch.io/pathfinderdlc",
+      "title_at_listing": "Pathfinder_H5_Version",
+      "listing_page": 9,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0320",
+      "url": "https://queenawzq.itch.io/run-luna",
+      "title_at_listing": "Run! Luna",
+      "listing_page": 9,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0321",
+      "url": "https://savvy-community.itch.io/mission-fruitball",
+      "title_at_listing": "Mission Fruitball",
+      "listing_page": 9,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0322",
+      "url": "https://joezlonicky.itch.io/the-black-death",
+      "title_at_listing": "The Black Death",
+      "listing_page": 9,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0323",
+      "url": "https://awheeler.itch.io/hhyesyp",
+      "title_at_listing": "How Have Your Experiences Shaped your Paper?",
+      "listing_page": 9,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0324",
+      "url": "https://mrkrism.itch.io/labyrinth-of-truth",
+      "title_at_listing": "Labyrinth of truth",
+      "listing_page": 9,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0325",
+      "url": "https://gz-yong.itch.io/loud-game",
+      "title_at_listing": "LOUD工進行式｜互動勞動教育遊戲",
+      "listing_page": 10,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0326",
+      "url": "https://eccecarpet.itch.io/earthbeats",
+      "title_at_listing": "EARTHbeats",
+      "listing_page": 10,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0327",
+      "url": "https://tryhard-studios.itch.io/ods-odyssey-vr",
+      "title_at_listing": "ODS ODYSSEY VR DEMO",
+      "listing_page": 10,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0328",
+      "url": "https://ultimio.itch.io/destination-rennes",
+      "title_at_listing": "Destination Rennes !",
+      "listing_page": 10,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0329",
+      "url": "https://drdixis.itch.io/are-you-my-robot",
+      "title_at_listing": "Are You My Robot?",
+      "listing_page": 10,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0330",
+      "url": "https://rainysacu.itch.io/morality",
+      "title_at_listing": "Morality",
+      "listing_page": 10,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0331",
+      "url": "https://sumdummcfun.itch.io/haerenga-o-nga-atua",
+      "title_at_listing": "Haerenga o nga Atua",
+      "listing_page": 10,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0332",
+      "url": "https://magadanec.itch.io/camping",
+      "title_at_listing": "CAMPING",
+      "listing_page": 10,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0333",
+      "url": "https://zhaolin.itch.io/nouvelle-ere",
+      "title_at_listing": "2032 : Nouvelle ère",
+      "listing_page": 10,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0334",
+      "url": "https://r-o-g-o.itch.io/i-riottosi-2-la-sostanza-suprema",
+      "title_at_listing": "I Riottosi 2 - La Sostanza Suprema",
+      "listing_page": 10,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0335",
+      "url": "https://mindflu.itch.io/bipolar-quest",
+      "title_at_listing": "Bipolar Disorder Quest",
+      "listing_page": 10,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0336",
+      "url": "https://monnat.itch.io/life-is-tough-with-chronic-pain",
+      "title_at_listing": "Life (is tough) with chronic pain",
+      "listing_page": 10,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0337",
+      "url": "https://jmacpher.itch.io/french-adventure",
+      "title_at_listing": "French Adventure",
+      "listing_page": 10,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0338",
+      "url": "https://halisa.itch.io/can-you-save-canada",
+      "title_at_listing": "Can You Save Canada?",
+      "listing_page": 10,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0339",
+      "url": "https://r-o-g-o.itch.io/i-riottosi",
+      "title_at_listing": "I Riottosi",
+      "listing_page": 10,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0340",
+      "url": "https://mgaga97.itch.io/design-for-change",
+      "title_at_listing": "(Not) a drop in the ocean!",
+      "listing_page": 10,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0341",
+      "url": "https://tottori.itch.io/askcord",
+      "title_at_listing": "Askcord",
+      "listing_page": 10,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0342",
+      "url": "https://katutalde.itch.io/zonaldea",
+      "title_at_listing": "Zonaldea (demo)",
+      "listing_page": 10,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0343",
+      "url": "https://vapx007.itch.io/scribbles-day-out",
+      "title_at_listing": "Scribble's Day Out",
+      "listing_page": 10,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0344",
+      "url": "https://omrpps.itch.io/asa",
+      "title_at_listing": "ASA",
+      "listing_page": 10,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0345",
+      "url": "https://maria-gu.itch.io/unseen-storiess",
+      "title_at_listing": "Unseen Stories",
+      "listing_page": 10,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0346",
+      "url": "https://bramasolejm.itch.io/destiny",
+      "title_at_listing": "Destiny",
+      "listing_page": 10,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0347",
+      "url": "https://benjigg.itch.io/morally",
+      "title_at_listing": "Morally: A Game of Right and Wrong",
+      "listing_page": 10,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0348",
+      "url": "https://yurii1991.itch.io/mhallenge-your-brain-with-my-puzlle-the-ultimate-trivia-quiz-gamey-pu",
+      "title_at_listing": "Challenge your brain with My PUZLLE",
+      "listing_page": 10,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0349",
+      "url": "https://crafteurmax.itch.io/bashintime",
+      "title_at_listing": "BashINTime",
+      "listing_page": 10,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0350",
+      "url": "https://leggendario-reietto.itch.io/mostascene",
+      "title_at_listing": "MostaScene",
+      "listing_page": 10,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0351",
+      "url": "https://brunnm26.itch.io/predictivepolicing-ch",
+      "title_at_listing": "Zukunftsszenario: Predictive Policing in der Schweiz",
+      "listing_page": 10,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0352",
+      "url": "https://fernandofabio.itch.io/globe",
+      "title_at_listing": "Globe Explorers",
+      "listing_page": 10,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0353",
+      "url": "https://devcrxs.itch.io/ar-living",
+      "title_at_listing": "AR Living",
+      "listing_page": 10,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0354",
+      "url": "https://purplemusketeer.itch.io/cyoa-urban-exploring-in-sydney",
+      "title_at_listing": "CYOA Urban Exploring in Sydney",
+      "listing_page": 10,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0355",
+      "url": "https://whoamiinteractive.itch.io/who-am-i",
+      "title_at_listing": "Who am I?",
+      "listing_page": 10,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0356",
+      "url": "https://chemclimber.itch.io/drug-discovery-jam",
+      "title_at_listing": "Drug Discovery Jam",
+      "listing_page": 10,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0357",
+      "url": "https://gatienne.itch.io/mindful-manager",
+      "title_at_listing": "Mindful Manager",
+      "listing_page": 10,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0358",
+      "url": "https://flox86-64.itch.io/my-pair-of-shoes",
+      "title_at_listing": "My Pair of Shoes",
+      "listing_page": 10,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0359",
+      "url": "https://unfosforo.itch.io/2064",
+      "title_at_listing": "2064: Imágenes de la ciudad de arrendatarios",
+      "listing_page": 10,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0360",
+      "url": "https://arthur-lrte.itch.io/le-cycle-de-vie-du-merou",
+      "title_at_listing": "LE CYCLE DE VIE DU MEROU",
+      "listing_page": 10,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0361",
+      "url": "https://33strong.itch.io/benin-bronze-experience",
+      "title_at_listing": "The Benin Bronze Experience",
+      "listing_page": 11,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0362",
+      "url": "https://emilydickinsonlife.itch.io/emily",
+      "title_at_listing": "Emily",
+      "listing_page": 11,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0363",
+      "url": "https://etrealjunior.itch.io/capitao-dinossauro-live",
+      "title_at_listing": "CAPITAO DINOSSAURO LIVE",
+      "listing_page": 11,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0364",
+      "url": "https://betweenthelines.itch.io/btl",
+      "title_at_listing": "Between The Lines",
+      "listing_page": 11,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0365",
+      "url": "https://misaki20060623.itch.io/rxsteam",
+      "title_at_listing": "蒸汽處方箋RxSteam",
+      "listing_page": 11,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0366",
+      "url": "https://geniusgameslatinoamerica.itch.io/los-gomez-un-viaje-de-esperanza-y-resiliencia",
+      "title_at_listing": "Los Gómez, un Viaje de Esperanza y Resiliencia",
+      "listing_page": 11,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0367",
+      "url": "https://honeybeeee.itch.io/kitty-over-the-rainbow",
+      "title_at_listing": "Kitty over the Rainbow",
+      "listing_page": 11,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0368",
+      "url": "https://7607.itch.io/line-of-sight",
+      "title_at_listing": "視線",
+      "listing_page": 11,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0369",
+      "url": "https://manonamora.itch.io/twee-voor-twaalf",
+      "title_at_listing": "Twee voor Twaalf!",
+      "listing_page": 11,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0370",
+      "url": "https://alexverdia.itch.io/no-school-today",
+      "title_at_listing": "No School Today",
+      "listing_page": 11,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0371",
+      "url": "https://leonx.itch.io/parenthood",
+      "title_at_listing": "Parenthood: A Growing Journey",
+      "listing_page": 11,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0372",
+      "url": "https://mildly-burnt-lettuce.itch.io/itching-for-loveleture-only",
+      "title_at_listing": "Itching For Love(DEMO-LECTUR Only-)",
+      "listing_page": 11,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0373",
+      "url": "https://gunarsbub.itch.io/sandbox-dude",
+      "title_at_listing": "Sandbox dude",
+      "listing_page": 11,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0374",
+      "url": "https://markusvijf.itch.io/live-love-eugen",
+      "title_at_listing": "Live, Love, Eugen",
+      "listing_page": 11,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0375",
+      "url": "https://zeppelintsai.itch.io/dad-please-dont-leave-me-so-soon",
+      "title_at_listing": "爸爸不要那麼早丟下我好嗎｜Please Don't Leave Me So Soon, Dad",
+      "listing_page": 11,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0376",
+      "url": "https://healthimpactstudio.itch.io/clinical-encounters-alice",
+      "title_at_listing": "Clinical Encounters: Alice",
+      "listing_page": 11,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0377",
+      "url": "https://hesokamm570-dot.itch.io/medo",
+      "title_at_listing": "لعبتي",
+      "listing_page": 11,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0378",
+      "url": "https://eskapistin.itch.io/ovop-1",
+      "title_at_listing": "Our voices, our planet - chapter 1",
+      "listing_page": 11,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0379",
+      "url": "https://francisco-int.itch.io/creationsimulator",
+      "title_at_listing": "CreationSimulator (Demo)",
+      "listing_page": 11,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0380",
+      "url": "https://dlte.itch.io/dlte-quest",
+      "title_at_listing": "DLTE Quest",
+      "listing_page": 11,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0381",
+      "url": "https://dandeliondino.itch.io/the-lost-works",
+      "title_at_listing": "The Lost Works of Hypatia of Alexandria",
+      "listing_page": 11,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0382",
+      "url": "https://zero-prime.itch.io/echoform-alpha-coding-instructional-game",
+      "title_at_listing": "ECHOFORM ALPHA \"Coding instructional game\"",
+      "listing_page": 11,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0383",
+      "url": "https://nekoxryu.itch.io/snow-bonfires-and-mosses",
+      "title_at_listing": "Snow, Bonfires and Mosses",
+      "listing_page": 11,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0384",
+      "url": "https://swabis.itch.io/disporio",
+      "title_at_listing": "Disporio",
+      "listing_page": 11,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0385",
+      "url": "https://tesseract-interactive.itch.io/ivyonthewire",
+      "title_at_listing": "IvyOnTheWire",
+      "listing_page": 11,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0386",
+      "url": "https://matesudts.itch.io/nosso-direito-a-consulta-web",
+      "title_at_listing": "Nosso Direito a Consulta Web",
+      "listing_page": 11,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0387",
+      "url": "https://lasmus.itch.io/hirobot",
+      "title_at_listing": "Hirobot",
+      "listing_page": 11,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0388",
+      "url": "https://healthimpactstudio.itch.io/clinical-encounters-alcohol-amy",
+      "title_at_listing": "Clinical Encounters: Amy",
+      "listing_page": 11,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0389",
+      "url": "https://parque-pedra-do-sol.itch.io/serra-do-cip-10000-ac",
+      "title_at_listing": "Serra do Cipó 10.000 AC",
+      "listing_page": 11,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0390",
+      "url": "https://adilsson557.itch.io/zumbayllu",
+      "title_at_listing": "Zumbayllu",
+      "listing_page": 11,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0391",
+      "url": "https://nk612.itch.io/pyxlile",
+      "title_at_listing": "PYXL v2.3 — Interactive Learning Environment",
+      "listing_page": 11,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0392",
+      "url": "https://bernard-radojkic.itch.io/dysthymia",
+      "title_at_listing": "Dysthymia",
+      "listing_page": 11,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0393",
+      "url": "https://petervoise.itch.io/hitchhikers",
+      "title_at_listing": "a Hitchhikers Guide to the Galaxy 2",
+      "listing_page": 11,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0394",
+      "url": "https://m0nayr4n.itch.io/toolgether",
+      "title_at_listing": "TOOLGETHER ! | เครื่องมือสานสัมพันธ์",
+      "listing_page": 11,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0395",
+      "url": "https://anigir.itch.io/the-egg-wasnt-first",
+      "title_at_listing": "The egg wasn't first",
+      "listing_page": 11,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0396",
+      "url": "https://zoe-genot.itch.io/nestel-just-a-game",
+      "title_at_listing": "Nestel - [Just a game]",
+      "listing_page": 11,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0397",
+      "url": "https://shakespeerie.itch.io/donne-undone",
+      "title_at_listing": "Donne Undone",
+      "listing_page": 12,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0398",
+      "url": "https://michael-is-playing.itch.io/stans-small-world",
+      "title_at_listing": "Stan's small world (FR)",
+      "listing_page": 12,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0399",
+      "url": "https://makingmeanings.itch.io/gretel-redesigned",
+      "title_at_listing": "Gretel, Redesigned",
+      "listing_page": 12,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0400",
+      "url": "https://figadei.itch.io/canon-carnival",
+      "title_at_listing": "Canon Carnival",
+      "listing_page": 12,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0401",
+      "url": "https://the-ellie-school.itch.io/in-the-days-of-noah-the-flood",
+      "title_at_listing": "In The Days Of Noah: The Flood",
+      "listing_page": 12,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0402",
+      "url": "https://rosebehar.itch.io/a-womans-labour",
+      "title_at_listing": "A Woman's Labour by Mary Collier",
+      "listing_page": 12,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0403",
+      "url": "https://dicristal.itch.io/mi-primer-algoritmo",
+      "title_at_listing": "Mi primer algoritmo: ¿podré llegar al colegio?",
+      "listing_page": 12,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0404",
+      "url": "https://ferplay.itch.io/soda",
+      "title_at_listing": "Soda",
+      "listing_page": 12,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0405",
+      "url": "https://ayzaakhtar.itch.io/chai-banao",
+      "title_at_listing": "Chai Banao!",
+      "listing_page": 12,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0406",
+      "url": "https://uscseriousgames.itch.io/smart-survival",
+      "title_at_listing": "Smart Survival",
+      "listing_page": 12,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0407",
+      "url": "https://coderdojostpaul2.itch.io/jetson-media-desktop-an-interactive-pitch",
+      "title_at_listing": "Jetson Media Desktop: An interactive Pitch",
+      "listing_page": 12,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0408",
+      "url": "https://healthimpactstudio.itch.io/clinical-encounters-alan",
+      "title_at_listing": "Clinical Encounters: Alan",
+      "listing_page": 12,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0409",
+      "url": "https://gameofthedead.itch.io/game-of-the-dead",
+      "title_at_listing": "Game of the Dead",
+      "listing_page": 12,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0410",
+      "url": "https://telephus.itch.io/dionysus",
+      "title_at_listing": "Dionysus",
+      "listing_page": 12,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0411",
+      "url": "https://yangruiyuan111163com.itch.io/rebirth",
+      "title_at_listing": "Rebirth",
+      "listing_page": 12,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0412",
+      "url": "https://mizukeii.itch.io/fefu",
+      "title_at_listing": "FeFu(Feline Fun)",
+      "listing_page": 12,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0413",
+      "url": "https://calla.itch.io/foodsecurity-case-01",
+      "title_at_listing": "Ugly food!",
+      "listing_page": 12,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0414",
+      "url": "https://goodpixeldev.itch.io/chick-raiser",
+      "title_at_listing": "Chick Raiser",
+      "listing_page": 12,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0415",
+      "url": "https://acenace.itch.io/the-135-lives-of-azucena",
+      "title_at_listing": "The 135 lives of Azucena",
+      "listing_page": 12,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0416",
+      "url": "https://mademoi-zel.itch.io/biodiversite",
+      "title_at_listing": "Les enjeux de la biodiversité",
+      "listing_page": 12,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0417",
+      "url": "https://gort-industries.itch.io/at-peace",
+      "title_at_listing": "At Peace",
+      "listing_page": 12,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0418",
+      "url": "https://bawewewe.itch.io/yatiri-la-ultima-prueba",
+      "title_at_listing": "Yatiri: La última prueba",
+      "listing_page": 12,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0419",
+      "url": "https://paradise-reimagined.itch.io/paradise-lost-books-v-viii-text-based-game-format",
+      "title_at_listing": "Paradise Lost Books V-VIII (Text-Based Game Format)",
+      "listing_page": 12,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0420",
+      "url": "https://hauntpun.itch.io/interactive-non-fiction-norse-mythology",
+      "title_at_listing": "All-Father",
+      "listing_page": 12,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0421",
+      "url": "https://cardiganmousegames.itch.io/a-little-assistance",
+      "title_at_listing": "A Little Assistance",
+      "listing_page": 12,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0422",
+      "url": "https://roderick75.itch.io/monarch-shield",
+      "title_at_listing": "Monarch Shield",
+      "listing_page": 12,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0423",
+      "url": "https://petter.itch.io/the-learning-tree",
+      "title_at_listing": "The Learning Tree",
+      "listing_page": 12,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0424",
+      "url": "https://digedquest.itch.io/a-fantastical-voyage",
+      "title_at_listing": "A Fantastical Voyage",
+      "listing_page": 12,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0425",
+      "url": "https://r-o-g-o.itch.io/the-rebeloses",
+      "title_at_listing": "The Rebeloses",
+      "listing_page": 12,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0426",
+      "url": "https://mina-d.itch.io/he-was-here-yesterday",
+      "title_at_listing": "He Was Here Yesterday",
+      "listing_page": 12,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0427",
+      "url": "https://itiswanheda.itch.io/not-all-men-but-always-men",
+      "title_at_listing": "Not All Men But Always Men",
+      "listing_page": 12,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0428",
+      "url": "https://usmgamestudies.itch.io/falling-through-the-sky",
+      "title_at_listing": "Falling Through the Sky",
+      "listing_page": 12,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0429",
+      "url": "https://sakemiller.itch.io/declining-balance",
+      "title_at_listing": "Declining Balance",
+      "listing_page": 12,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0430",
+      "url": "https://harryfloppa.itch.io/mitosis",
+      "title_at_listing": "BioMitosis",
+      "listing_page": 12,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0431",
+      "url": "https://mha-gaming.itch.io/tiklink",
+      "title_at_listing": "TikLink",
+      "listing_page": 12,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0432",
+      "url": "https://jonibonfemme.itch.io/dpng",
+      "title_at_listing": "Depressing Prime Number Game",
+      "listing_page": 12,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0433",
+      "url": "https://gort-industries.itch.io/gnomestead",
+      "title_at_listing": "Gnomestead",
+      "listing_page": 13,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0434",
+      "url": "https://louphole.itch.io/choose-your-own-safari-adventure",
+      "title_at_listing": "Choose Your Own Safari Adventure",
+      "listing_page": 13,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0435",
+      "url": "https://jessievanbalkom.itch.io/repercussions",
+      "title_at_listing": "Repercussions",
+      "listing_page": 13,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0436",
+      "url": "https://fort-condor-productions.itch.io/pledge-to-a-new-tomorrow",
+      "title_at_listing": "Pledge to a new tomorrow",
+      "listing_page": 13,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0437",
+      "url": "https://hiddenpaststudio.itch.io/coal-creek-hidden-past",
+      "title_at_listing": "Coal Creek – Hidden Past",
+      "listing_page": 13,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0438",
+      "url": "https://emmaliobe.itch.io/au-creux-du-coralligene",
+      "title_at_listing": "Au creux du coralligène",
+      "listing_page": 13,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0439",
+      "url": "https://darktale-games-nick-tale.itch.io/nekyia-descent-in-hades",
+      "title_at_listing": "Nekyia: Descent in Hades",
+      "listing_page": 13,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0440",
+      "url": "https://luisdominguez.itch.io/exploracin-de-una-metamorfosis-autorretratos-de-indra-arrez",
+      "title_at_listing": "EXPLORACIÓN DE UNA METAMORFOSIS: AUTORRETRATOS DE INDRA ARREZ",
+      "listing_page": 13,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0441",
+      "url": "https://szea.itch.io/detective-diplomat",
+      "title_at_listing": "Detective Diplomat",
+      "listing_page": 13,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0442",
+      "url": "https://rittermi.itch.io/newspapered-room",
+      "title_at_listing": "Newspapered Room",
+      "listing_page": 13,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0443",
+      "url": "https://raysoul.itch.io/deux-voies",
+      "title_at_listing": "Deux Voies",
+      "listing_page": 13,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0444",
+      "url": "https://hadeel12.itch.io/recycle-game-hadeelplaylab",
+      "title_at_listing": "أبطال البيئة",
+      "listing_page": 13,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0445",
+      "url": "https://jantdarvus.itch.io/a-story-about-sporadic-creutzfeldt-jakob-disease",
+      "title_at_listing": "A Story About Sporadic Creutzfeldt-Jakob Disease",
+      "listing_page": 13,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0446",
+      "url": "https://juanjoseis.itch.io/how-to-make-good-biscuit",
+      "title_at_listing": "\"HOW TO MAKE\" GOOD BISCUITS",
+      "listing_page": 13,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0447",
+      "url": "https://skillscafe.itch.io/amplified",
+      "title_at_listing": "Amplified",
+      "listing_page": 13,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0448",
+      "url": "https://keziahdeneker.itch.io/the-red",
+      "title_at_listing": "The Red",
+      "listing_page": 13,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0449",
+      "url": "https://themizarkshow.itch.io/spoonies-game-jam-2022",
+      "title_at_listing": "Spoonies! (Game Jam 2022)",
+      "listing_page": 13,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0450",
+      "url": "https://usmgamestudies.itch.io/story-of-the-arctic",
+      "title_at_listing": "Story of the Arctic",
+      "listing_page": 13,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0451",
+      "url": "https://ranarh.itch.io/when-is-a-pile",
+      "title_at_listing": "When is a Pile",
+      "listing_page": 13,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0452",
+      "url": "https://zhoel13.itch.io/mask-up",
+      "title_at_listing": "Mask Up!",
+      "listing_page": 13,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0453",
+      "url": "https://opencontext.itch.io/data-stories-to-disrupt-and-delight",
+      "title_at_listing": "Data Stories to disrupt and delight",
+      "listing_page": 13,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0454",
+      "url": "https://warda.itch.io/into-the-online",
+      "title_at_listing": "Into the Online",
+      "listing_page": 13,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0455",
+      "url": "https://zoefrenchman.itch.io/hireorfire",
+      "title_at_listing": "Hire or Fire",
+      "listing_page": 13,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0456",
+      "url": "https://polenka-deutsch-einfach.itch.io/deutschspiel",
+      "title_at_listing": "Na stáži v Německu-interaktivní jazyková hra",
+      "listing_page": 13,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0457",
+      "url": "https://d-esl.itch.io/fake-news",
+      "title_at_listing": "Fake News",
+      "listing_page": 13,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0458",
+      "url": "https://jochung.itch.io/dungeon-bash",
+      "title_at_listing": "Dungeon Bash",
+      "listing_page": 13,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0459",
+      "url": "https://usmgamestudies.itch.io/three-strikes",
+      "title_at_listing": "Three Strikes",
+      "listing_page": 13,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0460",
+      "url": "https://sainthood.itch.io/sainthood-stories",
+      "title_at_listing": "Sainthood Stories",
+      "listing_page": 13,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0461",
+      "url": "https://migloper.itch.io/teste-de-qi-2",
+      "title_at_listing": "Teste De Q.I. 2",
+      "listing_page": 13,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0462",
+      "url": "https://sullah3.itch.io/over",
+      "title_at_listing": "Over Story",
+      "listing_page": 13,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0463",
+      "url": "https://dmarymac.itch.io/seawinds",
+      "title_at_listing": "Under the Sea Winds",
+      "listing_page": 13,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0464",
+      "url": "https://r-o-g-o.itch.io/the-rebeloses-2-the-supreme-substance",
+      "title_at_listing": "The Rebeloses 2 - The Supreme Substance",
+      "listing_page": 13,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0465",
+      "url": "https://avib.itch.io/keepsakes-from-the-night-before",
+      "title_at_listing": "Keepsakes from the Night Before",
+      "listing_page": 13,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0466",
+      "url": "https://davidhaynes.itch.io/kill-process",
+      "title_at_listing": "Kill Process",
+      "listing_page": 13,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0467",
+      "url": "https://kiromitsu13.itch.io/orbz",
+      "title_at_listing": "Orbz",
+      "listing_page": 13,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0468",
+      "url": "https://narratividigitali.itch.io/racconti-a-gravita-zero",
+      "title_at_listing": "Racconti a Gravità Zero",
+      "listing_page": 13,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0469",
+      "url": "https://artaserse.itch.io/un-incendiario-retorcido",
+      "title_at_listing": "Un incendiario retorcido",
+      "listing_page": 14,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0470",
+      "url": "https://morenga.itch.io/seara-vermelha",
+      "title_at_listing": "Seara Vermelha",
+      "listing_page": 14,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0471",
+      "url": "https://artaserse.itch.io/el-interrogatorio-de-ryam",
+      "title_at_listing": "El interrogatorio de Ryam",
+      "listing_page": 14,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0472",
+      "url": "https://ismabilla269.itch.io/fish-math",
+      "title_at_listing": "FISH MATH",
+      "listing_page": 14,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0473",
+      "url": "https://allysi.itch.io/eco",
+      "title_at_listing": "Ecosensitization Butterfly Effect",
+      "listing_page": 14,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0474",
+      "url": "https://rajkevis.itch.io/if-quest",
+      "title_at_listing": "IF Quest: The Seven Trials of the Lost Creators",
+      "listing_page": 14,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0475",
+      "url": "https://josh-allingham.itch.io/barc-critical-clean-up",
+      "title_at_listing": "B.A.R.C: Critical Cleanup",
+      "listing_page": 14,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0476",
+      "url": "https://no-fallout-games.itch.io/clearwaterreproductivehealth",
+      "title_at_listing": "Clearwater Reproductive Health: Abortion Simulator",
+      "listing_page": 14,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0477",
+      "url": "https://liliwanang.itch.io/dont-be-late",
+      "title_at_listing": "Don't Be LATE!",
+      "listing_page": 14,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0478",
+      "url": "https://thunderinggunner.itch.io/prison-of-art",
+      "title_at_listing": "Prison of Art",
+      "listing_page": 14,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0479",
+      "url": "https://ranarh.itch.io/vagueness",
+      "title_at_listing": "Vagueness and the Paradoxes it Causes",
+      "listing_page": 14,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0480",
+      "url": "https://tamiadivachoco.itch.io/suzuran-jr-high-take-classes-make-friends-and-have-fun",
+      "title_at_listing": "Suzuran Jr. High: Take Classes, Make Friends, And Have Fun!",
+      "listing_page": 14,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0481",
+      "url": "https://makingmeanings.itch.io/a-green-light",
+      "title_at_listing": "A Green Light",
+      "listing_page": 14,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0482",
+      "url": "https://castfire.itch.io/hcde-451-final-project",
+      "title_at_listing": "Room Escape",
+      "listing_page": 14,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0483",
+      "url": "https://aerthylia.itch.io/darkness-to-light",
+      "title_at_listing": "Darkness to Light",
+      "listing_page": 14,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0484",
+      "url": "https://eskapistin.itch.io/ovop-2",
+      "title_at_listing": "Our voices, our planet - chapter 2",
+      "listing_page": 14,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0485",
+      "url": "https://katpauliebre.itch.io/what-choice-do-you-have",
+      "title_at_listing": "What Choice Do You Have?",
+      "listing_page": 14,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0486",
+      "url": "https://adam-houle.itch.io/operation-resperation",
+      "title_at_listing": "Operation: Resperation",
+      "listing_page": 14,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0487",
+      "url": "https://nigmaticsound.itch.io/fitting-in",
+      "title_at_listing": "Fitting In",
+      "listing_page": 14,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0488",
+      "url": "https://mariemarburg.itch.io/welcome-in-france",
+      "title_at_listing": "Welcome in France",
+      "listing_page": 14,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0489",
+      "url": "https://team-1a.itch.io/lost-in-the-system",
+      "title_at_listing": "Lost in the System",
+      "listing_page": 14,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0490",
+      "url": "https://museum-of-screens.itch.io/web-games-101-episode-2-twine",
+      "title_at_listing": "Web Games 101 Episode 2 - Twine",
+      "listing_page": 14,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0491",
+      "url": "https://jackieng.itch.io/life-signal",
+      "title_at_listing": "生命信号-Signal-",
+      "listing_page": 14,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0492",
+      "url": "https://theupdoge.itch.io/accessdeniedhahaha",
+      "title_at_listing": "Password and 3d file block experiment",
+      "listing_page": 14,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0493",
+      "url": "https://3zhiyu.itch.io/3fish-historynews",
+      "title_at_listing": "三隻魚歷史新聞台：淺野洋灰罷工事件",
+      "listing_page": 14,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0494",
+      "url": "https://thousanddeats.itch.io/infancia",
+      "title_at_listing": "Infancia",
+      "listing_page": 14,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0495",
+      "url": "https://pengilu.itch.io/down-out",
+      "title_at_listing": "Down & Out",
+      "listing_page": 14,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0496",
+      "url": "https://amorima.itch.io/the-green-room",
+      "title_at_listing": "The Green Room Prototype — First Arc: Nico & Evan",
+      "listing_page": 14,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0497",
+      "url": "https://julietintheuniverse.itch.io/extra-ordinary",
+      "title_at_listing": "Extra Ordinary (2026)",
+      "listing_page": 14,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0498",
+      "url": "https://dirty-boot-productions.itch.io/the-mossport-story",
+      "title_at_listing": "The Mossport Story",
+      "listing_page": 14,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0499",
+      "url": "https://8lionhead.itch.io/a-pixel-of-sorry",
+      "title_at_listing": "A Pixel of Sorry",
+      "listing_page": 14,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0500",
+      "url": "https://angrypitaya.itch.io/bluescreencrisis",
+      "title_at_listing": "BlueScreenCrisis",
+      "listing_page": 14,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0501",
+      "url": "https://kevinfp.itch.io/le-terrier",
+      "title_at_listing": "Le terrier",
+      "listing_page": 14,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0502",
+      "url": "https://suhaimizs.itch.io/diversity-story",
+      "title_at_listing": "Diversity Story",
+      "listing_page": 14,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0503",
+      "url": "https://anaisa.itch.io/amigos-nao-comida",
+      "title_at_listing": "Amigos, nao comida",
+      "listing_page": 14,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0504",
+      "url": "https://inspirateline.itch.io/texte-dor",
+      "title_at_listing": "Texte d'Or",
+      "listing_page": 14,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0505",
+      "url": "https://fallout2712.itch.io/how-old-are-you-on-other-planets",
+      "title_at_listing": "How old are you on other planets?",
+      "listing_page": 15,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0506",
+      "url": "https://sepehrvafshar.itch.io/the-sericum-via-ii",
+      "title_at_listing": "The Sericum Via II",
+      "listing_page": 15,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0507",
+      "url": "https://erikah1arg.itch.io/the-incredible-story-of-luis-fatio-pacheco",
+      "title_at_listing": "The incredible story of Luis Fatio Pacheco",
+      "listing_page": 15,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0508",
+      "url": "https://ia4se.itch.io/mission-sustainability-festival",
+      "title_at_listing": "Mission Sustainability Festival",
+      "listing_page": 15,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0509",
+      "url": "https://valenpab94.itch.io/fair-fight",
+      "title_at_listing": "Fair Fight",
+      "listing_page": 15,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0510",
+      "url": "https://navgner.itch.io/timesword",
+      "title_at_listing": "Time Sword?",
+      "listing_page": 15,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0511",
+      "url": "https://studio-zuhno.itch.io/haiku-heroes-mystery-of-the-time-traveling-poet",
+      "title_at_listing": "Haiku Heroes: Mystery of the Time-Traveling Poet",
+      "listing_page": 15,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0512",
+      "url": "https://fragmentsofus.itch.io/fragments-of-us-tech-demo",
+      "title_at_listing": "Fragments of Us - Tech Demo",
+      "listing_page": 15,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0513",
+      "url": "https://eskapistin.itch.io/ovop-6",
+      "title_at_listing": "Our voices, our planet - chapter 6",
+      "listing_page": 15,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0514",
+      "url": "https://yeehowth.itch.io/the-wacky-museum-of-gaming-history",
+      "title_at_listing": "Gaming's Wacky History Museum",
+      "listing_page": 15,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0515",
+      "url": "https://onerioz.itch.io/number-memory",
+      "title_at_listing": "Number Memory",
+      "listing_page": 15,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0516",
+      "url": "https://aleovera.itch.io/robertfrost",
+      "title_at_listing": "Finding Robert Frost",
+      "listing_page": 15,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0517",
+      "url": "https://piqua3.itch.io/cryostage",
+      "title_at_listing": "Cryostage",
+      "listing_page": 15,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0518",
+      "url": "https://tolom.itch.io/taller-triangulo-dramatico",
+      "title_at_listing": "Taller Interactivo del Triángulo Dramático (Demo)",
+      "listing_page": 15,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0519",
+      "url": "https://markcarew.itch.io/romeo-and-juliet",
+      "title_at_listing": "Romeo and Juliet",
+      "listing_page": 15,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0520",
+      "url": "https://daud199.itch.io/entangled",
+      "title_at_listing": "Entangled",
+      "listing_page": 15,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0521",
+      "url": "https://charcuterieshaf.itch.io/deanchronicles",
+      "title_at_listing": "Dean Chronicles: Welcome to High School!",
+      "listing_page": 15,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0522",
+      "url": "https://schweizerhaus-puechau.itch.io/brlltok",
+      "title_at_listing": "BrüllToK",
+      "listing_page": 15,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0523",
+      "url": "https://amymcwhirter.itch.io/make-breakfast-with-jack",
+      "title_at_listing": "Make Breakfast with Jack",
+      "listing_page": 15,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0524",
+      "url": "https://dlv-vision.itch.io/wunderkammer",
+      "title_at_listing": "Wunderkammer",
+      "listing_page": 15,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0525",
+      "url": "https://tellusastory.itch.io/tell-us-a-story-sample",
+      "title_at_listing": "tell us a story? (preview)",
+      "listing_page": 15,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0526",
+      "url": "https://mrswobbles.itch.io/land-down-under",
+      "title_at_listing": "Land Down Under: a find your way story from Mrs. Wobbles & The Tangerine House",
+      "listing_page": 15,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0527",
+      "url": "https://ligenigena.itch.io/quiz-for-nerds",
+      "title_at_listing": "Quiz for nerds",
+      "listing_page": 15,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0528",
+      "url": "https://ada-lunde.itch.io/difficult-womens-library",
+      "title_at_listing": "Difficult women's library",
+      "listing_page": 15,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0529",
+      "url": "https://jhal1992.itch.io/a-day-with-vygotskys-teacings",
+      "title_at_listing": "A Day with Vygotsky's Teacings",
+      "listing_page": 15,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0530",
+      "url": "https://lemon-126.itch.io/bin-it-up-barry",
+      "title_at_listing": "Bin it up, Barry",
+      "listing_page": 15,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0531",
+      "url": "https://jamie-burren.itch.io/csse-video-games-class",
+      "title_at_listing": "CSSE Video Games Class",
+      "listing_page": 15,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0532",
+      "url": "https://fire-frog-ff-studio.itch.io/odkryj-mogilno",
+      "title_at_listing": "Odkryj Mogilno",
+      "listing_page": 15,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0533",
+      "url": "https://setqinpu.itch.io/guqin-spirit",
+      "title_at_listing": "古琴·琴灵之路 (Guqin Spirit)",
+      "listing_page": 15,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0534",
+      "url": "https://johnimmanuelx.itch.io/firmware",
+      "title_at_listing": "FIRMWARE",
+      "listing_page": 15,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0535",
+      "url": "https://marcia-lusina.itch.io/el-bosque-de-las-figuras-literarias",
+      "title_at_listing": "El Bosque de las Figuras Literarias",
+      "listing_page": 15,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0536",
+      "url": "https://chefwist.itch.io/number-counter",
+      "title_at_listing": "Number Counter",
+      "listing_page": 15,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0537",
+      "url": "https://patricklopes.itch.io/el-viaje-del-astronauta",
+      "title_at_listing": "El viaje del astronauta.",
+      "listing_page": 15,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0538",
+      "url": "https://indcntgames.itch.io/the-eugenics-conspiracy",
+      "title_at_listing": "The Eugenics Conspiracy",
+      "listing_page": 15,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0539",
+      "url": "https://savannmann.itch.io/outalive",
+      "title_at_listing": "Out Alive",
+      "listing_page": 15,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0540",
+      "url": "https://sorenworks.itch.io/magic-eggs",
+      "title_at_listing": "magic eggs",
+      "listing_page": 15,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0541",
+      "url": "https://vsebasti.itch.io/le-projet-sirame",
+      "title_at_listing": "Le projet SIRAME",
+      "listing_page": 16,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0542",
+      "url": "https://irisbianca.itch.io/bemu",
+      "title_at_listing": "BeMu",
+      "listing_page": 16,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0543",
+      "url": "https://madfroggy.itch.io/pathogen-obliteration",
+      "title_at_listing": "Pathogen Obliteration",
+      "listing_page": 16,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0544",
+      "url": "https://eskapistin.itch.io/ovop-3",
+      "title_at_listing": "Our voices, our planet - chapter 3",
+      "listing_page": 16,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0545",
+      "url": "https://macccollegegames.itch.io/creative-media-level-3-year-1-2026-interactive-fiction-games",
+      "title_at_listing": "Creative Media Level 3 Year 1 2026 - Interactive Fiction Games",
+      "listing_page": 16,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0546",
+      "url": "https://cartersande.itch.io/ura-winner",
+      "title_at_listing": "URA Winner!",
+      "listing_page": 16,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0547",
+      "url": "https://ycgao12.itch.io/waterloo-variations-the-lion-s-choice",
+      "title_at_listing": "Waterloo_Variations__The_Lion_s_Choice",
+      "listing_page": 16,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0548",
+      "url": "https://irwinart.itch.io/part-3-the-case-of-the-lost-map",
+      "title_at_listing": "Part 3: The Case of the Lost Map",
+      "listing_page": 16,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0549",
+      "url": "https://ginameusel.itch.io/lobo-lupus",
+      "title_at_listing": "Lobo Lupus",
+      "listing_page": 16,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0550",
+      "url": "https://nuurkaiyisah.itch.io/firesafe-game",
+      "title_at_listing": "FireSafe Game",
+      "listing_page": 16,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0551",
+      "url": "https://ia4se.itch.io/sustainability-festival-aye",
+      "title_at_listing": "Sustainability Festival - Ayşe",
+      "listing_page": 16,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0552",
+      "url": "https://jhal1992.itch.io/etec-511-ip8",
+      "title_at_listing": "ETEC 511: IP8",
+      "listing_page": 16,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0553",
+      "url": "https://eskapistin.itch.io/ovop-4",
+      "title_at_listing": "Our voices, our planet - chapter 4",
+      "listing_page": 16,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0554",
+      "url": "https://paresh1011.itch.io/perspective-switch",
+      "title_at_listing": "Perspective Switch",
+      "listing_page": 16,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0555",
+      "url": "https://domitilla.itch.io/che-strano",
+      "title_at_listing": "Che strano",
+      "listing_page": 16,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0556",
+      "url": "https://eskapistin.itch.io/ovop-5",
+      "title_at_listing": "Our voices, our planet - chapter 5",
+      "listing_page": 16,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0557",
+      "url": "https://wuhoutoken.itch.io/invisible-ladder",
+      "title_at_listing": "the Invisible ladder (无形之梯)",
+      "listing_page": 16,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0558",
+      "url": "https://andresalles.itch.io/english-vocabulary-game",
+      "title_at_listing": "English Vocabulary Game",
+      "listing_page": 16,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0559",
+      "url": "https://david-santiago-forero-b.itch.io/empathy-through-play-mini-interactive-story",
+      "title_at_listing": "Empathy Through Play – Mini Interactive Story",
+      "listing_page": 16,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0560",
+      "url": "https://mariedipalma.itch.io/meurtre-et-molcules",
+      "title_at_listing": "Meurtre et Molécules",
+      "listing_page": 16,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0561",
+      "url": "https://gretaaaaaaaazz.itch.io/tiszta-levegt-a-vrosnak",
+      "title_at_listing": "Tiszta levegőt a városnak!",
+      "listing_page": 16,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0562",
+      "url": "https://lumosboii.itch.io/begreen-market",
+      "title_at_listing": "BeGreen Market",
+      "listing_page": 16,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0563",
+      "url": "https://senzeberry.itch.io/taking-action-in-chekhovs-four-major-plays",
+      "title_at_listing": "Taking action in Chekhov's Four Major Plays",
+      "listing_page": 16,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0564",
+      "url": "https://august1726.itch.io/lab-safety-in-spaceeeee",
+      "title_at_listing": "Lab Safety.... in SPACEEEEE",
+      "listing_page": 16,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0565",
+      "url": "https://axe-games.itch.io/history-of-the-console-industry",
+      "title_at_listing": "History of the Console Industry",
+      "listing_page": 16,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0566",
+      "url": "https://serena3661.itch.io/neuron-universe-the-memory-theft",
+      "title_at_listing": "Neuron Universe: The Memory Theft",
+      "listing_page": 16,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0567",
+      "url": "https://kates-playthings.itch.io/ied-games",
+      "title_at_listing": "How video games can help with anger management",
+      "listing_page": 16,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0568",
+      "url": "https://corvuscorae.itch.io/a-game-about-games",
+      "title_at_listing": "a game about games",
+      "listing_page": 16,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0569",
+      "url": "https://capitaineaventure.itch.io/capitaine-aventure",
+      "title_at_listing": "Capitaine Aventure",
+      "listing_page": 16,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0570",
+      "url": "https://larissa-nena.itch.io/mficos-mgicos",
+      "title_at_listing": "Máficos - Mágicos",
+      "listing_page": 16,
+      "listing_position": 30
+    },
+    {
+      "id": "itchio-0571",
+      "url": "https://group1his395.itch.io/justice-in-history",
+      "title_at_listing": "Justice in History",
+      "listing_page": 16,
+      "listing_position": 31
+    },
+    {
+      "id": "itchio-0572",
+      "url": "https://shuyu-ge.itch.io/harmony-of-the-glazed-caravan",
+      "title_at_listing": "​Harmony of the Glazed Caravan",
+      "listing_page": 16,
+      "listing_position": 32
+    },
+    {
+      "id": "itchio-0573",
+      "url": "https://ryanroche94.itch.io/the-trials",
+      "title_at_listing": "The Trials",
+      "listing_page": 16,
+      "listing_position": 33
+    },
+    {
+      "id": "itchio-0574",
+      "url": "https://data-runner.itch.io/the-casino-auditor",
+      "title_at_listing": "The Casino Auditor",
+      "listing_page": 16,
+      "listing_position": 34
+    },
+    {
+      "id": "itchio-0575",
+      "url": "https://itsmasteryoshi.itch.io/through-blind-eyes",
+      "title_at_listing": "Through Blind Eyes",
+      "listing_page": 16,
+      "listing_position": 35
+    },
+    {
+      "id": "itchio-0576",
+      "url": "https://serena3661.itch.io/gravitational-waves-listening-to-the-universe",
+      "title_at_listing": "🌌 Gravitational Waves: Listening to the Universe",
+      "listing_page": 16,
+      "listing_position": 36
+    },
+    {
+      "id": "itchio-0577",
+      "url": "https://alexbalcanu.itch.io/synapse-1000",
+      "title_at_listing": "Synapse 1000",
+      "listing_page": 17,
+      "listing_position": 1
+    },
+    {
+      "id": "itchio-0578",
+      "url": "https://piratepenguin71.itch.io/rolling-on-time",
+      "title_at_listing": "Rolling on Time",
+      "listing_page": 17,
+      "listing_position": 2
+    },
+    {
+      "id": "itchio-0579",
+      "url": "https://mehmetigaugsburgedu.itch.io/part-2-gaming-history-in-twine",
+      "title_at_listing": "Part 2 – Gaming History in Twine",
+      "listing_page": 17,
+      "listing_position": 3
+    },
+    {
+      "id": "itchio-0580",
+      "url": "https://8lionhead.itch.io/a-pixel-of-sorry-chinese-version",
+      "title_at_listing": "一个像素的歉意",
+      "listing_page": 17,
+      "listing_position": 4
+    },
+    {
+      "id": "itchio-0581",
+      "url": "https://pbnate.itch.io/night-at-the-gaming-history-museum",
+      "title_at_listing": "Night at the Gaming History Museum",
+      "listing_page": 17,
+      "listing_position": 5
+    },
+    {
+      "id": "itchio-0582",
+      "url": "https://outofloop.itch.io/outoftheloop",
+      "title_at_listing": "Out of the Loop Quiz",
+      "listing_page": 17,
+      "listing_position": 6
+    },
+    {
+      "id": "itchio-0583",
+      "url": "https://shannonelleryhubbell.itch.io/egg-thief",
+      "title_at_listing": "Egg Thief!",
+      "listing_page": 17,
+      "listing_position": 7
+    },
+    {
+      "id": "itchio-0584",
+      "url": "https://wonshockyou.itch.io/sebelum-pelayaran",
+      "title_at_listing": "La Galigo - Sebelum Pelayaran [BETA]",
+      "listing_page": 17,
+      "listing_position": 8
+    },
+    {
+      "id": "itchio-0585",
+      "url": "https://surveys.itch.io/survey-side-hustle-quest-unlock-aussie-earnings",
+      "title_at_listing": "Survey Side Hustle Quest: Unlock Aussie Earnings",
+      "listing_page": 17,
+      "listing_position": 9
+    },
+    {
+      "id": "itchio-0586",
+      "url": "https://survivegame.itch.io/survive",
+      "title_at_listing": "Survive",
+      "listing_page": 17,
+      "listing_position": 10
+    },
+    {
+      "id": "itchio-0587",
+      "url": "https://modeaxe.itch.io/lusakamuseum",
+      "title_at_listing": "LUSAKA MUSEUM AR TOUR",
+      "listing_page": 17,
+      "listing_position": 11
+    },
+    {
+      "id": "itchio-0588",
+      "url": "https://jediscoy.itch.io/origins-unity",
+      "title_at_listing": "ORIGINS | Unity",
+      "listing_page": 17,
+      "listing_position": 12
+    },
+    {
+      "id": "itchio-0589",
+      "url": "https://alvpter.itch.io/un-lugar-ms-fro-que-el-hielo",
+      "title_at_listing": "Un Lugar Más Frío que el Hielo",
+      "listing_page": 17,
+      "listing_position": 13
+    },
+    {
+      "id": "itchio-0590",
+      "url": "https://onygox.itch.io/change-the-vote",
+      "title_at_listing": "Change The Vote",
+      "listing_page": 17,
+      "listing_position": 14
+    },
+    {
+      "id": "itchio-0591",
+      "url": "https://iyergin.itch.io/hololang",
+      "title_at_listing": "HoloLang",
+      "listing_page": 17,
+      "listing_position": 15
+    },
+    {
+      "id": "itchio-0592",
+      "url": "https://isfandyar.itch.io/the-job-interview",
+      "title_at_listing": "The Job Interview",
+      "listing_page": 17,
+      "listing_position": 16
+    },
+    {
+      "id": "itchio-0593",
+      "url": "https://m-scriblerus.itch.io/you-lit",
+      "title_at_listing": "You Lit!",
+      "listing_page": 17,
+      "listing_position": 17
+    },
+    {
+      "id": "itchio-0594",
+      "url": "https://dc7210.itch.io/choices",
+      "title_at_listing": "Abuse Prevention Play Experience",
+      "listing_page": 17,
+      "listing_position": 18
+    },
+    {
+      "id": "itchio-0595",
+      "url": "https://healthimpactstudio.itch.io/clinical-encounters-tommy",
+      "title_at_listing": "Clinical Encounters: Tommy",
+      "listing_page": 17,
+      "listing_position": 19
+    },
+    {
+      "id": "itchio-0596",
+      "url": "https://healthimpactstudio.itch.io/clinical-encounters-marcus",
+      "title_at_listing": "Clinical Encounters: Marcus",
+      "listing_page": 17,
+      "listing_position": 20
+    },
+    {
+      "id": "itchio-0597",
+      "url": "https://hazelrose3637.itch.io/lesson",
+      "title_at_listing": "Lesson",
+      "listing_page": 17,
+      "listing_position": 21
+    },
+    {
+      "id": "itchio-0598",
+      "url": "https://dezfjh.itch.io/adlercollectionsgame",
+      "title_at_listing": "Adler Planetarium Collections Game (Beta)",
+      "listing_page": 17,
+      "listing_position": 22
+    },
+    {
+      "id": "itchio-0599",
+      "url": "https://nimagin-interactive.itch.io/max-bats",
+      "title_at_listing": "Max Bats",
+      "listing_page": 17,
+      "listing_position": 23
+    },
+    {
+      "id": "itchio-0600",
+      "url": "https://jigmedatse.itch.io/when-you-get-lost-come-back",
+      "title_at_listing": "When you get lost, come back",
+      "listing_page": 17,
+      "listing_position": 24
+    },
+    {
+      "id": "itchio-0601",
+      "url": "https://communistsister.itch.io/variety-megajam-2018",
+      "title_at_listing": "Variety Megajam 2018",
+      "listing_page": 17,
+      "listing_position": 25
+    },
+    {
+      "id": "itchio-0602",
+      "url": "https://densetsunogomez.itch.io/the-hostile-architecture",
+      "title_at_listing": "The Hostile Architecture",
+      "listing_page": 17,
+      "listing_position": 26
+    },
+    {
+      "id": "itchio-0603",
+      "url": "https://librivore42.itch.io/my-first-foraging-kit",
+      "title_at_listing": "My First Foraging Kit",
+      "listing_page": 17,
+      "listing_position": 27
+    },
+    {
+      "id": "itchio-0604",
+      "url": "https://ventedpennies.itch.io/a-simple-english-sentence",
+      "title_at_listing": "A simple English sentence, playable narrative",
+      "listing_page": 17,
+      "listing_position": 28
+    },
+    {
+      "id": "itchio-0605",
+      "url": "https://nogungbu73072.itch.io/what-would-you-do-as-a-nigerian-tribal-chief",
+      "title_at_listing": "What Would You Do As a Nigerian Tribal Chief",
+      "listing_page": 17,
+      "listing_position": 29
+    },
+    {
+      "id": "itchio-0606",
+      "url": "https://visualwordplay.itch.io/kaitlyn-in-chinaland",
+      "title_at_listing": "Kaitlyn in Chinaland",
+      "listing_page": 17,
+      "listing_position": 30
+    }
+  ]
+}
