@@ -1,0 +1,20 @@
+# Counterfactual Design Partner guidance
+
+This file applies only to `agent/counterfactual-design-partner/`.
+
+- This directory preserves the inactive, long-term Track B research boundary.
+  Do not add runtime code, prompts, Harness behavior, provider integration,
+  interface code, or component-local test scaffolding without explicit user
+  authorization to begin Track B development.
+- Do not add corpus screening, macro educational-design retrieval, or Track A
+  knowledge construction here.
+- Preserve the explicit case invariants, mutable assumptions, and structured
+  consequence-projection contract.
+- Treat the schemas as preserved contracts. Change their semantics only after
+  an explicit Track B research or development decision; repository-level
+  compatibility checks may continue to validate them read-only.
+- Do not import internal files from `agent/educational-design-helper/`. A
+  future author-reviewed design brief is the only planned bridge and is not yet
+  a frozen schema.
+- Keep this design-time Partner separate from the Fox-and-Crow runtime Story
+  Agent.

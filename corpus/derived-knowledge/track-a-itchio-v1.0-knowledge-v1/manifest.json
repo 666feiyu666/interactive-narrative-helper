@@ -1,0 +1,38 @@
+{
+  "schema_version": "knowledge-snapshot/v1",
+  "snapshot_id": "track-a-itchio-v1.0-knowledge-v1",
+  "created_at": "2026-08-28T11:22:35Z",
+  "source": {
+    "workbook_version": "1.0",
+    "source_derivation_id": "itchio-page-cleaning-full-001",
+    "workbook_sha256_before": "18f75343feb8f280dcaef3a883f9c8645564368b59ee7191f182e1e2c5496e46",
+    "workbook_sha256_after": "39c639a177842bec69209efd33fc38f6bd9b7a93ae6635f8263630fe58fa00b9"
+  },
+  "coding_rules_version": "itchio-track-a-coding-rules/v1.0",
+  "review": {
+    "method": "deterministic_second_pass_rule_audit",
+    "human_double_coding_complete": false
+  },
+  "counts": {
+    "source_records": 606,
+    "included": 2,
+    "excluded": 542,
+    "uncertain": 62,
+    "knowledge_cards": 2,
+    "tier_a": 0,
+    "tier_b": 2
+  },
+  "files": {
+    "knowledge_cards": "knowledge-cards.ndjson",
+    "knowledge_cards_sha256": "674cc8470f38ccc7344de578a0ffe8c0af446dcfc912e8483b17c3071564dc4c",
+    "screening_decisions_sha256": "86a234b1a60a3689e6efc5a3abb0a3f1656f5613cf64d6ed7961d547237940c3",
+    "coding_annotations_sha256": "82d4731916a22a57bdd08df2ccf86c3543dafd0fb7cffede9d1d7af9a08d97ae"
+  },
+  "limitations": [
+    "The snapshot covers public itch.io creator descriptions, not the broader educational Interactive Fiction population.",
+    "The strict rules omit implicit or differently worded evidence and may contain local language-detection error.",
+    "Deterministic review is complete, but independent human double-coding is not.",
+    "Creator-described educational purpose is not evidence of learning effectiveness."
+  ],
+  "model_facing": true
+}

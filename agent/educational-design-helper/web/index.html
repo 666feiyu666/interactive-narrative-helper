@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A local, evidence-aware helper for exploring educational interactive narrative directions."
+    />
+    <title>Interactive Narrative Helper</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="Interactive Narrative Helper home">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span>
+            <strong>Interactive Narrative Helper</strong>
+            <small>Track A · Educational design explorer</small>
+          </span>
+        </a>
+        <div class="runtime-status" id="runtime-status" role="status">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Connecting to local runtime…</span>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="context-rail" aria-labelledby="knowledge-lens-title">
+          <div class="rail-heading">
+            <div class="eyebrow">Knowledge lens</div>
+            <h1 id="knowledge-lens-title">Creator-grounded precedents, kept in view.</h1>
+            <p class="rail-intro">
+              Your question is compared with a frozen set of model-facing Knowledge Cards. The
+              model then proposes directions while exposing assumptions and evidence distance.
+            </p>
+          </div>
+
+          <dl class="runtime-facts" id="runtime-facts">
+            <div><dt>Snapshot</dt><dd>Loading…</dd></div>
+            <div><dt>Knowledge Cards</dt><dd>—</dd></div>
+            <div><dt>Generation</dt><dd>—</dd></div>
+            <div><dt>Retrieval</dt><dd>—</dd></div>
+          </dl>
+
+          <div class="boundary-note">
+            <span aria-hidden="true">i</span>
+            <p>
+              Creator descriptions show intended educational purpose. They do not demonstrate
+              learning effectiveness. Independent human double-coding is not yet complete.
+            </p>
+          </div>
+        </aside>
+
+        <section class="conversation" aria-label="Design conversation">
+          <div class="conversation-scroll" id="conversation-scroll">
+            <div class="conversation-inner" id="conversation-log" aria-live="polite">
+              <section class="launch-notice" id="launch-notice" hidden>
+                <div class="launch-notice-index" aria-hidden="true">!</div>
+                <div>
+                  <div class="eyebrow">Preview file detected</div>
+                  <h2>Open the running local app, not this HTML file.</h2>
+                  <p>
+                    This file can show the visual shell, but prompt submission requires the local
+                    runtime. Start it from <code>agent/educational-design-helper</code> with
+                    <code>npm start</code>, then use the local address below.
+                  </p>
+                  <a class="launch-link" href="http://127.0.0.1:3000/">
+                    Open http://127.0.0.1:3000
+                    <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </section>
+
+              <section class="welcome" id="welcome">
+                <div class="welcome-index" aria-hidden="true">01</div>
+                <div>
+                  <div class="eyebrow">Start with a design question</div>
+                  <h2>Explore several directions before committing to one narrative form.</h2>
+                  <p>
+                    Ask in English. The first version is single-turn: every submission creates a
+                    new, traceable run over the same approved snapshot.
+                  </p>
+                  <button class="example-button" id="example-button" type="button">
+                    <span>Use the course example</span>
+                    <span aria-hidden="true">↗</span>
+                  </button>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div class="composer-wrap">
+            <form class="composer" id="prompt-form">
+              <label for="prompt-input">Ask about an educational interactive narrative</label>
+              <textarea
+                id="prompt-input"
+                name="message"
+                rows="3"
+                maxlength="4000"
+                placeholder="I want to design an interactive fiction that…"
+                required
+              ></textarea>
+              <div class="composer-footer">
+                <span>Ctrl / ⌘ + Enter to send</span>
+                <button class="send-button" id="send-button" type="submit">
+                  <span>Explore directions</span>
+                  <span class="send-arrow" aria-hidden="true">→</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <dialog class="knowledge-dialog" id="knowledge-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-header">
+        <div>
+          <div class="eyebrow">Retrieved precedent</div>
+          <h2 id="dialog-title">Knowledge Card</h2>
+        </div>
+        <button class="dialog-close" id="dialog-close" type="button" aria-label="Close">×</button>
+      </div>
+      <div class="dialog-content" id="dialog-content"></div>
+    </dialog>
+
+    <script defer src="./export-format.js"></script>
+    <script defer src="./app.js"></script>
+  </body>
+</html>

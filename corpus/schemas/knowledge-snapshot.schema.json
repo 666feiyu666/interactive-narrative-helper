@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/666feiyu666/interactive-narrative-helper/corpus/schemas/knowledge-snapshot.schema.json",
+  "title": "Track A Knowledge Snapshot Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "snapshot_id",
+    "created_at",
+    "source",
+    "coding_rules_version",
+    "review",
+    "counts",
+    "files",
+    "limitations",
+    "model_facing"
+  ],
+  "properties": {
+    "schema_version": { "const": "knowledge-snapshot/v1" },
+    "snapshot_id": { "type": "string", "pattern": "^[a-z][a-z0-9._-]*$" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "source": {
+      "type": "object",
+      "required": ["workbook_version", "source_derivation_id", "workbook_sha256_before", "workbook_sha256_after"],
+      "properties": {
+        "workbook_version": { "const": "1.0" },
+        "source_derivation_id": { "const": "itchio-page-cleaning-full-001" },
+        "workbook_sha256_before": { "$ref": "#/$defs/sha256" },
+        "workbook_sha256_after": { "$ref": "#/$defs/sha256" }
+      },
+      "additionalProperties": false
+    },
+    "coding_rules_version": {
+      "enum": [
+        "itchio-track-a-coding-rules/v1.0",
+        "itchio-track-a-coding-rules/v1.1"
+      ]
+    },
+    "inclusion_policy": {
+      "enum": ["strict-complete-core/v1", "scoped-substantive-or/v1"]
+    },
+    "annotation_release_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9._-]*$"
+    },
+    "review": {
+      "type": "object",
+      "required": ["method", "human_double_coding_complete"],
+      "properties": {
+        "method": { "const": "deterministic_second_pass_rule_audit" },
+        "human_double_coding_complete": { "const": false }
+      },
+      "additionalProperties": false
+    },
+    "counts": {
+      "type": "object",
+      "required": ["source_records", "included", "excluded", "uncertain", "knowledge_cards", "tier_a", "tier_b"],
+      "properties": {
+        "source_records": { "const": 606 },
+        "included": { "type": "integer", "minimum": 0 },
+        "excluded": { "type": "integer", "minimum": 0 },
+        "uncertain": { "type": "integer", "minimum": 0 },
+        "knowledge_cards": { "type": "integer", "minimum": 0 },
+        "tier_a": { "type": "integer", "minimum": 0 },
+        "tier_b": { "type": "integer", "minimum": 0 },
+        "tier_c": { "type": "integer", "minimum": 0 },
+        "complete_core": { "type": "integer", "minimum": 0 },
+        "partial_substantive": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "files": {
+      "type": "object",
+      "required": ["knowledge_cards", "knowledge_cards_sha256", "screening_decisions_sha256", "coding_annotations_sha256"],
+      "properties": {
+        "knowledge_cards": { "const": "knowledge-cards.ndjson" },
+        "knowledge_cards_sha256": { "$ref": "#/$defs/sha256" },
+        "screening_decisions_sha256": { "$ref": "#/$defs/sha256" },
+        "coding_annotations_sha256": { "$ref": "#/$defs/sha256" }
+      },
+      "additionalProperties": false
+    },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "model_facing": { "const": true }
+  },
+  "$defs": {
+    "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+  },
+  "additionalProperties": false
+}

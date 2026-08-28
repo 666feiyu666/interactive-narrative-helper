@@ -1,34 +1,42 @@
-# Story-Level Counterfactual Narrative Design Partner
+# Design-time agents
 
-This directory owns Track B of the umbrella Interactive Narrative Helper: the
-author-facing, design-time Counterfactual Narrative Design Partner. It is
-currently at the contract stage; no executable Agent is claimed to exist yet.
+`agent/` contains one active development component and one preserved long-term
+research boundary under the Interactive Narrative Helper umbrella. The
+directory itself does not own component schemas, prompts, runtime code, or
+tests.
 
-Track A's future macro Educational Interactive Narrative Design Helper is
-grounded in `corpus/` annotations and derived knowledge. Its contract must not
-be inferred from or added to this directory before the mining results justify
-one.
+## Educational Interactive Narrative Design Helper
 
-## Boundary
+[`educational-design-helper/`](educational-design-helper/) owns Track A's
+macro-level design assistant. It consumes reviewed, model-facing knowledge
+derived from the educational Interactive Fiction corpus and helps educators or
+narrative designers compare traceable design directions.
 
-The Agent accepts a bounded story case and proposes inspectable
-action–consequence hypotheses. It does not write an entire finished story,
-operate the playable testbed, or decide the correct theme or educational
-purpose.
+It does not read restricted source pages, claim that creator-described intent
+is learning-effect evidence, or generate a complete interactive story.
 
-When available, it may consume an educator- or author-reviewed design brief
-that carries a selected macro educational direction into a concrete story
-task. Raw corpus pages are not direct Agent input.
+## Counterfactual Narrative Design Partner (preserved boundary only)
 
-## Structure
+[`counterfactual-design-partner/`](counterfactual-design-partner/) owns Track
+B's story-level partner. It accepts a bounded story case and proposes
+inspectable alternative actions and consequence projections.
 
-- `schemas/` defines stable case input and proposal output contracts.
-- `prompts/` will hold versioned prompting conditions used by experiments.
-- `src/` will hold reusable implementation after the first vertical slice is
-specified.
-- `tests/` will verify contracts and executable behavior; research evaluation
-  remains under `experiments/`.
+Track B is not part of the current development scope. Its directory contains
+only boundary documentation and existing schemas; implementation scaffolding
+has deliberately been removed. Do not implement a runtime, prompts, Harness,
+interface, or evaluation here without a new explicit user decision.
 
-The first implementation should validate one case, produce multiple structured
-alternatives, save the exact prompt/model configuration, and validate the output
-before any user-interface work begins.
+It does not perform corpus mining, select a macro educational direction, or
+operate the runtime Story Agent in the Fox-and-Crow testbed.
+
+## Bridge and ownership rule
+
+The active Track A component and preserved Track B boundary may eventually be
+connected through a future, author-reviewed design brief. That bridge is not
+yet a frozen machine-readable contract. Until it is, Track A must not import
+Track B schemas or treat a future Track B output as automatically approved
+input.
+
+Every component-specific file belongs below the component that owns it. Shared
+code may be introduced only after both components need the same stable
+behavior; speculative shared abstractions do not belong at the `agent/` root.

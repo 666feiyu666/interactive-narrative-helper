@@ -48,3 +48,39 @@ node tools/itchio/clean-page-bundles.mjs clean `
 The stable contract is documented in
 `corpus/protocols/itchio-offline-page-cleaning-v1.0.md`. Its derived records and
 cleaned descriptions remain under the Git-ignored restricted-source tree.
+
+The Agent contract validation checks the active Track A component, the static
+Track B boundary, Track A schemas, model-facing knowledge exclusions, and
+compatibility of the preserved Track B case contract:
+
+```powershell
+pwsh -File tools/agent/validate.ps1
+```
+
+Track A screening and knowledge construction starts from the canonical
+workbook. The strict v1.0 builder remains reproducible for its preserved
+two-card release. The current v1.1 builder implements the confirmed scoped
+substantive-OR policy and writes only to the existing `coding` rows.
+
+Profile the workbook without writing it with:
+
+```powershell
+node tools/knowledge/profile-track-a-workbook.mjs `
+  outputs/itchio-sheet/itchio-educational-if-candidates-v1.0.xlsx
+```
+
+The v1.1 write command requires an explicit confirmation flag, refuses a
+different workbook path or a non-v1.0 machine-coded baseline, preserves a
+pre-write backup, and validates the workbook and generated schemas before
+promotion:
+
+```powershell
+node tools/knowledge/build-track-a-knowledge-v1.1.mjs apply `
+  --confirm-workbook-write
+```
+
+Validate the local coding rules and tool syntax with:
+
+```powershell
+pwsh -File tools/knowledge/validate.ps1
+```

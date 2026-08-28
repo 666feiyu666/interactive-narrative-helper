@@ -19,9 +19,11 @@ connected design-time directions:
    actions and consequences in a concrete story.
 
 The tracks may connect through a human-reviewed Educational Interactive
-Narrative Design Brief. The program relationship is confirmed; the detailed
-brief schema, knowledge representation, retrieval architecture, and Helper
-implementation remain deferred.
+Narrative Design Brief. The program relationship is confirmed. The later
+decision in
+[`2026-08-28-initial-helper-development.md`](2026-08-28-initial-helper-development.md)
+starts maintained Track A implementation while keeping the brief schema
+deferred.
 
 ## Context
 
@@ -62,8 +64,9 @@ workflow and an explicit human decision boundary.
 - The current mining study is Track A evidence work, not an implemented Helper.
 - The source universe is broader than the current itch.io creator-page
   acquisition; later platform or source layers require explicit protocols.
-- The existing `agent/` schemas remain owned by Track B and are not repurposed
-  for macro knowledge extraction.
+- The existing counterfactual schemas remain owned by Track B and are not
+  repurposed for macro knowledge extraction. They now live under
+  `agent/counterfactual-design-partner/`.
 - Derived knowledge should represent traceable creator-described precedents and
   relationships suitable for comparison and retrieval.
 - A macro recommendation becomes a Track B constraint only after educator or

@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/666feiyu666/interactive-narrative-helper/corpus/schemas/coding-annotation.schema.json",
+  "title": "Educational Interactive Narrative Coding Annotation",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "annotation_id",
+    "project_id",
+    "coding_rules_version",
+    "coder_id",
+    "reviewer_id",
+    "review_status",
+    "coded_at",
+    "reviewed_at",
+    "evidence",
+    "educational_purpose",
+    "intended_audience",
+    "application_setting",
+    "interactive_narrative_form",
+    "if_mechanics",
+    "interaction_education_relationship",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": { "const": "coding-annotation/v1" },
+    "annotation_id": { "type": "string", "pattern": "^[a-z][a-z0-9_-]*$" },
+    "project_id": { "type": "string", "pattern": "^[a-z][a-z0-9_-]*$" },
+    "coding_rules_version": { "type": "string", "minLength": 1 },
+    "coder_id": { "type": "string", "minLength": 1 },
+    "reviewer_id": { "type": "string", "minLength": 1 },
+    "review_status": { "const": "reviewed" },
+    "coverage_profile": {
+      "enum": ["complete_core", "partial_substantive"]
+    },
+    "coded_at": { "type": "string", "format": "date-time" },
+    "reviewed_at": { "type": "string", "format": "date-time" },
+    "evidence": {
+      "type": "object",
+      "required": ["workbook_reference", "source_url", "source_fields", "minimal_excerpt", "source_word_count"],
+      "properties": {
+        "workbook_reference": { "type": "string", "pattern": "^cases!E[0-9]+$" },
+        "source_url": { "type": "string", "format": "uri" },
+        "source_fields": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "enum": ["description_clean", "genres_raw", "tags_raw", "languages_raw", "quality_status"] }
+        },
+        "minimal_excerpt": { "type": "string", "minLength": 1 },
+        "source_word_count": { "type": "integer", "minimum": 1, "maximum": 24 }
+      },
+      "additionalProperties": false
+    },
+    "educational_purpose": { "$ref": "#/$defs/codedDimension" },
+    "intended_audience": { "$ref": "#/$defs/codedDimension" },
+    "application_setting": { "$ref": "#/$defs/codedDimension" },
+    "interactive_narrative_form": { "$ref": "#/$defs/codedDimension" },
+    "if_mechanics": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "interaction_education_relationship": { "$ref": "#/$defs/codedDimension" },
+    "limitations": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    }
+  },
+  "$defs": {
+    "codedDimension": {
+      "type": "object",
+      "required": ["status", "labels", "summary"],
+      "properties": {
+        "status": { "enum": ["explicit", "normalized", "not_stated", "uncertain"] },
+        "labels": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "summary": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

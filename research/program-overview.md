@@ -11,10 +11,10 @@ directions.
 
 Track A asks how creators publicly describe educational purposes, intended
 audiences, application settings, interactive narrative forms, and the
-relationships between interaction and educational intent. Its possible future
-artifact is an **Educational Interactive Narrative Design Helper** that helps an
-educator or designer compare traceable design precedents and alternative
-directions before committing to a specific story.
+relationships between interaction and educational intent. Its maintained
+software artifact is an **Educational Interactive Narrative Design Helper**
+that will help an educator or designer compare traceable design precedents and
+alternative directions before committing to a specific story.
 
 ### Track B — Story-level counterfactual exploration
 
@@ -39,10 +39,11 @@ focuses on terminology, candidate coverage, source acquisition, inclusion, and
 the kinds of creator-described design information that can be derived
 traceably.
 
-The findings may later support design knowledge, retrieval, and the macro
-Helper. Their detailed contracts are deliberately deferred until mining
-establishes what knowledge is reliable and useful. Raw HTML is source material
-for mining, not direct input to either future Helper direction.
+The findings support reviewed model-facing knowledge for the macro Helper. Its
+initial contracts can develop against a small approved snapshot while mining
+continues to establish what knowledge is reliable and useful. Raw HTML and
+verbatim evidence remain local source material, not runtime input to either
+Helper direction.
 
 ## Long-term research direction
 

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/666feiyu666/interactive-narrative-helper/agent/educational-design-helper/schemas/design-request.schema.json",
+  "title": "Educational Interactive Narrative Design Request",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "request_id",
+    "raw_question",
+    "educational_intent",
+    "target_audience",
+    "application_setting",
+    "preferred_interactions",
+    "constraints",
+    "requested_direction_count"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "educational-design-request/v1"
+    },
+    "request_id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_-]*$"
+    },
+    "raw_question": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    },
+    "educational_intent": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "target_audience": {
+      "$ref": "#/$defs/requestDimension"
+    },
+    "application_setting": {
+      "$ref": "#/$defs/requestDimension"
+    },
+    "preferred_interactions": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "requested_direction_count": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    }
+  },
+  "$defs": {
+    "requestDimension": {
+      "type": "object",
+      "required": ["status", "description"],
+      "properties": {
+        "status": {
+          "enum": ["stated", "inferred_from_question", "not_stated"]
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

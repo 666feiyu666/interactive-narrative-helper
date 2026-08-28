@@ -56,13 +56,14 @@ learning effectiveness before they can be analyzed for that purpose.
 The program-level relationship between the current study and the long-term
 counterfactual work is confirmed: they are two connected design-time
 directions of the umbrella **Interactive Narrative Helper**. The current study
-may support a future macro-level Educational Interactive Narrative Design
+supports the maintained macro-level Educational Interactive Narrative Design
 Helper; the long-term question supports the story-level Counterfactual
 Narrative Design Partner. They should connect through an author-reviewed design
 brief rather than by passing raw source material directly between systems.
-Detailed knowledge representation, retrieval, Helper behavior, and bridge
-schemas remain deferred until the mining results justify them. Raw source HTML
-is not intended as direct input to either future Helper capability.
+Initial Track A knowledge, request, response, and run-trace contracts are now
+confirmed for maintained development. Retrieval implementation and the bridge
+schema remain open to evidence and later decisions. Raw source HTML is not
+runtime input to either Helper capability.
 
 Changes to either research level, target user, or Agent role require explicit
 user confirmation.
@@ -71,19 +72,26 @@ user confirmation.
 
 The current research artifact is the collected and analyzed evidence needed to
 answer the short-term creator-description question. This is **Track A — macro
-educational design exploration**. Its possible future Helper should help
+educational design exploration**. Its maintained Helper is intended to help
 educators and narrative designers compare creator-grounded combinations of
 educational purpose, intended audience, application setting, interactive form,
 and the described relationship between interaction and educational intent. It
 should provide traceable design precedents and alternatives, not prescribe one
-correct educational design. This Helper has not yet been specified or
-implemented.
+correct educational design. Its initial maintained component, public contracts,
+and first widened automation-reviewed knowledge snapshot are now specified. An
+executable runtime, independent human double-coding, and research evaluation
+are not yet complete.
 
 **Track B — story-level counterfactual exploration** retains the confirmed
 long-term research artifact: the author-facing, design-time
 **Counterfactual Narrative Design Partner**. It operates after a source story
 and pivotal canonical action have been identified, and before full branch
 authoring or runtime implementation.
+
+Track B is not part of the current development scope. Preserve its research
+definition, stable case/proposal contracts, and component boundary, but do not
+implement its runtime, Harness, interface, or evaluation unless the user later
+authorizes that work explicitly.
 
 Its core responsibilities are to:
 
@@ -138,7 +146,7 @@ interactive-narrative-helper/
   README.md
   AGENTS.md
   research/       # RQ, constructs, scope, methods, ethics, decisions
-  agent/          # reusable counterfactual narrative design agent
+  agent/          # separate Track A Helper and Track B Partner components
   cases/          # stable source-story analyses and research task definitions
   corpus/         # catalog, annotations, schemas, derived knowledge, rights data
   experiments/    # protocols, conditions, runs, evaluations, analyses
@@ -247,11 +255,77 @@ after seeing results without documenting the change.
 - Do not deploy, push, publish, rewrite Git history, or migrate external data
   unless the user explicitly requests it.
 
+## Current authoritative Track A working data
+
+The current canonical working dataset for screening, research coding, and the
+first knowledge extraction is:
+
+```text
+outputs/itchio-sheet/
+  itchio-educational-if-candidates-v1.0.xlsx
+```
+
+This workbook is the accepted working interface over
+`itchio-page-cleaning-full-001`. Do not recreate another cleaned dataset,
+review queue, or 606-row coding surface from the restricted source records.
+Begin current Track A work from this workbook unless the user explicitly
+confirms a newer canonical workbook.
+
+Workbook responsibilities are fixed as follows:
+
+- `README` records workbook version, source derivation, counts, and evidence
+  boundaries.
+- `cases` contains the 606 flat cleaned source records. `description_clean` is
+  the current text used for screening and coding; `project_id` is the stable
+  join key.
+- `coding` contains 606 project rows and is the current surface for
+  educational purpose, target audience, application setting, interactive
+  narrative form, IF mechanics, evidence, coding status, uncertainty, and
+  review fields. The confirmed v1.1 scoped substantive-OR run records 122
+  `coded`, 122 `uncertain`, and 362 `not_applicable` rows. `uncertain` rows
+  remain the next human-review layer in this same sheet.
+- `manual_review` contains only the 21 deterministic cleaning exceptions. It is
+  not a general screening or knowledge-extraction queue.
+- `field_coverage` defines workbook columns, coverage, missing-value meaning,
+  and research role.
+- `provenance` connects all 606 project IDs to source runs, hashes, and retained
+  local paths.
+- `engagement` is an exploratory public-rating view and is not an inclusion or
+  knowledge-quality signal.
+
+The adjacent `.xlsx.inspect.ndjson` and `.work/` files are generated inspection
+and workbook-build artifacts, not alternate analytical inputs. They may contain
+sampled source text and remain ignored output material.
+
+Current workflow begins with screening and coding in the existing workbook:
+
+```text
+cases + field_coverage + provenance
+  -> screening decisions recorded through coding status and notes
+  -> evidence-grounded coding in coding
+  -> reviewed model-facing knowledge cards
+  -> versioned knowledge snapshot
+  -> retrieval and Harness
+```
+
+Use `record_path` or `description_path` only to verify provenance, resolve one
+of the 21 `manual_review` exceptions, or inspect evidence that the workbook
+cannot represent. Do not bypass the workbook to repeat full-manifest cleaning.
+Preserve any human edits in `coding` and `manual_review`; never regenerate or
+overwrite the workbook without first verifying the preservation behavior and
+receiving authorization for that exact write.
+
+If a later workbook replaces version 1.0, update this section,
+`outputs/README.md`, `corpus/README.md`, and all path-sensitive tools and tests
+together.
+
 ## Current implementation boundary
 
-- The repository structure and documents define intended research behavior;
-  they do not prove that data mining has answered the short-term RQ or that any
-  future knowledge base or Agent has been implemented.
+- The repository structure and documents define intended research behavior.
+  The frozen v1.1 knowledge snapshot is an implemented development input, but
+  it does not prove that data mining has answered the short-term RQ, that human
+  coding is complete, or that the Track A Agent runtime is implemented or
+  effective.
 - The frozen itch.io manifest is a candidate discovery snapshot, not a confirmed
   educational-IF corpus. The stable 1.0 acquisition contains 606 successful page
   bundles, and the stable 1.0 offline cleaning contains 606 source records;
@@ -261,12 +335,21 @@ after seeing results without documenting the change.
   diagnostic runs, and protocol trials do not require retention once the
   current contract, tests, and full-run evidence contain the necessary
   constraints.
+- The current Track A development snapshot is
+  `corpus/derived-knowledge/track-a-itchio-v1.1-knowledge-v1/`. It contains 122
+  model-facing case precedents promoted by the scoped substantive-OR policy: 2
+  complete-core Tier B cards and 120 partial-substantive Tier C cards. The
+  strict v1.0 two-card snapshot remains preserved for comparison. Neither is
+  evidence of corpus representativeness, human coding agreement, learning
+  effectiveness, or Helper quality.
 - `legacy/theory-guided-story-generator/` remains runnable prior work. Do not
   silently modify it into the new Agent or call it a baseline until a comparable
   experimental condition is specified.
 - `testbeds/fox-and-crow/` is a runtime research instrument, not the design-time
   Agent defined by the long-term RQ.
-- Current implementation should focus on the minimum collection and analysis
-  needed for the short-term RQ. Long-term counterfactual implementation still
-  begins from the preserved contracts under `agent/schemas/` and stable task
-  definitions under `cases/`.
+- Current implementation should connect the minimum collection and analysis
+  needed for the short-term RQ to the maintained Track A component under
+  `agent/educational-design-helper/`. Track B is not currently being developed;
+  its contracts under `agent/counterfactual-design-partner/schemas/` and stable
+  task definitions under `cases/` are retained only as long-term research
+  boundaries.

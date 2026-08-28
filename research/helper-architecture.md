@@ -1,7 +1,11 @@
 # Interactive Narrative Helper Architecture
 
-Status: program-level structure confirmed on 2026-08-28. Detailed knowledge,
-retrieval, software, and design-brief contracts remain future work.
+Status: program-level structure confirmed on 2026-08-28. Maintained Track A
+development now includes knowledge, request, response, run-trace, annotation,
+and snapshot contracts plus the widened 122-card v1.1 model-facing snapshot.
+Retrieval implementation, independent human double-coding, and the design-brief
+contract remain future work. Track B is a long-term research boundary and is
+not part of the current development scope.
 
 ## Umbrella goal
 
@@ -31,9 +35,9 @@ claims are about how creators describe their educational purposes, intended
 audiences, application settings, interactive forms, and
 educational–interaction relationships.
 
-### Possible future Helper behavior
+### Confirmed Helper direction
 
-The future macro Helper should:
+The macro Helper should:
 
 1. accept an educational topic, audience, context, intent, and constraints;
 2. retrieve traceable creator-described precedents and reusable patterns;
@@ -85,9 +89,9 @@ Track A can propose the first set of fields. The educator or author reviews and
 changes them before they become constraints. Track B consumes only the reviewed
 direction together with the concrete story case.
 
-This list is a conceptual interface, not a frozen schema. The current mining
-stage must first establish which macro fields and relationships can be coded
-reliably.
+This list remains a conceptual cross-track interface, not a frozen schema. The
+Track A runtime can develop independently while mining establishes which macro
+fields and relationships can be coded reliably.
 
 ## Shared authority boundary
 
@@ -111,9 +115,15 @@ educator's or author's design process.
 ## Current implementation state
 
 - Track A: source acquisition and cleaning are complete for the frozen itch.io
-  candidate inventory; creator-description coding and derived patterns are not
-  complete; no macro Helper is implemented.
-- Track B: case and proposal schemas are preserved under `agent/schemas/`; no
+  candidate inventory. The v1.1 scoped substantive-OR run records 606
+  decisions, promotes 122 precedents (2 complete-core Tier B and 120
+  partial-substantive Tier C), and leaves 122 uncertain records for human
+  review. The maintained Helper component, public contracts, annotations, and
+  frozen model-facing snapshot now exist; no executable runtime, independent
+  human double-coding, or research evidence of Helper quality is claimed yet.
+- Track B: case and proposal schemas are preserved under
+  `agent/counterfactual-design-partner/schemas/` as a long-term research
+  boundary. Track B is not part of the current development scope, and no
   executable Counterfactual Narrative Design Partner is implemented.
 - Bridge: the Design Brief is a confirmed program concept but has no fixed
   machine-readable contract.

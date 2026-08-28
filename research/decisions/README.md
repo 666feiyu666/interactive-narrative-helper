@@ -16,3 +16,6 @@ another durable research boundary.
 - [`2026-08-28-two-track-helper-architecture.md`](2026-08-28-two-track-helper-architecture.md)
   confirms the umbrella Helper, its macro and story-level tracks, their
   human-reviewed bridge, and the creator-description evidence target.
+- [`2026-08-28-initial-helper-development.md`](2026-08-28-initial-helper-development.md)
+  starts maintained Track A development, separates the two Agent components,
+  and fixes the local-evidence/model-facing-knowledge runtime boundary.

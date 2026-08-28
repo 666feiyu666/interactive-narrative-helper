@@ -2,8 +2,10 @@
 
 This document defines Track B of the umbrella
 [Interactive Narrative Helper architecture](helper-architecture.md). Track A's
-future macro design Helper is grounded in corpus-derived creator descriptions;
-it is not implemented or specified in this directory.
+maintained macro design Helper is grounded in corpus-derived creator
+descriptions and is owned separately by
+`agent/educational-design-helper/`; it is not specified in this Track B role
+document.
 
 ## Role
 
