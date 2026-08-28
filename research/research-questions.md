@@ -1,28 +1,37 @@
 # Research Questions
 
-Status: short-term and long-term hierarchy confirmed in project discussion on
-2026-08-27. Downstream knowledge-base, retrieval, and Agent questions are not
-yet fixed.
+Status: short-term and long-term hierarchy confirmed on 2026-08-27; the
+short-term evidence target and two-track Helper relationship were refined and
+confirmed on 2026-08-28. Downstream knowledge representation, retrieval, and
+implementation contracts are not yet fixed.
 
 ## Current short-term research question
 
-> Interactive Fiction 在教育和学习情境中被如何使用，其教育目的、目标对象、应用场景与互动叙事形式呈现出哪些可识别的类型和特征？
+> 在公开项目页面中，创作者如何描述 Interactive Fiction 的教育目的、预期对象、应用场景与互动叙事形式，这些描述呈现出哪些可识别、可复用的类型、特征与设计组合？
 
 Working English formulation:
 
-> How is Interactive Fiction used in educational and learning contexts, and
-> what identifiable types and characteristics appear in its educational
-> purposes, intended audiences, application settings, and interactive narrative
-> forms?
+> How do creators describe the educational purposes, intended audiences,
+> application settings, and interactive narrative forms of Interactive Fiction
+> on public project pages, and what identifiable, reusable types,
+> characteristics, and design combinations appear in those descriptions?
+
+The current analytical focus also asks how creators relate interaction to
+educational intent: for example, whether choice and consequence are described
+as supporting comparison, rehearsal, reflection, perspective-taking, or
+another intended learning experience.
 
 The frozen itch.io `Educational + Interactive Fiction` manifest is one
-platform-specific candidate inventory, not the definition of the field or a
-confirmed research corpus. The current task is to clarify coverage and
-inclusion before making broader claims.
+platform-specific candidate inventory, not the definition of the field. Its
+public creator descriptions are valid primary evidence for claims about how
+creators position their own projects. Conclusions must remain scoped to that
+source coverage and wording.
 
-The possible sequence from mined findings to a design knowledge base,
-information retrieval, and an Agent is a future direction rather than part of
-the current fixed RQ.
+The mined findings may support the macro Educational Interactive Narrative
+Design Helper, which can pass an educator- or author-selected direction through
+a reviewed design brief to the story-level Counterfactual Narrative Design
+Partner. That program relationship is confirmed; the detailed knowledge,
+retrieval, and software contracts remain future work.
 
 ## Long-term research question
 
@@ -66,9 +75,12 @@ interpretive control?
 
 - Proving that an Agent can autonomously write a complete interactive story.
 - Evaluating prose fluency as a substitute for narrative design capability.
-- Treating platform tags as confirmed educational relevance or design quality.
-- Treating project-page descriptions as sufficient evidence of implemented
-  interaction design or educational effectiveness.
+- Treating platform tags alone as the creator's complete educational rationale.
+- Requiring learning-effect evidence before creator descriptions can be studied
+  as descriptions, or relabeling those descriptions as independently observed
+  outcomes.
+- Assuming every described interaction is fully implemented without separate
+  artifact evidence when implementation itself becomes the claim.
 - Fixing the knowledge representation, retrieval architecture, Agent contract,
   or downstream experiment before the mining results are understood.
 - Passing restricted raw HTML directly to a future Agent.

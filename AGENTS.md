@@ -41,26 +41,43 @@ agent can write an entire interactive story.
 
 The confirmed short-term study is narrower and precedes that goal:
 
-> Interactive Fiction 在教育和学习情境中被如何使用，其教育目的、目标对象、应用场景与互动叙事形式呈现出哪些可识别的类型和特征？
+> 在公开项目页面中，创作者如何描述 Interactive Fiction 的教育目的、预期对象、应用场景与互动叙事形式，这些描述呈现出哪些可识别、可复用的类型、特征与设计组合？
 
 Current work is data mining: clarify terminology and population coverage,
 acquire usable source material, define inclusion, and determine what
-application or design characteristics the available evidence can support. The
-possible progression from findings to a design knowledge base, information
-retrieval, and an Agent remains a high-level future direction. Do not fix those
-downstream contracts before the mining results justify them. Raw source HTML is
-not intended as direct input to a future Agent.
+creator-described application and design characteristics the available pages
+can support. Public creator descriptions are the primary evidence for claims
+about how creators position their work; they are not required to establish
+learning effectiveness before they can be analyzed for that purpose.
+
+The program-level relationship between the current study and the long-term
+counterfactual work is confirmed: they are two connected design-time
+directions of the umbrella **Interactive Narrative Helper**. The current study
+may support a future macro-level Educational Interactive Narrative Design
+Helper; the long-term question supports the story-level Counterfactual
+Narrative Design Partner. They should connect through an author-reviewed design
+brief rather than by passing raw source material directly between systems.
+Detailed knowledge representation, retrieval, Helper behavior, and bridge
+schemas remain deferred until the mining results justify them. Raw source HTML
+is not intended as direct input to either future Helper capability.
 
 Changes to either research level, target user, or Agent role require explicit
 user confirmation.
 
-## Current work and long-term research agent
+## Current work and two design-time directions
 
 The current research artifact is the collected and analyzed evidence needed to
-answer the short-term educational-IF question. An educational-IF Agent has not
-yet been specified or implemented.
+answer the short-term creator-description question. This is **Track A — macro
+educational design exploration**. Its possible future Helper should help
+educators and narrative designers compare creator-grounded combinations of
+educational purpose, intended audience, application setting, interactive form,
+and the described relationship between interaction and educational intent. It
+should provide traceable design precedents and alternatives, not prescribe one
+correct educational design. This Helper has not yet been specified or
+implemented.
 
-The long-term research artifact remains the author-facing, design-time
+**Track B — story-level counterfactual exploration** retains the confirmed
+long-term research artifact: the author-facing, design-time
 **Counterfactual Narrative Design Partner**. It operates after a source story
 and pivotal canonical action have been identified, and before full branch
 authoring or runtime implementation.
@@ -79,6 +96,13 @@ The agent must not present a theme or educational purpose as the single correct
 interpretation. These are reasoned possibilities for the author to accept,
 revise, combine, or reject. The author retains creative and interpretive
 authority.
+
+The two tracks may share a human-reviewed design brief. Track A can propose the
+educational topic, audience, setting, interaction pattern, rationale, and
+supporting precedents; the educator or author selects and revises them. Track B
+can then consume the confirmed direction together with a concrete story,
+canonical action, character goal, invariants, and permitted changes. This
+bridge is a program concept, not yet a fixed machine-readable contract.
 
 Keep the design-time agent distinct from the runtime `Story Agent` inside the
 Fox-and-Crow testbed. The runtime agent reacts to player input and narrates

@@ -1,13 +1,13 @@
 # Corpus
 
-Corpus mining is the current short-term method for understanding how
-Interactive Fiction is used in educational contexts. It may later support a
-design knowledge base and retrieval-enhanced Agent, but those downstream
-contracts are not yet defined.
+Corpus mining is the current Track A method for understanding how creators
+describe Interactive Fiction in educational contexts. It may later support
+traceable design precedents, retrieval, and a macro Educational Interactive
+Narrative Design Helper, but those downstream contracts are not yet defined.
 
 - `catalog/` records candidate works, provenance, discovery method, and rights.
-- `annotations/` records observable action, consequence, interaction, and
-  meaning structures.
+- `annotations/` connects creator statements to normalized purpose, audience,
+  setting, interaction, and educational–interaction codes.
 - `derived-knowledge/` contains reviewable patterns derived from annotated
   evidence.
 - `protocols/` contains versioned collection and coding procedures.
@@ -29,12 +29,14 @@ payloads and the dedicated browser profile remain under the ignored
 `restricted-sources/itchio-public-text/` path.
 
 Future acquisition should separate source preservation from offline mining;
-raw HTML is not intended to be passed directly to a final Agent. The detailed
-knowledge, retrieval, and Agent contracts will be designed after the mining
-scope and evidence needs are clearer.
+raw HTML is not intended to be passed directly to either future Helper
+direction. The detailed knowledge, retrieval, and Helper contracts will be
+designed after coding establishes which creator-described patterns are reliable
+and useful.
 
 The stable first offline transformation is
 [`protocols/itchio-offline-page-cleaning-v1.0.md`](protocols/itchio-offline-page-cleaning-v1.0.md).
 It produces restricted, rebuildable source records and cleaned descriptions
-without making inclusion or research-coding decisions. CSV/XLSX export remains
-a later step after the researcher reviews these transformations.
+without making inclusion or research-coding decisions. A generated review
+workbook may expose those source facts and a blank coding surface under ignored
+`outputs/`; its existence is not evidence that Track A coding is complete.

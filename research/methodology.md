@@ -5,24 +5,47 @@ being scoped; numbered experiments require separate fixed protocols.
 
 ## Current short-term method
 
-The immediate unit of analysis is an eligible educational-IF case represented
-by the source material that can be collected and reviewed. Before full
-collection or coding, the project must clarify:
+The current source unit is a public creator project page; the analytical unit
+is a distinct creator-described educational-IF case after any documented series
+or duplicate handling. The page description and source metadata are primary
+evidence for how the creator positions the work.
 
-- which terms and sources define the candidate population;
-- what makes a case educational and what makes it Interactive Fiction;
-- which application and design characteristics the available material can
-  support; and
-- which claims require project pages, playable artifacts, documentation, or
-  research literature.
+Current coding should extract or normalize:
+
+- creator-described educational purpose and subject matter;
+- creator-described intended learner or audience;
+- creator-described or explicitly presented application setting;
+- creator-described interactive narrative form and mechanics; and
+- the relationship the creator describes between an interaction and an
+  intended educational or reflective experience.
+
+Each normalized code should retain a source excerpt or location. `not stated`
+is a valid result. Platform metadata, creator language, researcher
+normalization, and later artifact observation should remain distinguishable,
+but creator descriptions do not need external learning-effect evidence before
+they can answer the current descriptive RQ.
+
+Source records may be structurally separated into fields, but field location
+does not guarantee a consistent semantic role across projects. A piloted
+codebook should therefore define how creator statements are compared and how
+ambiguous or missing information is handled across cases.
+
+Computational text methods such as phrase frequencies, TF-IDF, similarity, or
+clustering may help discover vocabulary, retrieve related cases, and audit
+coverage. They do not by themselves determine which textual role a phrase
+plays. Stemming or lemmatization is optional for lexical exploration rather
+than a prerequisite for coding; any such preprocessing should preserve the
+original text and be reported with its parameters.
 
 The 606-entry itch.io manifest is one candidate inventory. Its complete stable
 acquisition and deterministic cleaning establish source-processing behavior
-only. They do not establish field coverage, inclusion validity, or the answer
-to the short-term RQ.
+only. They do not by themselves answer the short-term RQ; creator-description
+screening, coding, and synthesis remain required.
 
-Any later knowledge-base or Agent method will be specified after the mining
-stage produces evidence about what can be derived reliably.
+Any later knowledge or retrieval method for the macro Helper will be specified
+after mining establishes what creator-described patterns can be derived
+reliably. A selected macro direction may later enter Track B through a
+human-reviewed design brief, but that bridge is not yet a fixed schema.
 
 ## Long-term counterfactual capability dimensions
 

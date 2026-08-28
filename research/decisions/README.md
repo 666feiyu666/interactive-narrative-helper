@@ -10,3 +10,9 @@ current corpus protocols, tools, tests, and run reports rather than in this
 directory. Create a research decision only when a choice materially changes the
 research question, population, constructs, evidence interpretation, ethics, or
 another durable research boundary.
+
+## Confirmed decisions
+
+- [`2026-08-28-two-track-helper-architecture.md`](2026-08-28-two-track-helper-architecture.md)
+  confirms the umbrella Helper, its macro and story-level tracks, their
+  human-reviewed bridge, and the creator-description evidence target.
