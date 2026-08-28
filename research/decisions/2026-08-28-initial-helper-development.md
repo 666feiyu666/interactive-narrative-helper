@@ -1,5 +1,11 @@
 # Decision: Begin maintained Track A Helper development
 
+> **Later Track B boundary revision:**
+> [`2026-08-28-track-b-narrative-technique-scope.md`](2026-08-28-track-b-narrative-technique-scope.md)
+> preserves the Track A development decision below but replaces the original
+> Track B name and component path with a narrative-technique parent boundary
+> containing the counterfactual Track B1 module.
+
 - **Date:** 2026-08-28
 - **Status:** confirmed by the user in project discussion
 - **Scope:** software lifecycle, Agent component ownership, knowledge boundary,

@@ -24,7 +24,17 @@ research agent.
 
 ## Research program and active study
 
-The project retains this long-term research question:
+The project retains this Track B program-level research question:
+
+> To what extent can a generative agent act as an author-controlled,
+> story-level narrative technique design partner in adapting classic
+> children's stories into interactive narratives, by proposing inspectable
+> technique-specific transformations and explaining their implications for
+> player experience, interaction, narrative development, thematic meaning,
+> and educational purpose?
+
+The earlier counterfactual question is preserved as **Track B1 —
+Counterfactual Action and Consequence Exploration**:
 
 > To what extent can a generative agent act as a counterfactual narrative
 > design partner in adapting classic children's stories into multi-ending
@@ -32,8 +42,11 @@ The project retains this long-term research question:
 > actions and projecting their consequences for plot development, possible
 > endings, thematic meaning, and educational purpose?
 
-Do not broaden the long-term question into the generic question of whether an
-agent can write an entire interactive story.
+Do not broaden either question into the generic question of whether an agent
+can write an entire interactive story. The Track B program scope may name
+transformations of events and consequences, perspective and information, time
+and sequence, or role and agency, but these examples are not implemented
+modules or evidence of technique-general capability.
 
 The confirmed short-term study is narrower and precedes that goal:
 
@@ -54,10 +67,11 @@ about how creators position their work; they are not required to establish
 learning effectiveness before they can be analyzed for that purpose.
 
 The program-level relationship between the current study and the long-term
-counterfactual work is confirmed: they are two connected design-time
+story-level work is confirmed: they are two connected design-time
 directions of the umbrella **Interactive Narrative Helper**. The current study
 supports the maintained macro-level Educational Interactive Narrative Design
-Helper; the long-term question supports the story-level Counterfactual
+Helper; the long-term question supports the Story-level Narrative Technique
+Design Partner, whose only currently specified module is the Counterfactual
 Narrative Design Partner. They should connect through an author-reviewed design
 brief rather than by passing raw source material directly between systems.
 Initial Track A knowledge, request, response, and run-trace contracts are now
@@ -82,26 +96,34 @@ and first widened automation-reviewed knowledge snapshot are now specified. An
 executable runtime, independent human double-coding, and research evaluation
 are not yet complete.
 
-**Track B — story-level counterfactual exploration** retains the confirmed
-long-term research artifact: the author-facing, design-time
-**Counterfactual Narrative Design Partner**. It operates after a source story
-and pivotal canonical action have been identified, and before full branch
-authoring or runtime implementation.
+**Track B — story-level narrative technique exploration** defines the
+author-facing, design-time **Story-level Narrative Technique Design Partner**.
+It operates after a concrete story or story situation and reviewed design
+direction have been identified, and before full branch authoring or runtime
+implementation.
 
 Track B is not part of the current development scope. Preserve its research
-definition, stable case/proposal contracts, and component boundary, but do not
-implement its runtime, Harness, interface, or evaluation unless the user later
-authorizes that work explicitly.
+definition, author-control boundary, and technique-specific contracts, but do
+not implement its runtime, Harness, interface, evaluation, generic schemas, or
+additional technique modules unless the user later authorizes that work
+explicitly.
 
-Its core responsibilities are to:
+Its shared responsibilities are to:
 
 1. preserve explicitly declared invariants of the source story;
-2. propose substantively different alternative character actions rather than
-   superficial paraphrases;
-3. project an inspectable causal chain from each action through reactions, new
-   conflicts, further choices, and possible endings;
-4. propose supported interpretations of thematic and educational shifts;
+2. work within an author-framed narrative technique and permitted changes;
+3. propose inspectable, substantively different story-level transformations;
+4. explain possible implications for experience, interaction, narrative
+   development, thematic meaning, and educational purpose; and
 5. expose assumptions, risks, and required changes for author review.
+
+**Track B1 — counterfactual action and consequence exploration** retains the
+existing Counterfactual Narrative Design Partner, research question, stable
+case/proposal schemas, and focused responsibilities. It accepts a pivotal
+canonical action, character goal, counterfactual question, invariants, and
+mutable assumptions; proposes substantively different alternative actions;
+and projects inspectable causal developments through reactions, conflicts,
+further choices, possible endings, and supported meaning shifts.
 
 The agent must not present a theme or educational purpose as the single correct
 interpretation. These are reasoned possibilities for the author to accept,
@@ -112,16 +134,24 @@ The two tracks may share a human-reviewed design brief. Track A can propose the
 educational topic, audience, setting, interaction pattern, rationale, and
 supporting precedents; the educator or author selects and revises them. Track B
 can then consume the confirmed direction together with a concrete story,
-canonical action, character goal, invariants, and permitted changes. This
-bridge is a program concept, not yet a fixed machine-readable contract.
+invariants, permitted changes, and a technique-specific task. For Track B1,
+that task also includes the canonical action, character goal, and
+counterfactual question. This bridge is a program concept, not yet a fixed
+machine-readable contract.
 
 Keep the design-time agent distinct from the runtime `Story Agent` inside the
 Fox-and-Crow testbed. The runtime agent reacts to player input and narrates
 visible prose; it is not the long-term research artifact defined above.
 
-## Long-term counterfactual capability dimensions
+## Track B capability boundaries
 
-Research designs and implementations should keep these dimensions separable:
+Shared Track B concerns may include source compatibility, substantive
+transformation, interactive potential, inspectability, meaning projection, and
+author utility and control. Do not assume that all narrative techniques share
+one machine-readable contract or one operational evaluation instrument.
+
+Track B1 research designs and implementations should keep these
+counterfactual-specific dimensions separable:
 
 - **Action-space generation:** diversity and substantive difference among
   alternative strategies.
@@ -146,8 +176,8 @@ interactive-narrative-helper/
   README.md
   AGENTS.md
   research/       # RQ, constructs, scope, methods, ethics, decisions
-  agent/          # separate Track A Helper and Track B Partner components
-  cases/          # stable source-story analyses and research task definitions
+  agent/          # Track A Helper and Track B narrative-technique boundaries
+  cases/          # stable story inputs and technique-specific task definitions
   corpus/         # catalog, annotations, schemas, derived knowledge, rights data
   experiments/    # protocols, conditions, runs, evaluations, analyses
   testbeds/       # runnable research instruments such as Fox-and-Crow
@@ -162,8 +192,9 @@ Use these terms consistently:
 - `experiments/` means reproducible research comparisons with protocols and
   results.
 - `testbeds/` means runnable artifacts used across multiple experiments.
-- `cases/` means stable story inputs, pivotal actions, invariants, and design
-  briefs; a case does not require a runnable application.
+- `cases/` means stable story inputs, invariants, technique-specific task
+  definitions, and design briefs; a case does not require a runnable
+  application.
 - `legacy/` preserves predecessor code that has not yet been adapted into a
   valid baseline for the current RQ.
 
@@ -174,28 +205,33 @@ updates the recorded submodule commit.
 
 ## Research artifact contracts
 
-Each case should make the following explicit in a machine-readable form where
-practical:
+Each story-level task should make the following explicit in a machine-readable
+form where practical:
 
 - source and rights/provenance;
 - target audience;
-- canonical action and character goal;
-- counterfactual question;
+- reviewed design intention and narrative-technique framing;
 - story facts and invariants that must be preserved;
 - facts or premises that may change;
-- requested number and type of alternative actions.
+- requested exploration bounds.
 
-Each agent proposal should expose at least:
+Each Track B1 counterfactual case additionally defines the canonical action and
+character goal, counterfactual question, and requested number and type of
+alternative actions.
 
-- alternative action and motivation;
+Each Track B proposal should expose, as appropriate to its technique:
+
+- proposed transformation and rationale;
 - compatibility with source constraints;
-- immediate consequence;
-- subsequent causal developments and new conflict;
-- further interactive choices;
-- one or more possible endings;
+- implications for experience, interaction, information, or narrative
+  development;
 - possible thematic shift and its narrative evidence;
 - possible educational implications and their narrative evidence;
 - required source changes, assumptions, and risks.
+
+Each Track B1 proposal additionally exposes the alternative action and
+motivation, immediate consequence, subsequent causal developments and new
+conflict, further interactive choices, and one or more possible endings.
 
 Define schemas before building elaborate interfaces. Store prompts, model
 configuration, and evaluation criteria separately so experiments can vary one
@@ -350,6 +386,7 @@ together.
 - Current implementation should connect the minimum collection and analysis
   needed for the short-term RQ to the maintained Track A component under
   `agent/educational-design-helper/`. Track B is not currently being developed;
-  its contracts under `agent/counterfactual-design-partner/schemas/` and stable
-  task definitions under `cases/` are retained only as long-term research
-  boundaries.
+  its boundary under `agent/narrative-technique-design-partner/`, the
+  counterfactual contracts under `techniques/counterfactual/schemas/`, and
+  stable task definitions under `cases/` are retained only as long-term
+  research boundaries.

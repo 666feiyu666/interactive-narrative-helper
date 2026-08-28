@@ -1,11 +1,11 @@
 # Interactive Narrative Helper Architecture
 
-Status: program-level structure confirmed on 2026-08-28. Maintained Track A
-development now includes knowledge, request, response, run-trace, annotation,
-and snapshot contracts plus the widened 122-card v1.1 model-facing snapshot.
-Retrieval implementation, independent human double-coding, and the design-brief
-contract remain future work. Track B is a long-term research boundary and is
-not part of the current development scope.
+Status: program-level structure confirmed on 2026-08-28 and Track B broadened
+to a story-level narrative-technique family later that day. Maintained Track A
+development includes knowledge, request, response, run-trace, annotation, and
+snapshot contracts plus the widened 122-card v1.1 model-facing snapshot. The
+design-brief contract remains future work. Track B is a long-term research
+boundary and is not part of the current development scope.
 
 ## Umbrella goal
 
@@ -51,23 +51,45 @@ The macro Helper should:
 It should not autonomously decide the correct pedagogy, generate a complete
 story, or claim that a creator-described pattern is an effectiveness result.
 
-## Track B — Story-level counterfactual exploration
+## Track B — Story-level narrative technique exploration
 
 ### User and problem
 
 An author or educator-author has selected a design direction and identified a
-concrete story, character goal, and pivotal action, but wants to expand the
-space of story-compatible alternatives and consequences.
+concrete story or story situation, but wants to explore how a story-level
+narrative technique could transform player experience, interaction,
+development, or interpretation without surrendering source constraints or
+creative authority.
 
-### Confirmed Partner behavior
+### Shared Partner boundary
 
-The Counterfactual Narrative Design Partner should propose inspectable
-alternative actions and project each through reactions, conflicts, later
-choices, possible endings, and supported thematic or educational shifts. The
-author retains authority over constraints, interpretation, and final design.
+The prospective Story-level Narrative Technique Design Partner should accept a
+reviewed design intention, a concrete story, declared invariants and permitted
+changes, and technique-specific exploration bounds. It should return
+inspectable proposals that expose source compatibility, assumptions, risks,
+interactive potential, and possible thematic or educational implications. The
+author retains authority over technique framing, constraints, interpretation,
+selection, revision, and final design.
 
 It is a concrete story-design Partner, not a runtime narrator, full-story prose
 generator, or implementation tool.
+
+Technique-specific transformations may concern events and consequences,
+perspective and information, time and sequence, or role and agency. These
+examples locate the program's story-level possibility space; they are not
+implemented capabilities or a commitment to build additional modules.
+
+### Track B1 — Counterfactual action and consequence
+
+The existing Counterfactual Narrative Design Partner is retained as the only
+currently specified Track B technique module. It accepts a pivotal canonical
+action, character goal, counterfactual question, invariants, and mutable
+assumptions. It proposes substantively different character actions and projects
+each through reactions, conflicts, later choices, possible endings, and
+supported thematic or educational shifts.
+
+Its case and proposal schemas remain technique-specific. They are not the
+generic input or output contract for all of Track B.
 
 ## Human-reviewed bridge
 
@@ -80,14 +102,15 @@ Brief. At the program level, that brief may contain:
 - selected interaction patterns;
 - creator-described rationale and supporting precedents;
 - author choices, constraints, and risks;
-- source story or original story situation;
-- pivotal or canonical action and character goal;
-- invariants and permitted changes; and
+- concrete source story or original story situation;
+- invariants, permitted changes, and technique framing; and
 - requested exploration bounds.
 
 Track A can propose the first set of fields. The educator or author reviews and
 changes them before they become constraints. Track B consumes only the reviewed
-direction together with the concrete story case.
+direction together with a concrete story case and a technique-specific task.
+For Track B1, that task additionally includes the pivotal canonical action,
+character goal, and counterfactual question.
 
 This list remains a conceptual cross-track interface, not a frozen schema. The
 Track A runtime can develop independently while mining establishes which macro
@@ -103,10 +126,13 @@ outputs should remain structured, traceable, comparable, and editable.
 ## Separate evaluation
 
 Track A may later be evaluated for relevance, diversity, traceability,
-comprehensibility, and usefulness in selecting a design direction. Track B
-retains its separate dimensions of action-space diversity, source
-compatibility, causal coherence, interactive potential, meaning projection,
-and author control.
+comprehensibility, and usefulness in selecting a design direction. Shared Track
+B concerns include source compatibility, substantive transformation,
+interactive potential, inspectability, meaning projection, and author utility
+and control. Each technique needs its own operational criteria and evidence.
+Track B1 retains action-space diversity, causal coherence, consequence
+projection, ending differentiation, and supported meaning projection as
+counterfactual-specific dimensions.
 
 Learning-effect claims and runtime quality require different evidence and are
 not required to determine whether either design-time Helper expands an
@@ -121,10 +147,11 @@ educator's or author's design process.
   review. The maintained Helper component, public contracts, annotations, and
   frozen model-facing snapshot now exist; no executable runtime, independent
   human double-coding, or research evidence of Helper quality is claimed yet.
-- Track B: case and proposal schemas are preserved under
-  `agent/counterfactual-design-partner/schemas/` as a long-term research
-  boundary. Track B is not part of the current development scope, and no
-  executable Counterfactual Narrative Design Partner is implemented.
+- Track B: the program boundary is preserved under
+  `agent/narrative-technique-design-partner/`. The counterfactual case and
+  proposal schemas remain under its `techniques/counterfactual/` module. Track
+  B is not part of the current development scope, and no executable
+  Story-level Narrative Technique Design Partner is implemented.
 - Bridge: the Design Brief is a confirmed program concept but has no fixed
   machine-readable contract.
 - Runtime: the Fox-and-Crow testbed remains an independent research instrument,

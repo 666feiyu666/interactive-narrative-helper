@@ -1,5 +1,12 @@
 # Decision: Two-track Interactive Narrative Helper architecture
 
+> **Later scope revision:**
+> [`2026-08-28-track-b-narrative-technique-scope.md`](2026-08-28-track-b-narrative-technique-scope.md)
+> retains the two-track architecture and human-reviewed bridge while broadening
+> Track B to story-level narrative technique exploration. The counterfactual
+> Partner is now Track B1. The decision below remains the historical record of
+> the earlier confirmed framing.
+
 - **Date:** 2026-08-28
 - **Status:** confirmed by the user in project discussion
 - **Scope:** program identity, target users, evidence interpretation, and Agent

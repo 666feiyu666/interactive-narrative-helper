@@ -1,8 +1,10 @@
-# Counterfactual Design Partner guidance
+# Track B1 Counterfactual Design Partner guidance
 
-This file applies only to `agent/counterfactual-design-partner/`.
+This file applies only to
+`agent/narrative-technique-design-partner/techniques/counterfactual/`.
 
-- This directory preserves the inactive, long-term Track B research boundary.
+- This directory preserves the inactive Track B1 counterfactual research
+  module.
   Do not add runtime code, prompts, Harness behavior, provider integration,
   interface code, or component-local test scaffolding without explicit user
   authorization to begin Track B development.

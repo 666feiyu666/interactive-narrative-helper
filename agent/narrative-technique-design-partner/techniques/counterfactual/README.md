@@ -1,8 +1,10 @@
-# Counterfactual Narrative Design Partner
+# Track B1 — Counterfactual Narrative Design Partner
 
-This directory preserves the long-term Track B boundary of the Interactive
-Narrative Helper: the author-facing, story-level Counterfactual Narrative
-Design Partner. Track B is not part of the current development scope.
+This directory preserves Track B1 of the Interactive Narrative Helper: the
+author-facing, story-level Counterfactual Narrative Design Partner. It is the
+only currently specified technique module under the broader Story-level
+Narrative Technique Design Partner. Track B is not part of the current
+development scope.
 
 ## Input and output
 
@@ -13,7 +15,8 @@ meaning projections.
 
 Its stable existing contracts live under [`schemas/`](schemas/). They are
 retained for research continuity and repository-level compatibility checking,
-not as an instruction to implement the Partner in the current Track A work.
+not as generic Track B contracts or an instruction to implement the Partner in
+the current Track A work.
 There are deliberately no `src/`, `prompts/`, `tests/`, Harness, provider, or
 interface directories in this boundary.
 

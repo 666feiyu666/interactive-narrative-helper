@@ -1,11 +1,26 @@
 # Methodology
 
-Status: provisional program framework. The current short-term method is still
-being scoped; numbered experiments require separate fixed protocols.
+Status: iterative Track A research framework. Numbered experiments require
+separate fixed protocols.
+
+## Track A iterative research framework
+
+![Track A iterative research framework](figures/current-study-framework.svg)
+
+Track A is organized as a recurring cycle rather than a linear pipeline. Its
+five phases are evidence acquisition and corpus construction; knowledge
+discovery, construction, and validation; knowledge organization, access, and
+grounding; Agent system design and orchestration; and scenario-based evaluation
+and reflection. Research questions, scope, and evidence boundaries anchor the
+cycle, while human review, provenance, ethics and rights, versioning,
+reproducibility, and evidence limitations govern every phase. Any phase may
+reopen earlier decisions as research understanding changes.
+
+The framework defines research relationships, not a particular platform,
+technical method, or implementation status. Those choices belong to the
+current method, system architecture, and experiment protocols.
 
 ## Current short-term method
-
-![Current itch.io creator-description mining framework](figures/current-study-framework.svg)
 
 The current source unit is a public creator project page; the analytical unit
 is a distinct creator-described educational-IF case after any documented series
@@ -49,7 +64,22 @@ after mining establishes what creator-described patterns can be derived
 reliably. A selected macro direction may later enter Track B through a
 human-reviewed design brief, but that bridge is not yet a fixed schema.
 
-## Long-term counterfactual capability dimensions
+## Track B shared research boundary
+
+Track B concerns author-controlled, story-level narrative technique
+exploration. A task begins from a concrete story or story situation, a reviewed
+design intention, declared invariants and permitted changes, and a
+technique-specific framing. The program framework may name transformations of
+events and consequences, perspective and information, time and sequence, or
+role and agency without treating them as implemented modules.
+
+Shared concerns include source compatibility, substantive transformation,
+interactive potential, inspectability, supported meaning projection, and
+author utility and control. These concerns are not assumed to have one common
+measurement instrument across all techniques. No generic Track B case,
+proposal, or evaluation schema is currently fixed.
+
+## Track B1 counterfactual capability dimensions
 
 - substantive diversity of alternative actions;
 - compatibility with declared source constraints;
@@ -60,7 +90,7 @@ human-reviewed design brief, but that bridge is not yet a fixed schema.
 - traceability and age-appropriateness of educational implications;
 - author utility and author control.
 
-## Long-term counterfactual evidence layers
+## Track B1 counterfactual evidence layers
 
 1. **Contract validation:** the output has the required structure and preserves
    declared input identifiers.
@@ -71,7 +101,7 @@ human-reviewed design brief, but that bridge is not yet a fixed schema.
 4. **Audience study:** any claims about children require a separately approved
    ethics and data-management process.
 
-## Long-term experimental comparisons
+## Track B1 possible experimental comparisons
 
 Potential conditions include an unstructured model, a structured
 counterfactual prompt, a theory-guided condition, a corpus-derived knowledge

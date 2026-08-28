@@ -8,5 +8,6 @@ other constraints.
 
 Every brief should reference the stable case ID, distinguish sourced facts from
 author choices, and must not overwrite the base case silently. These briefs are
-Track B task inputs; they are not evidence that the future Track A Helper or a
-fixed bridge schema has been implemented.
+reviewed story-level inputs; a technique-specific task still supplies its own
+required fields. The briefs are not evidence that the Track B Partner, a new
+technique module, or a fixed bridge schema has been implemented.

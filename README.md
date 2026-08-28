@@ -9,9 +9,10 @@ directions:
 1. **Macro educational design exploration:** identify how creators describe
    educational purposes, intended audiences, application settings, interactive
    narrative forms, and the relationships among them.
-2. **Story-level counterfactual exploration:** help an author expand a concrete
-   story by proposing alternative character actions and projecting their
-   consequences for later choices, endings, themes, and educational meaning.
+2. **Story-level narrative technique exploration:** help an author apply a
+   bounded narrative technique to a concrete story and inspect possible changes
+   in experience, interaction, development, interpretation, and educational
+   meaning.
 
 These directions belong to the same umbrella Helper but remain separable for
 research and evaluation. See
@@ -29,14 +30,17 @@ descriptions, playable artifacts, and supporting documents may contribute
 different evidence when a claim requires them. No single platform or source
 layer defines the field.
 
-### Current study framework
+### Track A iterative research framework
 
-![Current itch.io creator-description mining framework](research/figures/current-study-framework.svg)
+![Track A iterative research framework](research/figures/current-study-framework.svg)
 
-The current operational study is narrower than the full framework. It uses the
-frozen itch.io candidate inventory and public creator project pages as its first
-source layer. Steam and other platforms are possible future coverage, not part
-of the accepted current acquisition.
+Track A follows a recurring research cycle: evidence acquisition and corpus
+construction; knowledge discovery, construction, and validation; knowledge
+organization, access, and grounding; Agent system design and orchestration; and
+scenario-based evaluation and reflection. Research questions, scope, and
+evidence boundaries anchor every phase. Concrete platforms, methods, and
+project status are documented separately from this method-independent
+framework.
 
 ## Current research and development stage
 
@@ -61,7 +65,19 @@ human double-coding. The cross-track design-brief schema remains deferred.
 Raw project-page HTML and verbatim evidence remain local mining inputs, not
 runtime Helper inputs.
 
-## Story-level long-term research goal
+## Story-level long-term research goals
+
+The Track B program-level question is:
+
+> To what extent can a generative agent act as an author-controlled,
+> story-level narrative technique design partner in adapting classic
+> children's stories into interactive narratives, by proposing inspectable
+> technique-specific transformations and explaining their implications for
+> player experience, interaction, narrative development, thematic meaning,
+> and educational purpose?
+
+Its only currently specified technique is **Track B1 — Counterfactual Action
+and Consequence Exploration**, which retains the earlier focused question:
 
 > To what extent can a generative agent act as a counterfactual narrative
 > design partner in adapting classic children's stories into multi-ending
@@ -69,20 +85,20 @@ runtime Helper inputs.
 > actions and projecting their consequences for plot development, possible
 > endings, thematic meaning, and educational purpose?
 
-The long-term story-level track retains the design-time **Counterfactual
-Narrative Design Partner** as an ambitious future research goal, but it is not
-part of the current development scope. Track A's initial contracts and
-component boundary now exist. A 122-card automation-reviewed knowledge
-snapshot exists, but no executable Helper, independently human-reviewed
-snapshot, or research evidence of Helper quality is claimed yet.
+The prospective **Story-level Narrative Technique Design Partner** remains
+outside the current development scope. Counterfactual action and consequence
+is its only specified module. Perspective and information, time and sequence,
+or role and agency identify a broader conceptual space; they are not
+implemented modules or evidence of technique-general capability. Track A's
+implementation and evidence status remain independent of this scope change.
 
 ## Repository map
 
 | Path | Responsibility |
 |---|---|
 | `research/` | Research question, constructs, scope, methods, ethics, and decisions |
-| `agent/` | Separate Track A Educational Design Helper and Track B Counterfactual Partner components |
-| `cases/` | Stable story analyses, pivotal actions, invariants, and design briefs |
+| `agent/` | Separate Track A Helper and Track B narrative-technique boundaries |
+| `cases/` | Stable story inputs, technique-specific tasks, invariants, and design briefs |
 | `corpus/` | Catalogs, annotations, schemas, derived knowledge, and rights records |
 | `experiments/` | Reproducible protocols, conditions, evaluations, and analyses |
 | `testbeds/` | Runnable research instruments used across experiments |
@@ -109,22 +125,25 @@ snapshot, or research evidence of Helper quality is claimed yet.
   frozen model-facing snapshot. Its manifest records the 122-card pool, exact
   workbook and artifact hashes, rule-audit status, counts, and limitations.
   The strict v1.0 two-card snapshot remains preserved for comparison.
-- `cases/fox-and-crow/` defines the first counterfactual adaptation case without
-  prescribing the Agent's answers.
+- `cases/fox-and-crow/` defines the first Track B1 counterfactual adaptation
+  case without prescribing the Agent's answers.
 - `testbeds/fox-and-crow/` is the independently versioned playable
   Fox-and-Crow application, included as a Git submodule.
 - `legacy/theory-guided-story-generator/` preserves the earlier five-section,
   theory- and Prompt-guided DeepSeek generator. It is prior work, not yet a
   validated baseline for the current research question.
 
-The counterfactual design Partner remains unimplemented and is not part of the
-current development plan. Its existing machine-readable contracts are
-preserved under `agent/counterfactual-design-partner/schemas/` only to maintain
-the long-term research boundary. Track A's request, response, run-trace,
+The Story-level Narrative Technique Design Partner remains unimplemented and is
+not part of the current development plan. Its Track B boundary is preserved
+under `agent/narrative-technique-design-partner/`; the existing counterfactual
+contracts remain technique-specific under
+`techniques/counterfactual/schemas/`. Track A's request, response, run-trace,
 screening, and knowledge-card contracts do not repurpose Track B.
 
 The confirmed two-direction program structure is recorded in
 [`research/decisions/2026-08-28-two-track-helper-architecture.md`](research/decisions/2026-08-28-two-track-helper-architecture.md).
+The later Track B technique-family scope is recorded in
+[`research/decisions/2026-08-28-track-b-narrative-technique-scope.md`](research/decisions/2026-08-28-track-b-narrative-technique-scope.md).
 The maintained development and component-boundary decision is recorded in
 [`research/decisions/2026-08-28-initial-helper-development.md`](research/decisions/2026-08-28-initial-helper-development.md).
 

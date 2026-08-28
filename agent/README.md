@@ -15,16 +15,23 @@ narrative designers compare traceable design directions.
 It does not read restricted source pages, claim that creator-described intent
 is learning-effect evidence, or generate a complete interactive story.
 
-## Counterfactual Narrative Design Partner (preserved boundary only)
+## Story-level Narrative Technique Design Partner (preserved boundary only)
 
-[`counterfactual-design-partner/`](counterfactual-design-partner/) owns Track
-B's story-level partner. It accepts a bounded story case and proposes
-inspectable alternative actions and consequence projections.
+[`narrative-technique-design-partner/`](narrative-technique-design-partner/)
+owns Track B's story-level technique-family boundary. It frames inspectable,
+technique-specific transformations of a concrete story under author-declared
+constraints and authority.
 
 Track B is not part of the current development scope. Its directory contains
-only boundary documentation and existing schemas; implementation scaffolding
-has deliberately been removed. Do not implement a runtime, prompts, Harness,
-interface, or evaluation here without a new explicit user decision.
+only boundary documentation and the existing counterfactual schemas nested
+under its only specified technique module. Do not implement a runtime, prompts,
+Harness, interface, evaluation, generic schema, or additional technique module
+here without a new explicit user decision.
+
+[`narrative-technique-design-partner/techniques/counterfactual/`](narrative-technique-design-partner/techniques/counterfactual/)
+preserves Track B1's Counterfactual Narrative Design Partner. Its contracts
+remain specific to alternative character actions, causal developments, later
+choices, endings, and supported meaning projections.
 
 It does not perform corpus mining, select a macro educational direction, or
 operate the runtime Story Agent in the Fox-and-Crow testbed.

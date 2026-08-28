@@ -27,4 +27,4 @@ if ($LASTEXITCODE -ne 0) {
     throw 'Agent boundary or schema tests failed.'
 }
 
-Write-Output 'PASS: active Track A component and preserved Track B schema boundary'
+Write-Output 'PASS: active Track A component and preserved Track B narrative-technique boundary'

@@ -1,146 +1,135 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080" role="img" aria-labelledby="title desc">
-  <title id="title">Current study framework for creator-description mining on itch.io</title>
-  <desc id="desc">The current study treats educational interactive fiction across multiple platforms as the broader source universe, while using a frozen itch.io candidate inventory and public creator pages for the present acquisition. Completed processing leads into active inclusion screening and pilot coding, followed by planned full coding and evidence-scoped synthesis.</desc>
+  <title id="title">Track A iterative research framework</title>
+  <desc id="desc">A method-independent, cyclical research framework for the Educational Interactive Narrative Design Helper. Five recurring phases surround the research questions, scope, and evidence boundaries: evidence acquisition and corpus construction; knowledge discovery, construction, and validation; knowledge organization, access, and grounding; agent system design and orchestration; and scenario-based evaluation and reflection. Human review, provenance, ethics and rights, versioning, reproducibility, and evidence limitations govern the entire cycle.</desc>
+
   <defs>
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
-      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#172033" flood-opacity="0.10"/>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="136%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#152238" flood-opacity="0.10"/>
     </filter>
-    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="12" markerHeight="12" orient="auto-start-reverse">
-      <path d="M 1 1 L 11 6 L 1 11 z" fill="#263247"/>
+    <marker id="arrow" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="11" markerHeight="11" orient="auto">
+      <path d="M 1 1 L 11 6 L 1 11 z" fill="#344258"/>
     </marker>
     <style>
-      .title { font: 700 38px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
-      .subtitle { font: 400 23px Inter, "Segoe UI", Arial, sans-serif; fill: #4b5565; }
-      .eyebrow { font: 700 17px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 1.8px; fill: #526071; }
-      .panel-title { font: 700 29px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
-      .card-title { font: 700 22px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
-      .body { font: 400 19px Inter, "Segoe UI", Arial, sans-serif; fill: #344054; }
-      .small { font: 400 17px Inter, "Segoe UI", Arial, sans-serif; fill: #526071; }
-      .status { font: 700 14px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 1.1px; }
-      .arrow { fill: none; stroke: #263247; stroke-width: 4; marker-end: url(#arrow); }
-      .inner { fill: #ffffff; stroke: #2d3748; stroke-width: 2.4; }
+      .title { font: 700 42px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+      .subtitle { font: 400 22px Inter, "Segoe UI", Arial, sans-serif; fill: #526071; }
+      .eyebrow { font: 700 15px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 2px; fill: #59677a; }
+      .phase-label { font: 700 15px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 1.5px; fill: #59677a; }
+      .phase-number { font: 700 18px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+      .phase-title { font: 700 24px Inter, "Segoe UI", Arial, sans-serif; fill: #172033; }
+      .phase-body { font: 400 18px Inter, "Segoe UI", Arial, sans-serif; fill: #425166; }
+      .phase-note { font: 400 17px Inter, "Segoe UI", Arial, sans-serif; fill: #425166; }
+      .core-label { font: 700 15px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 2px; fill: #a9c9dc; }
+      .core-title { font: 700 32px Inter, "Segoe UI", Arial, sans-serif; fill: #ffffff; }
+      .core-subtitle { font: 600 24px Inter, "Segoe UI", Arial, sans-serif; fill: #dbeaf2; }
+      .core-body { font: 400 18px Inter, "Segoe UI", Arial, sans-serif; fill: #c8d7e3; }
+      .core-pill { font: 700 14px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 1.4px; fill: #172033; }
+      .governance-title { font: 700 15px Inter, "Segoe UI", Arial, sans-serif; letter-spacing: 1.8px; fill: #425166; }
+      .governance-item { font: 600 17px Inter, "Segoe UI", Arial, sans-serif; fill: #263247; }
+      .cycle-arrow { fill: none; stroke: #344258; stroke-width: 4; stroke-linecap: round; marker-end: url(#arrow); }
+      .orbit { fill: none; stroke: #e6ebf1; stroke-width: 42; stroke-linecap: round; }
+      .phase-card { stroke-width: 2.4; }
     </style>
   </defs>
 
-  <rect width="1800" height="1080" fill="#ffffff"/>
+  <rect width="1800" height="1080" fill="#fbfcfe"/>
 
+  <!-- Header -->
+  <text x="80" y="72" class="title">Track A — Iterative Research Framework</text>
+  <text x="80" y="112" class="subtitle">Educational Interactive Narrative Design Helper · a recurring research cycle, not a linear implementation timeline</text>
+  <text x="1720" y="70" text-anchor="end" class="eyebrow">METHOD-INDEPENDENT FRAMEWORK</text>
+  <line x1="80" y1="140" x2="1720" y2="140" stroke="#d9e0e8" stroke-width="2"/>
+
+  <!-- Quiet orbit behind the five phases -->
+  <ellipse cx="900" cy="545" rx="575" ry="355" class="orbit"/>
+
+  <!-- Primary recurring research cycle -->
+  <path d="M 1118 220 C 1190 232, 1260 270, 1320 325" class="cycle-arrow"/>
+  <path d="M 1445 535 C 1480 585, 1472 633, 1435 681" class="cycle-arrow"/>
+  <path d="M 1190 838 C 1060 916, 742 916, 612 838" class="cycle-arrow"/>
+  <path d="M 365 681 C 328 633, 320 585, 355 535" class="cycle-arrow"/>
+  <path d="M 480 325 C 540 270, 610 232, 682 220" class="cycle-arrow"/>
+
+  <!-- Phase 1 -->
   <g filter="url(#shadow)">
-    <rect x="40" y="30" width="1720" height="112" rx="26" fill="#f1f3f6" stroke="#263247" stroke-width="2.5"/>
+    <rect x="690" y="160" width="420" height="200" rx="26" fill="#e8f2f8" stroke="#557b94" class="phase-card"/>
   </g>
-  <text x="78" y="78" class="title">Current Study — Creator-Description Mining on itch.io</text>
-  <text x="78" y="116" class="subtitle">A platform-specific evidence pipeline; not the full field and not yet an implemented design Helper</text>
+  <circle cx="738" cy="214" r="25" fill="#b9d7e8"/>
+  <text x="738" y="221" text-anchor="middle" class="phase-number">01</text>
+  <text x="780" y="218" class="phase-label">EVIDENCE FOUNDATION</text>
+  <text x="724" y="265" class="phase-title">Evidence Acquisition &amp;</text>
+  <text x="724" y="296" class="phase-title">Corpus Construction</text>
+  <text x="724" y="326" class="phase-note">Establish an inspectable body</text>
+  <text x="724" y="349" class="phase-note">of source evidence.</text>
 
-  <!-- Source universe -->
+  <!-- Phase 2 -->
   <g filter="url(#shadow)">
-    <rect x="40" y="180" width="1720" height="180" rx="28" fill="#e8f1fa"/>
+    <rect x="1210" y="345" width="440" height="190" rx="26" fill="#edf4e8" stroke="#6d885f" class="phase-card"/>
   </g>
-  <text x="72" y="221" class="eyebrow">BROADER SOURCE UNIVERSE</text>
-  <text x="72" y="257" class="panel-title">Educational Interactive Fiction across game platforms and related catalogues</text>
+  <circle cx="1258" cy="389" r="25" fill="#c8ddb9"/>
+  <text x="1258" y="396" text-anchor="middle" class="phase-number">02</text>
+  <text x="1300" y="393" class="phase-label">KNOWLEDGE FORMATION</text>
+  <text x="1244" y="440" class="phase-title">Knowledge Discovery,</text>
+  <text x="1244" y="471" class="phase-title">Construction &amp; Validation</text>
+  <text x="1244" y="505" class="phase-note">Develop reviewable and traceable</text>
+  <text x="1244" y="528" class="phase-note">knowledge claims.</text>
 
-  <rect x="72" y="282" width="380" height="56" rx="15" fill="#b9d9ee" stroke="#4f7692" stroke-width="2.2"/>
-  <text x="94" y="317" class="card-title">itch.io · current candidate source</text>
-
-  <rect x="478" y="282" width="285" height="56" rx="15" fill="#ffffff" stroke="#8ea0b4" stroke-width="2" stroke-dasharray="9 7"/>
-  <text x="506" y="317" class="card-title">Steam · future coverage</text>
-
-  <rect x="789" y="282" width="360" height="56" rx="15" fill="#ffffff" stroke="#8ea0b4" stroke-width="2" stroke-dasharray="9 7"/>
-  <text x="817" y="317" class="card-title">Other platforms · future coverage</text>
-
-  <rect x="1190" y="242" width="535" height="96" rx="17" fill="#d8e9f6" stroke="#6d8ca4" stroke-width="2"/>
-  <text x="1217" y="279" class="card-title">Scope rule</text>
-  <text x="1217" y="310" class="body">The current itch.io inventory does not define the field.</text>
-  <text x="1217" y="331" class="small">Coverage and claims remain platform-specific.</text>
-
-  <path d="M 262 338 L 262 397" class="arrow"/>
-
-  <!-- Current pipeline -->
+  <!-- Phase 3 -->
   <g filter="url(#shadow)">
-    <rect x="40" y="400" width="1120" height="475" rx="28" fill="#eef4f9"/>
+    <rect x="1180" y="680" width="470" height="190" rx="26" fill="#e8f3ef" stroke="#5b8178" class="phase-card"/>
   </g>
-  <text x="72" y="442" class="eyebrow">CURRENT PROCESSING AND RESEARCH WORK</text>
-  <text x="72" y="479" class="panel-title">From a frozen candidate inventory to evidence-scoped findings</text>
+  <circle cx="1228" cy="724" r="25" fill="#bad9cf"/>
+  <text x="1228" y="731" text-anchor="middle" class="phase-number">03</text>
+  <text x="1270" y="728" class="phase-label">KNOWLEDGE MEDIATION</text>
+  <text x="1214" y="775" class="phase-title">Knowledge Organization,</text>
+  <text x="1214" y="806" class="phase-title">Access &amp; Grounding</text>
+  <text x="1214" y="840" class="phase-note">Make reviewed knowledge usable</text>
+  <text x="1214" y="863" class="phase-note">without losing provenance.</text>
 
-  <rect x="72" y="520" width="235" height="290" rx="20" class="inner"/>
-  <rect x="92" y="540" width="112" height="31" rx="15" fill="#cde4f3"/>
-  <text x="148" y="561" text-anchor="middle" class="status" fill="#315b78">COMPLETED</text>
-  <text x="94" y="609" class="card-title">1 · Candidate</text>
-  <text x="94" y="638" class="card-title">discovery</text>
-  <text x="94" y="679" class="body">Frozen itch.io</text>
-  <text x="94" y="708" class="body">tag inventory</text>
-  <text x="94" y="747" class="panel-title">606</text>
-  <text x="94" y="776" class="small">candidate entries</text>
-
-  <path d="M 307 665 L 342 665" class="arrow"/>
-
-  <rect x="350" y="520" width="260" height="290" rx="20" class="inner"/>
-  <rect x="370" y="540" width="112" height="31" rx="15" fill="#cde4f3"/>
-  <text x="426" y="561" text-anchor="middle" class="status" fill="#315b78">COMPLETED</text>
-  <text x="372" y="609" class="card-title">2 · Acquire and clean</text>
-  <text x="372" y="650" class="body">public creator pages</text>
-  <text x="372" y="679" class="body">page bundles →</text>
-  <text x="372" y="708" class="body">source records</text>
-  <text x="372" y="744" class="panel-title">606 → 585</text>
-  <text x="372" y="773" class="small">processing complete</text>
-  <text x="372" y="797" class="small">no inclusion decisions</text>
-
-  <path d="M 610 665 L 645 665" class="arrow"/>
-
-  <rect x="653" y="520" width="235" height="290" rx="20" fill="#fff1d9" stroke="#9a6c28" stroke-width="2.6"/>
-  <rect x="673" y="540" width="82" height="31" rx="15" fill="#f5c97f"/>
-  <text x="714" y="561" text-anchor="middle" class="status" fill="#6f4710">ACTIVE</text>
-  <text x="675" y="609" class="card-title">3 · Screen and</text>
-  <text x="675" y="638" class="card-title">pilot the codebook</text>
-  <text x="675" y="679" class="body">include · exclude</text>
-  <text x="675" y="708" class="body">uncertain · reason</text>
-  <text x="675" y="746" class="body">test semantic roles</text>
-  <text x="675" y="775" class="small">retain evidence and</text>
-  <text x="675" y="799" class="small">record ambiguity</text>
-
-  <path d="M 888 665 L 923 665" class="arrow"/>
-
-  <rect x="931" y="520" width="197" height="290" rx="20" fill="#ffffff" stroke="#8b98a8" stroke-width="2.2" stroke-dasharray="10 8"/>
-  <rect x="951" y="540" width="88" height="31" rx="15" fill="#e4e7ec"/>
-  <text x="995" y="561" text-anchor="middle" class="status" fill="#596273">PLANNED</text>
-  <text x="953" y="609" class="card-title">4 · Full coding</text>
-  <text x="953" y="638" class="card-title">and synthesis</text>
-  <text x="953" y="679" class="body">coded case matrix</text>
-  <text x="953" y="708" class="body">types and</text>
-  <text x="953" y="737" class="body">combinations</text>
-  <text x="953" y="770" class="body">coverage and limits</text>
-  <text x="953" y="797" class="small">short-term RQ</text>
-
-  <text x="72" y="849" class="small">Status reflects the accepted stable 1.0 acquisition and cleaning evidence as of 2026-08-28.</text>
-
-  <!-- Coding frame -->
+  <!-- Phase 4 -->
   <g filter="url(#shadow)">
-    <rect x="1210" y="400" width="550" height="475" rx="28" fill="#eee8f8"/>
+    <rect x="150" y="680" width="470" height="190" rx="26" fill="#f0ecf7" stroke="#79659a" class="phase-card"/>
   </g>
-  <text x="1242" y="442" class="eyebrow">CODING FRAME</text>
-  <text x="1242" y="479" class="panel-title">What creator statements mean</text>
+  <circle cx="198" cy="724" r="25" fill="#d5cae8"/>
+  <text x="198" y="731" text-anchor="middle" class="phase-number">04</text>
+  <text x="240" y="728" class="phase-label">AGENT FORMATION</text>
+  <text x="184" y="775" class="phase-title">Agent System Design</text>
+  <text x="184" y="806" class="phase-title">&amp; Orchestration</text>
+  <text x="184" y="840" class="phase-note">Shape how structured design support</text>
+  <text x="184" y="863" class="phase-note">is produced.</text>
 
-  <rect x="1242" y="512" width="486" height="226" rx="19" class="inner"/>
-  <text x="1268" y="550" class="card-title">Shared semantic roles</text>
-  <text x="1268" y="588" class="body">educational purpose and topic</text>
-  <text x="1268" y="619" class="body">intended audience · application setting</text>
-  <text x="1268" y="650" class="body">interactive narrative form or mechanics</text>
-  <text x="1268" y="681" class="body">interaction–educational-intent relationship</text>
-  <text x="1268" y="705" class="small">Codebook rules—not column location—</text>
-  <text x="1268" y="725" class="small">create comparability.</text>
+  <!-- Phase 5 -->
+  <g filter="url(#shadow)">
+    <rect x="150" y="345" width="440" height="190" rx="26" fill="#fff2dd" stroke="#a07131" class="phase-card"/>
+  </g>
+  <circle cx="198" cy="389" r="25" fill="#f0cf95"/>
+  <text x="198" y="396" text-anchor="middle" class="phase-number">05</text>
+  <text x="240" y="393" class="phase-label">INQUIRY &amp; REFLECTION</text>
+  <text x="184" y="440" class="phase-title">Scenario-based Evaluation</text>
+  <text x="184" y="471" class="phase-title">&amp; Reflection</text>
+  <text x="184" y="505" class="phase-note">Examine behavior, utility, limitations</text>
+  <text x="184" y="528" class="phase-note">and implications.</text>
 
-  <rect x="1242" y="746" width="486" height="108" rx="19" fill="#e2daf1" stroke="#78649a" stroke-width="2"/>
-  <text x="1268" y="780" class="card-title">Optional lexical aids</text>
-  <text x="1268" y="811" class="body">phrase counts · TF-IDF · similarity · stemming</text>
-  <text x="1268" y="839" class="small">assist discovery and retrieval; do not replace coding.</text>
+  <!-- Research core -->
+  <g filter="url(#shadow)">
+    <rect x="650" y="392" width="500" height="262" rx="48" fill="#17243a"/>
+  </g>
+  <text x="900" y="438" text-anchor="middle" class="core-label">THE RESEARCH CORE</text>
+  <text x="900" y="486" text-anchor="middle" class="core-title">Research Questions</text>
+  <text x="900" y="522" text-anchor="middle" class="core-subtitle">Scope &amp; Evidence Boundaries</text>
+  <text x="900" y="562" text-anchor="middle" class="core-body">Anchor what may be asked, what the evidence can support,</text>
+  <text x="900" y="589" text-anchor="middle" class="core-body">and where interpretive claims must stop.</text>
+  <rect x="748" y="611" width="304" height="28" rx="14" fill="#b9d7e8"/>
+  <text x="900" y="630" text-anchor="middle" class="core-pill">ITERATIVE · REVISITABLE · VERSIONED</text>
 
-  <!-- Outputs -->
-  <rect x="40" y="920" width="1720" height="120" rx="24" fill="#fff5d8" stroke="#b48a3a" stroke-width="2"/>
-  <text x="72" y="959" class="eyebrow">EVIDENCE-SCOPED OUTPUTS · NOT A HELPER IMPLEMENTATION</text>
-  <text x="72" y="997" class="card-title">Eligibility decisions</text>
-  <text x="303" y="997" class="body">→</text>
-  <text x="342" y="997" class="card-title">coded creator-description matrix</text>
-  <text x="705" y="997" class="body">→</text>
-  <text x="744" y="997" class="card-title">traceable types and design combinations</text>
-  <text x="1198" y="997" class="body">→</text>
-  <text x="1237" y="997" class="card-title">coverage, bias, and limitation report</text>
-  <text x="72" y="1027" class="small">The current study can support claims about creator positioning within the covered source—not educational effectiveness or the whole IF field.</text>
+  <!-- Cross-cutting governance -->
+  <rect x="60" y="950" width="1680" height="92" rx="22" fill="#f1f4f7" stroke="#c8d1dc" stroke-width="2"/>
+  <text x="88" y="985" class="governance-title">CROSS-CUTTING RESEARCH GOVERNANCE</text>
+  <text x="88" y="1017" class="phase-body">Applied throughout every phase</text>
+  <line x1="430" y1="972" x2="430" y2="1022" stroke="#c4ccd7" stroke-width="2"/>
+  <text x="460" y="1003" class="governance-item">Human judgment &amp; review</text>
+  <text x="710" y="1003" class="governance-item">Provenance</text>
+  <text x="850" y="1003" class="governance-item">Ethics &amp; rights</text>
+  <text x="1040" y="1003" class="governance-item">Versioning</text>
+  <text x="1190" y="1003" class="governance-item">Reproducibility</text>
+  <text x="1390" y="1003" class="governance-item">Evidence limitations</text>
 </svg>

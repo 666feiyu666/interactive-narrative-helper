@@ -20,7 +20,7 @@ const schemas = {
   request: "agent/educational-design-helper/schemas/design-request.schema.json",
   response: "agent/educational-design-helper/schemas/design-response.schema.json",
   trace: "agent/educational-design-helper/schemas/run-trace.schema.json",
-  case: "agent/counterfactual-design-partner/schemas/counterfactual-case.schema.json",
+  case: "agent/narrative-technique-design-partner/techniques/counterfactual/schemas/counterfactual-case.schema.json",
 };
 
 const dimension = (status, labels, summary) => ({ status, labels, summary });

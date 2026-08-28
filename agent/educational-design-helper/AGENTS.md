@@ -18,7 +18,8 @@ This file applies only to `agent/educational-design-helper/`.
 - Preserve knowledge IDs and the exact retrieved set in every run trace.
 - Do not claim that creator-described educational intent demonstrates learning
   effectiveness.
-- Do not import internal files from `agent/counterfactual-design-partner/`.
+- Do not import internal files from
+  `agent/narrative-technique-design-partner/`.
   Shared code requires an independently documented, stable cross-component
   contract.
 - Add automated tests for schema, retrieval, citation, provider-boundary, and

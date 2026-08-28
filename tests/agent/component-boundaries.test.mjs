@@ -28,8 +28,8 @@ test("every component-owned Agent file lives below one explicit Agent directory"
     .map((entry) => entry.name)
     .sort();
   assert.deepEqual(directories, [
-    "counterfactual-design-partner",
     "educational-design-helper",
+    "narrative-technique-design-partner",
   ]);
 
   const files = await walkFiles(agentRoot);
@@ -37,32 +37,63 @@ test("every component-owned Agent file lives below one explicit Agent directory"
     (file) =>
       file !== "README.md" &&
       !file.startsWith("educational-design-helper/") &&
-      !file.startsWith("counterfactual-design-partner/"),
+      !file.startsWith("narrative-technique-design-partner/"),
   );
   assert.deepEqual(unexpected, []);
 });
 
-test("active Track A and the preserved Track B boundary declare local guidance", async () => {
+test("active Track A and the preserved Track B boundaries declare local guidance", async () => {
   await access(path.join(agentRoot, "educational-design-helper", "AGENTS.md"));
-  await access(path.join(agentRoot, "counterfactual-design-partner", "AGENTS.md"));
+  await access(path.join(agentRoot, "narrative-technique-design-partner", "AGENTS.md"));
+  await access(
+    path.join(
+      agentRoot,
+      "narrative-technique-design-partner",
+      "techniques",
+      "counterfactual",
+      "AGENTS.md",
+    ),
+  );
 });
 
 test("the preserved Track B boundary contains no implementation scaffolding", async () => {
-  const entries = (await readdir(path.join(agentRoot, "counterfactual-design-partner"), {
+  const trackBRoot = path.join(agentRoot, "narrative-technique-design-partner");
+  const entries = (await readdir(trackBRoot, {
     withFileTypes: true,
   })).map((entry) => entry.name).sort();
-  assert.deepEqual(entries, ["AGENTS.md", "README.md", "schemas"]);
+  assert.deepEqual(entries, ["AGENTS.md", "README.md", "techniques"]);
+
+  const techniques = (await readdir(path.join(trackBRoot, "techniques"), {
+    withFileTypes: true,
+  })).map((entry) => entry.name).sort();
+  assert.deepEqual(techniques, ["counterfactual"]);
+
+  const counterfactualEntries = (await readdir(
+    path.join(trackBRoot, "techniques", "counterfactual"),
+    { withFileTypes: true },
+  )).map((entry) => entry.name).sort();
+  assert.deepEqual(counterfactualEntries, ["AGENTS.md", "README.md", "schemas"]);
 });
 
 test("Track B schema identifiers use the preserved boundary path", async () => {
   for (const filename of ["counterfactual-case.schema.json", "counterfactual-proposal.schema.json"]) {
     const schema = JSON.parse(
       await readFile(
-        path.join(agentRoot, "counterfactual-design-partner", "schemas", filename),
+        path.join(
+          agentRoot,
+          "narrative-technique-design-partner",
+          "techniques",
+          "counterfactual",
+          "schemas",
+          filename,
+        ),
         "utf8",
       ),
     );
-    assert.match(schema.$id, /agent\/counterfactual-design-partner\/schemas\//);
+    assert.match(
+      schema.$id,
+      /agent\/narrative-technique-design-partner\/techniques\/counterfactual\/schemas\//,
+    );
   }
 });
 

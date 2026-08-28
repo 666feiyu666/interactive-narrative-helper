@@ -70,10 +70,11 @@ preserved for rule comparison, not used as the default pool.
 
 ## Separation from Track B
 
-This component does not propose alternative actions for a bounded source story,
-project consequence chains, or import schemas from
-`../counterfactual-design-partner/`. A future author-reviewed design brief may
-connect the components, but no bridge schema is frozen yet.
+This component does not perform story-level narrative-technique exploration,
+propose alternative actions for a bounded source story, project consequence
+chains, or import schemas from `../narrative-technique-design-partner/`. A
+future author-reviewed design brief may connect the components, but no bridge
+schema is frozen yet.
 
 ## Structure
 

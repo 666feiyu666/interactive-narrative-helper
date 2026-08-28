@@ -50,8 +50,9 @@ The stable contract is documented in
 cleaned descriptions remain under the Git-ignored restricted-source tree.
 
 The Agent contract validation checks the active Track A component, the static
-Track B boundary, Track A schemas, model-facing knowledge exclusions, and
-compatibility of the preserved Track B case contract:
+Track B narrative-technique boundary, Track A schemas, model-facing knowledge
+exclusions, and compatibility of the preserved Track B1 counterfactual case
+contract:
 
 ```powershell
 pwsh -File tools/agent/validate.ps1

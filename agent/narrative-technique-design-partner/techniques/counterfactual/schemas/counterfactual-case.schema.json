@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/666feiyu666/interactive-narrative-helper/agent/counterfactual-design-partner/schemas/counterfactual-case.schema.json",
+  "$id": "https://github.com/666feiyu666/interactive-narrative-helper/agent/narrative-technique-design-partner/techniques/counterfactual/schemas/counterfactual-case.schema.json",
   "title": "Counterfactual Narrative Case",
   "type": "object",
   "required": [

@@ -14,9 +14,9 @@ pwsh -File tools/itchio/validate.ps1
 
 The Agent contract tests verify that Track A files remain inside the active
 component, that the preserved Track B boundary contains only documentation and
-existing schemas, that Track A fixtures satisfy their public schemas, that the
-Track B case contract remains compatible, and that model-facing knowledge
-rejects restricted evidence fields. Run them with:
+its specified counterfactual module, that Track A fixtures satisfy their public
+schemas, that the Track B1 case contract remains compatible, and that
+model-facing knowledge rejects restricted evidence fields. Run them with:
 
 ```powershell
 pwsh -File tools/agent/validate.ps1

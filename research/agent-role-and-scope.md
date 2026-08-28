@@ -1,4 +1,4 @@
-# Story-Level Agent Role and Scope
+# Story-Level Narrative Technique Partner Role and Scope
 
 This document defines Track B of the umbrella
 [Interactive Narrative Helper architecture](helper-architecture.md). Track A's
@@ -7,66 +7,80 @@ descriptions and is owned separately by
 `agent/educational-design-helper/`; it is not specified in this Track B role
 document.
 
-## Role
+## Shared Track B role
 
-The research artifact is an author-facing, design-time **Counterfactual
-Narrative Design Partner**.
+The prospective research artifact is an author-facing, design-time
+**Story-level Narrative Technique Design Partner**.
 
-It participates after the author or researcher has identified a source story
-and pivotal canonical action, but before full branch writing and runtime
-implementation.
+It participates after the author or researcher has identified a concrete story
+or story situation and reviewed design direction, but before full branch
+writing and runtime implementation.
 
 When a macro educational design direction exists, the Partner may also receive
 an educator- or author-reviewed design brief. It must treat that brief as an
 editable constraint set, not infer one automatically from raw corpus material.
 
 ```text
-source story
-  -> pivotal canonical action
-  -> counterfactual question
-  -> Agent proposes action/consequence hypotheses
-  -> author reviews and develops selected hypotheses
-  -> branch and runtime design
+concrete story + reviewed design direction
+  -> author frames a narrative-technique task
+  -> Agent proposes inspectable technique-specific transformations
+  -> author compares, revises, combines, or rejects proposals
+  -> selected direction enters branch, scene, or interaction development
 ```
 
 ## Required input
 
-The Agent should not infer an unconstrained task from a story title alone. A
+The Partner should not infer an unconstrained task from a story title alone. A
 case should supply:
 
 - source and provenance;
 - target audience when known;
 - selected educational purpose, setting, or interaction direction when the
   author has confirmed one;
-- canonical character action and its goal;
-- counterfactual question;
 - story facts and invariants to preserve;
 - premises the author permits the design to change;
+- narrative-technique framing and technique-specific task fields;
 - requested output bounds when relevant.
 
-## Required output behavior
+## Shared output behavior
 
-For every alternative, the Agent should expose:
+For every proposal, the Partner should expose as appropriate to the selected
+technique:
 
-1. the alternative action and character motivation;
+1. the proposed story-level transformation and its rationale;
 2. compatibility with preserved source constraints;
-3. immediate consequences and reactions;
-4. intermediate causal developments and a new or transformed conflict;
-5. further opportunities for player choice;
-6. one or more possible endings;
-7. possible thematic shifts supported by narrative evidence;
-8. possible educational implications supported by narrative evidence;
-9. assumptions, risks, and source changes required by the proposal.
+3. implications for player experience, information, interaction, or narrative
+   development;
+4. possible thematic shifts supported by narrative evidence;
+5. possible educational implications supported by narrative evidence; and
+6. assumptions, risks, and source changes required by the proposal.
+
+Different techniques require different contracts and evaluation criteria. The
+shared role does not imply a generic machine-readable schema.
+
+## Track B1 — Counterfactual role
+
+The existing Counterfactual Narrative Design Partner is the only currently
+specified technique module. Its input additionally requires a canonical
+character action and goal, a counterfactual question, invariants, and mutable
+assumptions. For every alternative it exposes the action and motivation,
+immediate and intermediate consequences, transformed conflict, further player
+choices, possible endings, supported meaning projections, required source
+changes, assumptions, and risks.
 
 ## Authority boundary
 
-The Agent produces design hypotheses. It does not decide the correct theme,
+The Partner produces design hypotheses. It does not decide the correct theme,
 educational purpose, or final branch. The author may accept, edit, combine, or
 reject every proposal.
 
-The Agent must remain distinct from:
+The Partner must remain distinct from:
 
 - a runtime narrator responding to player input;
 - a full-story generator producing finished prose;
 - an automated evaluator declaring narrative quality;
 - a moral authority prescribing a single lesson for children.
+
+Examples such as perspective or focalization, temporal or information
+restructuring, and role or agency changes define the broader conceptual space.
+They are not current modules, implemented behavior, or evaluated capability.

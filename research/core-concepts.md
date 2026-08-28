@@ -50,7 +50,52 @@ task. It records selected educational and interaction directions together with
 author constraints. Its program role is confirmed, but its machine-readable
 contract is not yet fixed.
 
-## Story-level counterfactual concepts
+## Story-level narrative technique concepts
+
+### Story-level narrative technique
+
+A bounded way of transforming how a concrete story develops or is experienced
+without delegating full-story authorship to the Agent. A technique may organize
+changes in events and consequences, perspective and information, time and
+sequence, or role and agency. These examples identify a conceptual space; they
+are not current implemented modules.
+
+### Technique-specific transformation
+
+An inspectable proposal that applies one declared narrative technique to a
+concrete story under author-defined invariants, permitted changes, and
+exploration bounds. The proposal should expose what changes, what remains
+stable, why the transformation is relevant, and what it may imply for
+interaction, experience, interpretation, and educational purpose.
+
+### Experiential possibility
+
+A materially different way a player may encounter or participate in a story,
+even when the underlying events do not change. Examples may include inhabiting
+another character's position, revisiting an event, or taking a different role
+in how the story is disclosed.
+
+### Epistemic possibility
+
+A change in what the player can know, when they can know it, whose account they
+can access, or how partial and conflicting information can be compared. It is
+not by itself evidence that a particular learning outcome occurs.
+
+### Interpretive possibility
+
+A supported alternative way of understanding a story that arises from the
+designed experience rather than from an ungrounded moral appended to it. The
+Partner presents interpretations for author review rather than declaring one
+correct meaning.
+
+### Technique framing
+
+The author-controlled definition of which narrative operation is being
+explored, what design intention it serves, which source constraints apply, and
+what kinds of change are allowed. Technique framing belongs to the task, not to
+an unconstrained model inference.
+
+## Track B1 — Counterfactual technique concepts
 
 ### Canonical action
 

@@ -1,8 +1,14 @@
 # Research cases
 
-A case is a stable, bounded input to Track B's counterfactual design task. It
-defines the source, provenance, canonical action, counterfactual question,
-invariants, and permitted changes without prescribing the Partner's answers.
+`cases/` stores stable, bounded story inputs and technique-specific research
+tasks for Track B. A case can define source and provenance, audience, reviewed
+design intentions, invariants, permitted changes, and task-specific exploration
+bounds without prescribing the Partner's answers.
+
+The only currently specified story-level task is Track B1 counterfactual action
+and consequence exploration. Its cases additionally define a canonical action,
+character goal, counterfactual question, and requested alternatives. These
+fields are not a generic contract for every possible narrative technique.
 
 Macro Track A precedents and patterns belong under `corpus/`. An educator- or
 author-reviewed Educational Interactive Narrative Design Brief may reference a

@@ -16,12 +16,21 @@ software artifact is an **Educational Interactive Narrative Design Helper**
 that will help an educator or designer compare traceable design precedents and
 alternative directions before committing to a specific story.
 
-### Track B — Story-level counterfactual exploration
+### Track B — Story-level narrative technique exploration
 
-Track B retains the confirmed **Counterfactual Narrative Design Partner**. It
-helps an author who already has a source story, pivotal action, and constraints
-explore substantively different character actions and their consequences for
-later choices, endings, themes, and educational meaning.
+Track B defines the prospective **Story-level Narrative Technique Design
+Partner**. It helps an author who already has a concrete story and reviewed
+design direction explore inspectable, technique-specific transformations while
+retaining authority over source constraints, interpretation, and final design.
+Its conceptual space may concern events and consequences, perspective and
+information, time and sequence, or role and agency.
+
+The only currently specified technique is **Track B1 — Counterfactual Action
+and Consequence Exploration**. It preserves the existing Counterfactual
+Narrative Design Partner question and contracts for alternative character
+actions, causal developments, later choices, endings, and supported meaning
+projections. The broader examples are not implemented modules or evidence of a
+technique-general Agent.
 
 ![Full Interactive Narrative Helper research framework](figures/full-program-framework.svg)
 
@@ -47,11 +56,13 @@ Helper direction.
 
 ## Long-term research direction
 
-The program retains the confirmed Track B question of whether a generative
-agent can act as a counterfactual narrative design partner when authors adapt
-classic children's stories into multi-ending interactive narratives. Track A
-provides a compatible macro design direction but does not replace, validate, or
-claim to implement the story-level Partner.
+The program asks whether a generative agent can act as an author-controlled,
+story-level narrative technique design partner when authors adapt classic
+children's stories into interactive narratives. Track B1 retains the focused
+question of counterfactual action and consequence in multi-ending adaptation.
+Track A provides a compatible macro design direction but does not replace,
+validate, or claim to implement either the story-level Partner or its B1
+module.
 
 ## Existing research instrument
 
@@ -62,7 +73,7 @@ definition of the whole research program.
 ## Program boundary
 
 The project distinguishes macro design exploration, concrete story-level
-exploration, full branch authoring, and runtime narration. The two Helper tracks
-cover only the first two. General media generation and interactive-runtime
-tools remain outside this repository unless they are brought in through an
-explicit project contract.
+technique exploration, full branch authoring, and runtime narration. The two
+Helper tracks cover only the first two. General media generation and
+interactive-runtime tools remain outside this repository unless they are
+brought in through an explicit project contract.
