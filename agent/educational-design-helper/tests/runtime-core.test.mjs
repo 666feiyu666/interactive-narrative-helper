@@ -5,8 +5,9 @@ import path from "node:path";
 import test from "node:test";
 import vm from "node:vm";
 
+import { loadOutputProfiles, resolveOutputProfile } from "../src/config/output-profiles.mjs";
 import { createDesignAdvisor } from "../src/harness/design-advisor.mjs";
-import { createDesignRequest } from "../src/harness/request.mjs";
+import { createCompactDesignRequest, createDesignRequest } from "../src/harness/request.mjs";
 import {
   assertProviderPayloadSafe,
   toModelFacingKnowledge,
@@ -15,6 +16,7 @@ import { loadKnowledgeSnapshot } from "../src/knowledge/load-snapshot.mjs";
 import { FixtureProvider } from "../src/model/fixture-provider.mjs";
 import { cosineSimilarity } from "../src/retrieval/cosine.mjs";
 import { retrieveKnowledge } from "../src/retrieval/retrieve.mjs";
+import { createRuntime } from "../src/runtime/create-runtime.mjs";
 import { createHttpServer } from "../src/server/app.mjs";
 import { validateDesignResponse } from "../src/validation/design-response.mjs";
 import { createSchemaValidators } from "../src/validation/public-schemas.mjs";
@@ -100,6 +102,70 @@ test("request wrapping preserves the exact submitted question", () => {
   assert.equal(request.target_audience.status, "not_stated");
 });
 
+test("v0.1 and v0.2 schemas reject cross-version request mixing", async () => {
+  const profiles = await loadOutputProfiles();
+  const legacyValidators = await createSchemaValidators({
+    profile: resolveOutputProfile(profiles, "0.1"),
+  });
+  const compactValidators = await createSchemaValidators({
+    profile: resolveOutputProfile(profiles, "0.2"),
+  });
+  const legacyRequest = createDesignRequest("How can choices support reflection?", 3);
+  const compactRequest = createCompactDesignRequest("How can choices support reflection?");
+
+  assert.deepEqual(legacyValidators.request(legacyRequest), []);
+  assert.deepEqual(compactValidators.request(compactRequest), []);
+  assert.notDeepEqual(legacyValidators.request(compactRequest), []);
+  assert.notDeepEqual(compactValidators.request(legacyRequest), []);
+});
+
+test("v0.1 profile completes a full compatibility run", async (context) => {
+  const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "track-a-v1-runtime-"));
+  context.after(() => rm(temporaryRoot, { recursive: true, force: true }));
+  const profiles = await loadOutputProfiles();
+  const outputProfile = resolveOutputProfile(profiles, "0.1");
+  const provider = new FixtureProvider({
+    embeddingFactory: (text) => {
+      const length = Array.from(String(text)).length;
+      return [1 + (length % 31) / 31, 1 + (length % 37) / 37];
+    },
+    responseFactory: ({ payload }) => fixtureResponse(
+      payload.request,
+      payload.knowledge_snapshot.snapshot_id,
+      payload.retrieved_knowledge.map(({ card }) => card.knowledge_id),
+    ),
+  });
+  const runtime = await createRuntime({
+    config: {
+      output_version: "0.1",
+      outputProfile,
+      openai: {
+        embeddingModel: "fixture-embedding-v1",
+        generationModel: "fixture-generation-v1",
+      },
+      retrieval: { top_k: 5, embedding_batch_size: 64 },
+      generation: { max_attempts: 2 },
+    },
+    provider,
+    indexRoot: path.join(temporaryRoot, "indexes"),
+    runOutputRoot: path.join(temporaryRoot, "runs"),
+  });
+  const request = createDesignRequest("How can choices support reflection?", 3);
+  const result = await runtime.runDesign(request);
+
+  assert.equal(runtime.outputVersion, "0.1");
+  assert.equal(result.helper_version, "0.1.0");
+  assert.equal(result.output_version, "0.1");
+  assert.equal(result.response.schema_version, "educational-design-response/v1");
+  assert.equal(result.response.design_directions.length, 3);
+  assert.equal(result.retrieval.length, 5);
+  const trace = JSON.parse(
+    await readFile(path.join(temporaryRoot, "runs", result.run_id, "trace.json"), "utf8"),
+  );
+  assert.equal(trace.schema_version, "educational-design-run-trace/v1");
+  assert.equal(trace.status, "succeeded");
+});
+
 test("embedding retrieval ranks by cosine and uses stable ID tie-breaking", async () => {
   const cards = [
     { knowledge_id: "kc_b", retrieval_text: "B" },
@@ -166,7 +232,7 @@ test("browser export formatters preserve the complete result and create readable
   };
 
   const markdown = context.TrackAExport.createMarkdownExport(result);
-  assert.equal(markdown.fileName, "run_export_fixture-educational-design.md");
+  assert.equal(markdown.fileName, "run_export_fixture-educational-design-v0.1.md");
   assert.equal(markdown.mimeType, "text/markdown;charset=utf-8");
   assert.match(markdown.content, /# Educational Interactive Narrative Design Export/u);
   assert.match(markdown.content, /How can choices support reflection\?/u);
@@ -176,7 +242,7 @@ test("browser export formatters preserve the complete result and create readable
   assert.doesNotMatch(markdown.content, /undefined/u);
 
   const json = context.TrackAExport.createJsonExport(result);
-  assert.equal(json.fileName, "run_export_fixture-educational-design.json");
+  assert.equal(json.fileName, "run_export_fixture-educational-design-v0.1.json");
   assert.equal(JSON.parse(json.content).run_id, result.run_id);
   assert.equal(JSON.parse(json.content).response.design_directions.length, 3);
 });

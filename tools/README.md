@@ -85,3 +85,35 @@ Validate the local coding rules and tool syntax with:
 ```powershell
 pwsh -File tools/knowledge/validate.ps1
 ```
+
+## Formal Track A runtime knowledge
+
+Build or verify the deterministic formal knowledge release used by the default
+Helper v0.2 profile with:
+
+```powershell
+node tools/knowledge/build-track-a-educational-design-knowledge-v1.mjs
+```
+
+The builder reads only the accepted
+`track-a-itchio-v1.1-knowledge-v1` model-facing snapshot. It writes 6 domain
+syntheses, support-filtered cross-case patterns, all 122 case design cards, a
+hash-bearing manifest, and a build report to
+`corpus/derived-knowledge/track-a-educational-design-knowledge-v1/`. Repeating
+the command is byte-stable; a divergent existing release is rejected rather
+than overwritten. The command does not write the workbook, read restricted
+HTML, or call an external model.
+
+Build or verify the local public-reference catalog used to attach game titles
+and public itch.io links after v0.2 model generation with:
+
+```powershell
+node tools/knowledge/build-track-a-reference-catalog.mjs
+```
+
+This builder reads the canonical workbook and accepted v1.1 annotations
+without writing either source. It joins their public title and URL fields to
+the 122 formal case design cards, writes
+`agent/educational-design-helper/config/reference-catalog-v1.json`, and
+validates exact card coverage. Descriptions and evidence excerpts are not
+copied into the catalog, and the catalog is never sent to the model provider.

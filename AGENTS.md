@@ -91,10 +91,13 @@ educators and narrative designers compare creator-grounded combinations of
 educational purpose, intended audience, application setting, interactive form,
 and the described relationship between interaction and educational intent. It
 should provide traceable design precedents and alternatives, not prescribe one
-correct educational design. Its initial maintained component, public contracts,
-and first widened automation-reviewed knowledge snapshot are now specified. An
-executable runtime, independent human double-coding, and research evaluation
-are not yet complete.
+correct educational design. Its maintained component now includes v0.1 and
+v0.2 public contracts, an executable local runtime and interface, the first
+formal knowledge release over the widened automation-reviewed snapshot, typed
+retrieval, validation, and run traces. The remediated v0.2 output behavior
+passed user acceptance on 2026-08-29. Independent human double-coding,
+confirmatory external-model evaluation, and research evaluation are not yet
+complete.
 
 **Track B — story-level narrative technique exploration** defines the
 author-facing, design-time **Story-level Narrative Technique Design Partner**.
@@ -340,7 +343,7 @@ cases + field_coverage + provenance
   -> screening decisions recorded through coding status and notes
   -> evidence-grounded coding in coding
   -> reviewed model-facing knowledge cards
-  -> versioned knowledge snapshot
+  -> versioned knowledge snapshot and formal runtime knowledge release
   -> retrieval and Harness
 ```
 
@@ -358,10 +361,10 @@ together.
 ## Current implementation boundary
 
 - The repository structure and documents define intended research behavior.
-  The frozen v1.1 knowledge snapshot is an implemented development input, but
-  it does not prove that data mining has answered the short-term RQ, that human
-  coding is complete, or that the Track A Agent runtime is implemented or
-  effective.
+  The frozen v1.1 knowledge snapshot and its formal v0.2 runtime release are
+  implemented development inputs, and the Track A local runtime is executable.
+  This does not prove that data mining has answered the short-term RQ, that
+  human coding is complete, or that the Track A Agent is effective.
 - The frozen itch.io manifest is a candidate discovery snapshot, not a confirmed
   educational-IF corpus. The stable 1.0 acquisition contains 606 successful page
   bundles, and the stable 1.0 offline cleaning contains 606 source records;
@@ -378,13 +381,18 @@ together.
   strict v1.0 two-card snapshot remains preserved for comparison. Neither is
   evidence of corpus representativeness, human coding agreement, learning
   effectiveness, or Helper quality.
+- The default v0.2 runtime release is
+  `corpus/derived-knowledge/track-a-educational-design-knowledge-v1/`. It is a
+  deterministic organization of that same 122-card snapshot into 6 domain
+  syntheses, 194 support-filtered cross-case patterns, and 122 case design
+  cards; it does not add source coverage or human validation.
 - `legacy/theory-guided-story-generator/` remains runnable prior work. Do not
   silently modify it into the new Agent or call it a baseline until a comparable
   experimental condition is specified.
 - `testbeds/fox-and-crow/` is a runtime research instrument, not the design-time
   Agent defined by the long-term RQ.
-- Current implementation should connect the minimum collection and analysis
-  needed for the short-term RQ to the maintained Track A component under
+- Current maintained implementation connects the accepted Track A development
+  snapshot and formal release to the component under
   `agent/educational-design-helper/`. Track B is not currently being developed;
   its boundary under `agent/narrative-technique-design-partner/`, the
   counterfactual contracts under `techniques/counterfactual/schemas/`, and

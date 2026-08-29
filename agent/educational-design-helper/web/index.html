@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="A local, evidence-aware helper for exploring educational interactive narrative directions."
+      content="基于创作者描述案例、用于探索教育互动叙事设计方向的本地设计助手。"
     />
     <title>Interactive Narrative Helper</title>
     <link rel="stylesheet" href="./styles.css" />
@@ -13,78 +13,73 @@
   <body>
     <div class="app-shell">
       <header class="topbar">
-        <a class="brand" href="/" aria-label="Interactive Narrative Helper home">
+        <a class="brand" href="/" aria-label="Interactive Narrative Helper 首页">
           <span class="brand-mark" aria-hidden="true"><span></span></span>
           <span>
             <strong>Interactive Narrative Helper</strong>
-            <small>Track A · Educational design explorer</small>
+            <small>Track A · 教育互动叙事设计助手</small>
           </span>
         </a>
         <div class="runtime-status" id="runtime-status" role="status">
           <span class="status-dot" aria-hidden="true"></span>
-          <span>Connecting to local runtime…</span>
+          <span>正在连接本地运行时…</span>
         </div>
       </header>
 
       <main class="workspace">
-        <aside class="context-rail" aria-labelledby="knowledge-lens-title">
-          <div class="rail-heading">
-            <div class="eyebrow">Knowledge lens</div>
-            <h1 id="knowledge-lens-title">Creator-grounded precedents, kept in view.</h1>
-            <p class="rail-intro">
-              Your question is compared with a frozen set of model-facing Knowledge Cards. The
-              model then proposes directions while exposing assumptions and evidence distance.
+        <aside class="context-panel" aria-labelledby="context-title">
+          <div>
+            <div class="eyebrow">Design field notes</div>
+            <h1 id="context-title">把一个想法展开成可比较的设计方向。</h1>
+            <p class="context-intro">
+              输入一个还不完整的想法。助手会诊断关键决定、提出三个不同方向，并附上可以打开查看的参考案例。
             </p>
           </div>
 
           <dl class="runtime-facts" id="runtime-facts">
-            <div><dt>Snapshot</dt><dd>Loading…</dd></div>
-            <div><dt>Knowledge Cards</dt><dd>—</dd></div>
-            <div><dt>Generation</dt><dd>—</dd></div>
-            <div><dt>Retrieval</dt><dd>—</dd></div>
+            <div><dt>输出版本</dt><dd>载入中</dd></div>
+            <div><dt>知识版本</dt><dd>载入中</dd></div>
+            <div><dt>开发案例</dt><dd>—</dd></div>
+            <div><dt>发布状态</dt><dd>—</dd></div>
           </dl>
 
           <div class="boundary-note">
             <span aria-hidden="true">i</span>
             <p>
-              Creator descriptions show intended educational purpose. They do not demonstrate
-              learning effectiveness. Independent human double-coding is not yet complete.
+              先比较三个方向的适用场景、核心互动与取舍，再选择一个做最小原型。
             </p>
           </div>
         </aside>
 
-        <section class="conversation" aria-label="Design conversation">
-          <div class="conversation-scroll" id="conversation-scroll">
-            <div class="conversation-inner" id="conversation-log" aria-live="polite">
+        <section class="design-desk" aria-label="设计探索工作区">
+          <div class="desk-scroll" id="desk-scroll">
+            <div class="desk-inner" id="conversation-log" aria-live="polite">
               <section class="launch-notice" id="launch-notice" hidden>
-                <div class="launch-notice-index" aria-hidden="true">!</div>
+                <div class="notice-mark" aria-hidden="true">!</div>
                 <div>
                   <div class="eyebrow">Preview file detected</div>
-                  <h2>Open the running local app, not this HTML file.</h2>
+                  <h2>请打开本地运行中的应用。</h2>
                   <p>
-                    This file can show the visual shell, but prompt submission requires the local
-                    runtime. Start it from <code>agent/educational-design-helper</code> with
-                    <code>npm start</code>, then use the local address below.
+                    直接打开 HTML 只能预览界面。请在
+                    <code>agent/educational-design-helper</code> 运行 <code>npm start</code>，
+                    然后访问本地地址。
                   </p>
                   <a class="launch-link" href="http://127.0.0.1:3000/">
-                    Open http://127.0.0.1:3000
-                    <span aria-hidden="true">→</span>
+                    打开 http://127.0.0.1:3000 <span aria-hidden="true">→</span>
                   </a>
                 </div>
               </section>
 
               <section class="welcome" id="welcome">
-                <div class="welcome-index" aria-hidden="true">01</div>
+                <div class="welcome-number" aria-hidden="true">01</div>
                 <div>
-                  <div class="eyebrow">Start with a design question</div>
-                  <h2>Explore several directions before committing to one narrative form.</h2>
+                  <div class="eyebrow">从一个问题开始</div>
+                  <h2>先展开设计空间，再决定要写成什么。</h2>
                   <p>
-                    Ask in English. The first version is single-turn: every submission creates a
-                    new, traceable run over the same approved snapshot.
+                    可以只写主题，也可以补充受众、场景和互动想法。信息不完整时，助手仍会提供建议，并把重要未知项留给你决定。
                   </p>
                   <button class="example-button" id="example-button" type="button">
-                    <span>Use the course example</span>
-                    <span aria-hidden="true">↗</span>
+                    <span>填入日记式应用示例</span><span aria-hidden="true">↗</span>
                   </button>
                 </div>
               </section>
@@ -93,20 +88,19 @@
 
           <div class="composer-wrap">
             <form class="composer" id="prompt-form">
-              <label for="prompt-input">Ask about an educational interactive narrative</label>
+              <label for="prompt-input">描述你的教育互动叙事想法</label>
               <textarea
                 id="prompt-input"
                 name="message"
                 rows="3"
                 maxlength="4000"
-                placeholder="I want to design an interactive fiction that…"
+                placeholder="例如：我想设计一个 Journaling 类应用……"
                 required
               ></textarea>
               <div class="composer-footer">
-                <span>Ctrl / ⌘ + Enter to send</span>
+                <span>Ctrl / ⌘ + Enter 发送</span>
                 <button class="send-button" id="send-button" type="submit">
-                  <span>Explore directions</span>
-                  <span class="send-arrow" aria-hidden="true">→</span>
+                  <span>探索设计方向</span><span class="send-arrow" aria-hidden="true">→</span>
                 </button>
               </div>
             </form>
@@ -117,11 +111,8 @@
 
     <dialog class="knowledge-dialog" id="knowledge-dialog" aria-labelledby="dialog-title">
       <div class="dialog-header">
-        <div>
-          <div class="eyebrow">Retrieved precedent</div>
-          <h2 id="dialog-title">Knowledge Card</h2>
-        </div>
-        <button class="dialog-close" id="dialog-close" type="button" aria-label="Close">×</button>
+        <div><div class="eyebrow">v0.1 precedent</div><h2 id="dialog-title">Knowledge Card</h2></div>
+        <button class="dialog-close" id="dialog-close" type="button" aria-label="关闭">×</button>
       </div>
       <div class="dialog-content" id="dialog-content"></div>
     </dialog>

@@ -4,7 +4,14 @@ import { createHttpServer } from "./app.mjs";
 async function start() {
   console.log("Loading approved Track A knowledge and embedding index...");
   const runtime = await createRuntime();
-  if (runtime.indexResult.rebuilt) {
+  if (runtime.outputVersion === "0.2") {
+    const rebuilt = Object.values(runtime.indexes).filter((result) => result.rebuilt);
+    if (rebuilt.length > 0) {
+      console.log(
+        `Built ${rebuilt.length} typed indexes for ${runtime.release.manifest.knowledge_release_id}.`,
+      );
+    }
+  } else if (runtime.indexResult.rebuilt) {
     console.log(`Built a new ${runtime.indexResult.index.model} index for ${runtime.snapshot.cards.length} cards.`);
   }
 

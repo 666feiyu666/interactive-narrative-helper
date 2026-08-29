@@ -144,9 +144,15 @@ educator's or author's design process.
   candidate inventory. The v1.1 scoped substantive-OR run records 606
   decisions, promotes 122 precedents (2 complete-core Tier B and 120
   partial-substantive Tier C), and leaves 122 uncertain records for human
-  review. The maintained Helper component, public contracts, annotations, and
-  frozen model-facing snapshot now exist; no executable runtime, independent
-  human double-coding, or research evidence of Helper quality is claimed yet.
+  review. The maintained Helper now has versioned v0.1 and v0.2 contracts, an
+  executable local runtime and web interface, a formal v0.2 knowledge release,
+  typed retrieval, structured design diagnosis, three-direction output, local
+  public-reference resolution, deterministic response validation, and run
+  traces. The first real external-model Journaling run was rejected on output
+  quality; the in-place remediation has fixture and software-regression
+  evidence and passed user acceptance on 2026-08-29. Independent human
+  double-coding, confirmatory external-model evaluation, and research evidence
+  of Helper quality remain incomplete.
 - Track B: the program boundary is preserved under
   `agent/narrative-technique-design-partner/`. The counterfactual case and
   proposal schemas remain under its `techniques/counterfactual/` module. Track

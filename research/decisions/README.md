@@ -13,6 +13,11 @@ another durable research boundary.
 
 ## Confirmed decisions
 
+- [`2026-08-29-track-a-helper-v0.2.md`](2026-08-29-track-a-helper-v0.2.md)
+  makes the formal-knowledge v0.2 profile the Track A Helper default while
+  preserving v0.1 compatibility and the existing research-evidence boundary;
+  its first output-quality acceptance failed, and the documented in-place
+  remediation passed user acceptance on 2026-08-29.
 - [`2026-08-28-track-b-narrative-technique-scope.md`](2026-08-28-track-b-narrative-technique-scope.md)
   broadens Track B's program boundary to story-level narrative technique
   exploration while retaining counterfactual action and consequence as its

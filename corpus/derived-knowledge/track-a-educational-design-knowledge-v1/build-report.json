@@ -1,0 +1,68 @@
+{
+  "schema_version": "track-a-knowledge-build-report/v1",
+  "builder_version": "track-a-educational-design-knowledge-builder/v1",
+  "knowledge_release_id": "track-a-educational-design-knowledge-v1",
+  "completed_at": "2026-08-29T00:00:00Z",
+  "source_snapshot_id": "track-a-itchio-v1.1-knowledge-v1",
+  "source_cards_sha256": "b1ddede701c7c2e8d11906eac9eea219f267f7dcb3076f16abc452b181f02e89",
+  "source_design_card_count": 122,
+  "configuration": {
+    "minimum_pattern_support": 2,
+    "dimensions": [
+      "educational_purpose",
+      "intended_audience",
+      "application_setting",
+      "interactive_narrative_form",
+      "if_mechanics",
+      "interaction_education_relationship"
+    ],
+    "pattern_pairs": [
+      [
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      [
+        "educational_purpose",
+        "intended_audience"
+      ],
+      [
+        "educational_purpose",
+        "application_setting"
+      ],
+      [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      [
+        "interaction_education_relationship",
+        "if_mechanics"
+      ]
+    ]
+  },
+  "counts": {
+    "domain_synthesis": 6,
+    "cross_case_patterns": 194,
+    "design_cards": 122,
+    "total": 322
+  },
+  "artifact_hashes": {
+    "manifest_sha256": "399fac74e38071ec4e3713094318f9e29cc6026ad1ac46836715807855a16776",
+    "domain_synthesis_sha256": "e5a2e8335b3e9b611735fb44143c5fa4b705182f09944878286301afce04e10d",
+    "cross_case_patterns_sha256": "8c9e404e6707d36ad844ca6914f1ac6c1a2dfacbee8de5cce2e11b53bcf99b51",
+    "design_cards_sha256": "e50fd724dcd6bce7ca18c4aa3a3f6730f7d5471717ccd715fdf4447018e2da7f",
+    "model_facing_sha256": "2bd06e789e0c9fc8c1bcdd99805831dd010d6ddcf516deda6ef3f3c08a94cb93"
+  },
+  "limitations": [
+    "This release covers 122 automation-reviewed public itch.io creator-description cases, not the broader educational Interactive Fiction population.",
+    "Cross-case patterns are deterministic development summaries with support_n >= 2, not independently human-confirmed research findings.",
+    "Missing and uncertain fields remain explicit and are not inferred.",
+    "Creator-described educational purpose is not evidence of learning effectiveness."
+  ],
+  "prohibited_inputs": [
+    "canonical workbook writes",
+    "restricted raw HTML",
+    "source descriptions",
+    "evidence excerpts",
+    "external model calls"
+  ]
+}

@@ -1,0 +1,2085 @@
+{
+  "schema_version": "track-a-reference-catalog/v1",
+  "knowledge_release_id": "track-a-educational-design-knowledge-v1",
+  "source_workbook": "outputs/itchio-sheet/itchio-educational-if-candidates-v1.0.xlsx",
+  "source_sha256": {
+    "workbook": "2bfc70fc09de8ed558b8cc76c2b8334f263885e33d8f57a0fcd589aa52f1904b",
+    "coding_annotations": "c5443d8a43f2d28a257db9a32efed20c156c47a9a35450a467d485385d231fef",
+    "design_cards": "e50fd724dcd6bce7ca18c4aa3a3f6730f7d5471717ccd715fdf4447018e2da7f"
+  },
+  "reference_count": 122,
+  "references": [
+    {
+      "knowledge_id": "kc-itchio-0006-v1-1",
+      "project_id": "itchio-0006",
+      "display_title": "Stink Bug Plague",
+      "platform": "itch.io",
+      "public_url": "https://zephyo.itch.io/stink-bug-plague",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0011-v1-1",
+      "project_id": "itchio-0011",
+      "display_title": "HONEYMOON",
+      "platform": "itch.io",
+      "public_url": "https://jag.itch.io/honeymoon",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": []
+    },
+    {
+      "knowledge_id": "kc-itchio-0012-v1-1",
+      "project_id": "itchio-0012",
+      "display_title": "A Thousand Cuts: Early Edition",
+      "platform": "itch.io",
+      "public_url": "https://jag.itch.io/a-thousand-cuts-early-edition",
+      "known_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0013-v1-1",
+      "project_id": "itchio-0013",
+      "display_title": "Project Basilisk",
+      "platform": "itch.io",
+      "public_url": "https://monocular.itch.io/project-basilisk",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0020-v1-1",
+      "project_id": "itchio-0020",
+      "display_title": "Beyond the Silk Sea",
+      "platform": "itch.io",
+      "public_url": "https://mkiang.itch.io/beyond-the-silk-sea",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0024-v1-1",
+      "project_id": "itchio-0024",
+      "display_title": "Aggie's Digital Art Gallery",
+      "platform": "itch.io",
+      "public_url": "https://3denemy.itch.io/aggies-digital-art-gallery",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0032-v1-1",
+      "project_id": "itchio-0032",
+      "display_title": "One New Message",
+      "platform": "itch.io",
+      "public_url": "https://jag.itch.io/onm",
+      "known_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0041-v1-1",
+      "project_id": "itchio-0041",
+      "display_title": "Microaggressions",
+      "platform": "itch.io",
+      "public_url": "https://usmgamestudies.itch.io/microaggressions",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0046-v1-1",
+      "project_id": "itchio-0046",
+      "display_title": "Bully Busters",
+      "platform": "itch.io",
+      "public_url": "https://winspirationkids.itch.io/bully-busters",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0047-v1-1",
+      "project_id": "itchio-0047",
+      "display_title": "PathoBytes",
+      "platform": "itch.io",
+      "public_url": "https://mindape.itch.io/pathobytes",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0048-v1-1",
+      "project_id": "itchio-0048",
+      "display_title": "Ethemblage",
+      "platform": "itch.io",
+      "public_url": "https://leahgovia.itch.io/ethemblage",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0052-v1-1",
+      "project_id": "itchio-0052",
+      "display_title": "Rediscovering Earth",
+      "platform": "itch.io",
+      "public_url": "https://cheerfulgoth.itch.io/rediscovering-earth",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0055-v1-1",
+      "project_id": "itchio-0055",
+      "display_title": "Shivers Story Time – A Gentle Woodland Story Collection 🐉",
+      "platform": "itch.io",
+      "public_url": "https://shiversstories.itch.io/shivers-stories",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0063-v1-1",
+      "project_id": "itchio-0063",
+      "display_title": "Periodicity: Your Chemical Romance",
+      "platform": "itch.io",
+      "public_url": "https://vanadiumvalor.itch.io/periodicity-your-chemical-romance",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0072-v1-1",
+      "project_id": "itchio-0072",
+      "display_title": "Hikikomori's Journey",
+      "platform": "itch.io",
+      "public_url": "https://young-wave-studio.itch.io/hikikomori-journey",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0078-v1-1",
+      "project_id": "itchio-0078",
+      "display_title": "Philosophy on Rails: An Introduction to the Western Canon",
+      "platform": "itch.io",
+      "public_url": "https://mmason.itch.io/philosophy-on-rails",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0080-v1-1",
+      "project_id": "itchio-0080",
+      "display_title": "ATLAS",
+      "platform": "itch.io",
+      "public_url": "https://30x30.itch.io/atlas",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0087-v1-1",
+      "project_id": "itchio-0087",
+      "display_title": "Mist of Madness",
+      "platform": "itch.io",
+      "public_url": "https://mimico-studio.itch.io/mist-of-madness-en",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0101-v1-1",
+      "project_id": "itchio-0101",
+      "display_title": "Guardian of the Code",
+      "platform": "itch.io",
+      "public_url": "https://cirnol.itch.io/guardian-of-the-code",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0104-v1-1",
+      "project_id": "itchio-0104",
+      "display_title": "Venezuela Rota",
+      "platform": "itch.io",
+      "public_url": "https://bananaass.itch.io/venezuela-rota",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0109-v1-1",
+      "project_id": "itchio-0109",
+      "display_title": "The Word You Almost Said",
+      "platform": "itch.io",
+      "public_url": "https://p45hk4.itch.io/the-word-you-almost-said",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0113-v1-1",
+      "project_id": "itchio-0113",
+      "display_title": "Life at Davidson",
+      "platform": "itch.io",
+      "public_url": "https://lizzycat2.itch.io/life-at-davidson",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0117-v1-1",
+      "project_id": "itchio-0117",
+      "display_title": "NukeMan",
+      "platform": "itch.io",
+      "public_url": "https://chrisleewoo.itch.io/nukeman",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0122-v1-1",
+      "project_id": "itchio-0122",
+      "display_title": "MyEduSmart (demo)",
+      "platform": "itch.io",
+      "public_url": "https://holyroller.itch.io/myedusmart-demo",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0124-v1-1",
+      "project_id": "itchio-0124",
+      "display_title": "Cook A Book",
+      "platform": "itch.io",
+      "public_url": "https://studio-kitchen.itch.io/cook-a-book",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0125-v1-1",
+      "project_id": "itchio-0125",
+      "display_title": "De las Balas a la Beca: From Bullets to Bachelor's: Blanca's 25-Year Journey",
+      "platform": "itch.io",
+      "public_url": "https://outgrabe.itch.io/de-las-balas-a-la-beca",
+      "known_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0128-v1-1",
+      "project_id": "itchio-0128",
+      "display_title": "Welcome Rookie",
+      "platform": "itch.io",
+      "public_url": "https://cheesyholes.itch.io/welcome-rookie",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0130-v1-1",
+      "project_id": "itchio-0130",
+      "display_title": "Sadie's Ace",
+      "platform": "itch.io",
+      "public_url": "https://sugarrchaii.itch.io/sadie-is-ace",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0133-v1-1",
+      "project_id": "itchio-0133",
+      "display_title": "CyVerse: The Cybersecurity Training Game",
+      "platform": "itch.io",
+      "public_url": "https://frozencat3030.itch.io/cyverse",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0140-v1-1",
+      "project_id": "itchio-0140",
+      "display_title": "The Party",
+      "platform": "itch.io",
+      "public_url": "https://jasminehood.itch.io/the-party",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0144-v1-1",
+      "project_id": "itchio-0144",
+      "display_title": "AI Guardians",
+      "platform": "itch.io",
+      "public_url": "https://nellwatson.itch.io/ai-guardians",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0148-v1-1",
+      "project_id": "itchio-0148",
+      "display_title": "VirtualZoo.exe",
+      "platform": "itch.io",
+      "public_url": "https://jomi13.itch.io/virtualzoo",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0152-v1-1",
+      "project_id": "itchio-0152",
+      "display_title": "You Have A Notification!",
+      "platform": "itch.io",
+      "public_url": "https://idohtdraw-434.itch.io/you-have-a-notification",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0160-v1-1",
+      "project_id": "itchio-0160",
+      "display_title": "Maybe it is That Damn Phone - Alpha",
+      "platform": "itch.io",
+      "public_url": "https://opalitedays.itch.io/maybeitisthatdamnphone",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0161-v1-1",
+      "project_id": "itchio-0161",
+      "display_title": "Haunted Diaries",
+      "platform": "itch.io",
+      "public_url": "https://cweis7675.itch.io/haunted-diaries",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0162-v1-1",
+      "project_id": "itchio-0162",
+      "display_title": "Pollution is Colonialism (Game)",
+      "platform": "itch.io",
+      "public_url": "https://yumisuyoworkshop.itch.io/pic",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0164-v1-1",
+      "project_id": "itchio-0164",
+      "display_title": "Tutor Quest",
+      "platform": "itch.io",
+      "public_url": "https://portaljumperjen.itch.io/tutor-quest",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0166-v1-1",
+      "project_id": "itchio-0166",
+      "display_title": "Philodiagram",
+      "platform": "itch.io",
+      "public_url": "https://leo-ding.itch.io/philodiagram",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0169-v1-1",
+      "project_id": "itchio-0169",
+      "display_title": "Med Connect: Patient Interactions",
+      "platform": "itch.io",
+      "public_url": "https://healthimpactstudio.itch.io/med-connect-patient-interactions",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0170-v1-1",
+      "project_id": "itchio-0170",
+      "display_title": "Psych Patch",
+      "platform": "itch.io",
+      "public_url": "https://aurorahhh.itch.io/psych-patch",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": []
+    },
+    {
+      "knowledge_id": "kc-itchio-0184-v1-1",
+      "project_id": "itchio-0184",
+      "display_title": "PastPortal: AI Powered Offline Chat Suite",
+      "platform": "itch.io",
+      "public_url": "https://elushis.itch.io/pastportal",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0185-v1-1",
+      "project_id": "itchio-0185",
+      "display_title": "Clinical Encounters: Steve Campbell",
+      "platform": "itch.io",
+      "public_url": "https://healthimpactstudio.itch.io/steve-campbell",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0186-v1-1",
+      "project_id": "itchio-0186",
+      "display_title": "DesignADrug",
+      "platform": "itch.io",
+      "public_url": "https://markcarew.itch.io/designadrug",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0191-v1-1",
+      "project_id": "itchio-0191",
+      "display_title": "u + me = love",
+      "platform": "itch.io",
+      "public_url": "https://taytopotatoe.itch.io/u-me-love",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0201-v1-1",
+      "project_id": "itchio-0201",
+      "display_title": "The Last Voyage of the Picasso",
+      "platform": "itch.io",
+      "public_url": "https://mtwentiethree.itch.io/the-last-voyage-of-the-picasso",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0203-v1-1",
+      "project_id": "itchio-0203",
+      "display_title": "Clinical Encounters: Andrew Turner",
+      "platform": "itch.io",
+      "public_url": "https://healthimpactstudio.itch.io/andrew-turner",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0204-v1-1",
+      "project_id": "itchio-0204",
+      "display_title": "ᐃᖏᕐᕋᑦᑎᐊᕆᔅᓯ- Safe Travels - Ingirrattiarissi",
+      "platform": "itch.io",
+      "public_url": "https://pinnguaq.itch.io/safe-travels-ingirrattiarissi",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0206-v1-1",
+      "project_id": "itchio-0206",
+      "display_title": "You Teach! Romeo and Juliet",
+      "platform": "itch.io",
+      "public_url": "https://rainbow-tydye.itch.io/you-teach-romeo-and-juliet",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0211-v1-1",
+      "project_id": "itchio-0211",
+      "display_title": "Be Assertive!",
+      "platform": "itch.io",
+      "public_url": "https://beaumont-resilience.itch.io/be-assertive",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0212-v1-1",
+      "project_id": "itchio-0212",
+      "display_title": "Magic Market 1.0",
+      "platform": "itch.io",
+      "public_url": "https://alonzxo0.itch.io/magic-market",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0219-v1-1",
+      "project_id": "itchio-0219",
+      "display_title": "Peer To Peer",
+      "platform": "itch.io",
+      "public_url": "https://alystervodka.itch.io/peer-to-peer",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0222-v1-1",
+      "project_id": "itchio-0222",
+      "display_title": "PastPortal: Chat Suite (Free)",
+      "platform": "itch.io",
+      "public_url": "https://elushis.itch.io/pastportalfree",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0230-v1-1",
+      "project_id": "itchio-0230",
+      "display_title": "How Hot Is Your AI?",
+      "platform": "itch.io",
+      "public_url": "https://samillingworth.itch.io/how-hot-is-your-ai",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0253-v1-1",
+      "project_id": "itchio-0253",
+      "display_title": "Atomic Shadows - Unstable Realms",
+      "platform": "itch.io",
+      "public_url": "https://edumeta.itch.io/atomic-shadows",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0266-v1-1",
+      "project_id": "itchio-0266",
+      "display_title": "Weekend in London",
+      "platform": "itch.io",
+      "public_url": "https://v-volkotrub02.itch.io/weekend-in-london",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0271-v1-1",
+      "project_id": "itchio-0271",
+      "display_title": "Days in the Life of Mental Illness - Singaporean Edition",
+      "platform": "itch.io",
+      "public_url": "https://luoyuxuan.itch.io/days-in-the-life-of-mental-illness-singaporean-edition",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0272-v1-1",
+      "project_id": "itchio-0272",
+      "display_title": "Blethers",
+      "platform": "itch.io",
+      "public_url": "https://dobertson.itch.io/blethers",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0308-v1-1",
+      "project_id": "itchio-0308",
+      "display_title": "Moses Journey",
+      "platform": "itch.io",
+      "public_url": "https://detayuli.itch.io/moses-journey",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0310-v1-1",
+      "project_id": "itchio-0310",
+      "display_title": "The Book Of Lost Souls",
+      "platform": "itch.io",
+      "public_url": "https://tamar007.itch.io/the-book-of-lost-souls",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0326-v1-1",
+      "project_id": "itchio-0326",
+      "display_title": "EARTHbeats",
+      "platform": "itch.io",
+      "public_url": "https://eccecarpet.itch.io/earthbeats",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0327-v1-1",
+      "project_id": "itchio-0327",
+      "display_title": "ODS ODYSSEY VR DEMO",
+      "platform": "itch.io",
+      "public_url": "https://tryhard-studios.itch.io/ods-odyssey-vr",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0335-v1-1",
+      "project_id": "itchio-0335",
+      "display_title": "Bipolar Disorder Quest",
+      "platform": "itch.io",
+      "public_url": "https://mindflu.itch.io/bipolar-quest",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0338-v1-1",
+      "project_id": "itchio-0338",
+      "display_title": "Can You Save Canada?",
+      "platform": "itch.io",
+      "public_url": "https://halisa.itch.io/can-you-save-canada",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0343-v1-1",
+      "project_id": "itchio-0343",
+      "display_title": "Scribble's Day Out",
+      "platform": "itch.io",
+      "public_url": "https://vapx007.itch.io/scribbles-day-out",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0345-v1-1",
+      "project_id": "itchio-0345",
+      "display_title": "Unseen Stories",
+      "platform": "itch.io",
+      "public_url": "https://maria-gu.itch.io/unseen-storiess",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0347-v1-1",
+      "project_id": "itchio-0347",
+      "display_title": "Morally: A Game of Right and Wrong",
+      "platform": "itch.io",
+      "public_url": "https://benjigg.itch.io/morally",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0348-v1-1",
+      "project_id": "itchio-0348",
+      "display_title": "Challenge your brain with My PUZLLE",
+      "platform": "itch.io",
+      "public_url": "https://yurii1991.itch.io/mhallenge-your-brain-with-my-puzlle-the-ultimate-trivia-quiz-gamey-pu",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0349-v1-1",
+      "project_id": "itchio-0349",
+      "display_title": "BashINTime",
+      "platform": "itch.io",
+      "public_url": "https://crafteurmax.itch.io/bashintime",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0352-v1-1",
+      "project_id": "itchio-0352",
+      "display_title": "Globe Explorers",
+      "platform": "itch.io",
+      "public_url": "https://fernandofabio.itch.io/globe",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0354-v1-1",
+      "project_id": "itchio-0354",
+      "display_title": "CYOA Urban Exploring in Sydney",
+      "platform": "itch.io",
+      "public_url": "https://purplemusketeer.itch.io/cyoa-urban-exploring-in-sydney",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0361-v1-1",
+      "project_id": "itchio-0361",
+      "display_title": "The Benin Bronze Experience",
+      "platform": "itch.io",
+      "public_url": "https://33strong.itch.io/benin-bronze-experience",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0376-v1-1",
+      "project_id": "itchio-0376",
+      "display_title": "Clinical Encounters: Alice",
+      "platform": "itch.io",
+      "public_url": "https://healthimpactstudio.itch.io/clinical-encounters-alice",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0378-v1-1",
+      "project_id": "itchio-0378",
+      "display_title": "Our voices, our planet - chapter 1",
+      "platform": "itch.io",
+      "public_url": "https://eskapistin.itch.io/ovop-1",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0381-v1-1",
+      "project_id": "itchio-0381",
+      "display_title": "The Lost Works of Hypatia of Alexandria",
+      "platform": "itch.io",
+      "public_url": "https://dandeliondino.itch.io/the-lost-works",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0383-v1-1",
+      "project_id": "itchio-0383",
+      "display_title": "Snow, Bonfires and Mosses",
+      "platform": "itch.io",
+      "public_url": "https://nekoxryu.itch.io/snow-bonfires-and-mosses",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0388-v1-1",
+      "project_id": "itchio-0388",
+      "display_title": "Clinical Encounters: Amy",
+      "platform": "itch.io",
+      "public_url": "https://healthimpactstudio.itch.io/clinical-encounters-alcohol-amy",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0391-v1-1",
+      "project_id": "itchio-0391",
+      "display_title": "PYXL v2.3 — Interactive Learning Environment",
+      "platform": "itch.io",
+      "public_url": "https://nk612.itch.io/pyxlile",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0404-v1-1",
+      "project_id": "itchio-0404",
+      "display_title": "Soda",
+      "platform": "itch.io",
+      "public_url": "https://ferplay.itch.io/soda",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0408-v1-1",
+      "project_id": "itchio-0408",
+      "display_title": "Clinical Encounters: Alan",
+      "platform": "itch.io",
+      "public_url": "https://healthimpactstudio.itch.io/clinical-encounters-alan",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0413-v1-1",
+      "project_id": "itchio-0413",
+      "display_title": "Ugly food!",
+      "platform": "itch.io",
+      "public_url": "https://calla.itch.io/foodsecurity-case-01",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0421-v1-1",
+      "project_id": "itchio-0421",
+      "display_title": "A Little Assistance",
+      "platform": "itch.io",
+      "public_url": "https://cardiganmousegames.itch.io/a-little-assistance",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0425-v1-1",
+      "project_id": "itchio-0425",
+      "display_title": "The Rebeloses",
+      "platform": "itch.io",
+      "public_url": "https://r-o-g-o.itch.io/the-rebeloses",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0433-v1-1",
+      "project_id": "itchio-0433",
+      "display_title": "Gnomestead",
+      "platform": "itch.io",
+      "public_url": "https://gort-industries.itch.io/gnomestead",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0447-v1-1",
+      "project_id": "itchio-0447",
+      "display_title": "Amplified",
+      "platform": "itch.io",
+      "public_url": "https://skillscafe.itch.io/amplified",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0448-v1-1",
+      "project_id": "itchio-0448",
+      "display_title": "The Red",
+      "platform": "itch.io",
+      "public_url": "https://keziahdeneker.itch.io/the-red",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0453-v1-1",
+      "project_id": "itchio-0453",
+      "display_title": "Data Stories to disrupt and delight",
+      "platform": "itch.io",
+      "public_url": "https://opencontext.itch.io/data-stories-to-disrupt-and-delight",
+      "known_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0457-v1-1",
+      "project_id": "itchio-0457",
+      "display_title": "Fake News",
+      "platform": "itch.io",
+      "public_url": "https://d-esl.itch.io/fake-news",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0464-v1-1",
+      "project_id": "itchio-0464",
+      "display_title": "The Rebeloses 2 - The Supreme Substance",
+      "platform": "itch.io",
+      "public_url": "https://r-o-g-o.itch.io/the-rebeloses-2-the-supreme-substance",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0473-v1-1",
+      "project_id": "itchio-0473",
+      "display_title": "Ecosensitization Butterfly Effect",
+      "platform": "itch.io",
+      "public_url": "https://allysi.itch.io/eco",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0474-v1-1",
+      "project_id": "itchio-0474",
+      "display_title": "IF Quest: The Seven Trials of the Lost Creators",
+      "platform": "itch.io",
+      "public_url": "https://rajkevis.itch.io/if-quest",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0476-v1-1",
+      "project_id": "itchio-0476",
+      "display_title": "Clearwater Reproductive Health: Abortion Simulator",
+      "platform": "itch.io",
+      "public_url": "https://no-fallout-games.itch.io/clearwaterreproductivehealth",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0484-v1-1",
+      "project_id": "itchio-0484",
+      "display_title": "Our voices, our planet - chapter 2",
+      "platform": "itch.io",
+      "public_url": "https://eskapistin.itch.io/ovop-2",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0487-v1-1",
+      "project_id": "itchio-0487",
+      "display_title": "Fitting In",
+      "platform": "itch.io",
+      "public_url": "https://nigmaticsound.itch.io/fitting-in",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0496-v1-1",
+      "project_id": "itchio-0496",
+      "display_title": "The Green Room Prototype — First Arc: Nico & Evan",
+      "platform": "itch.io",
+      "public_url": "https://amorima.itch.io/the-green-room",
+      "known_dimensions": [
+        "intended_audience",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "application_setting",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0500-v1-1",
+      "project_id": "itchio-0500",
+      "display_title": "BlueScreenCrisis",
+      "platform": "itch.io",
+      "public_url": "https://angrypitaya.itch.io/bluescreencrisis",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0506-v1-1",
+      "project_id": "itchio-0506",
+      "display_title": "The Sericum Via II",
+      "platform": "itch.io",
+      "public_url": "https://sepehrvafshar.itch.io/the-sericum-via-ii",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0511-v1-1",
+      "project_id": "itchio-0511",
+      "display_title": "Haiku Heroes: Mystery of the Time-Traveling Poet",
+      "platform": "itch.io",
+      "public_url": "https://studio-zuhno.itch.io/haiku-heroes-mystery-of-the-time-traveling-poet",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0512-v1-1",
+      "project_id": "itchio-0512",
+      "display_title": "Fragments of Us - Tech Demo",
+      "platform": "itch.io",
+      "public_url": "https://fragmentsofus.itch.io/fragments-of-us-tech-demo",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0513-v1-1",
+      "project_id": "itchio-0513",
+      "display_title": "Our voices, our planet - chapter 6",
+      "platform": "itch.io",
+      "public_url": "https://eskapistin.itch.io/ovop-6",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0519-v1-1",
+      "project_id": "itchio-0519",
+      "display_title": "Romeo and Juliet",
+      "platform": "itch.io",
+      "public_url": "https://markcarew.itch.io/romeo-and-juliet",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0526-v1-1",
+      "project_id": "itchio-0526",
+      "display_title": "Land Down Under: a find your way story from Mrs. Wobbles & The Tangerine House",
+      "platform": "itch.io",
+      "public_url": "https://mrswobbles.itch.io/land-down-under",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0544-v1-1",
+      "project_id": "itchio-0544",
+      "display_title": "Our voices, our planet - chapter 3",
+      "platform": "itch.io",
+      "public_url": "https://eskapistin.itch.io/ovop-3",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0548-v1-1",
+      "project_id": "itchio-0548",
+      "display_title": "Part 3: The Case of the Lost Map",
+      "platform": "itch.io",
+      "public_url": "https://irwinart.itch.io/part-3-the-case-of-the-lost-map",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0550-v1-1",
+      "project_id": "itchio-0550",
+      "display_title": "FireSafe Game",
+      "platform": "itch.io",
+      "public_url": "https://nuurkaiyisah.itch.io/firesafe-game",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0553-v1-1",
+      "project_id": "itchio-0553",
+      "display_title": "Our voices, our planet - chapter 4",
+      "platform": "itch.io",
+      "public_url": "https://eskapistin.itch.io/ovop-4",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0554-v1-1",
+      "project_id": "itchio-0554",
+      "display_title": "Perspective Switch",
+      "platform": "itch.io",
+      "public_url": "https://paresh1011.itch.io/perspective-switch",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0556-v1-1",
+      "project_id": "itchio-0556",
+      "display_title": "Our voices, our planet - chapter 5",
+      "platform": "itch.io",
+      "public_url": "https://eskapistin.itch.io/ovop-5",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0557-v1-1",
+      "project_id": "itchio-0557",
+      "display_title": "the Invisible ladder (无形之梯)",
+      "platform": "itch.io",
+      "public_url": "https://wuhoutoken.itch.io/invisible-ladder",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0558-v1-1",
+      "project_id": "itchio-0558",
+      "display_title": "English Vocabulary Game",
+      "platform": "itch.io",
+      "public_url": "https://andresalles.itch.io/english-vocabulary-game",
+      "known_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0563-v1-1",
+      "project_id": "itchio-0563",
+      "display_title": "Taking action in Chekhov's Four Major Plays",
+      "platform": "itch.io",
+      "public_url": "https://senzeberry.itch.io/taking-action-in-chekhovs-four-major-plays",
+      "known_dimensions": [
+        "application_setting",
+        "interactive_narrative_form",
+        "if_mechanics"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0567-v1-1",
+      "project_id": "itchio-0567",
+      "display_title": "How video games can help with anger management",
+      "platform": "itch.io",
+      "public_url": "https://kates-playthings.itch.io/ied-games",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0572-v1-1",
+      "project_id": "itchio-0572",
+      "display_title": "​Harmony of the Glazed Caravan",
+      "platform": "itch.io",
+      "public_url": "https://shuyu-ge.itch.io/harmony-of-the-glazed-caravan",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0573-v1-1",
+      "project_id": "itchio-0573",
+      "display_title": "The Trials",
+      "platform": "itch.io",
+      "public_url": "https://ryanroche94.itch.io/the-trials",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0574-v1-1",
+      "project_id": "itchio-0574",
+      "display_title": "The Casino Auditor",
+      "platform": "itch.io",
+      "public_url": "https://data-runner.itch.io/the-casino-auditor",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0575-v1-1",
+      "project_id": "itchio-0575",
+      "display_title": "Through Blind Eyes",
+      "platform": "itch.io",
+      "public_url": "https://itsmasteryoshi.itch.io/through-blind-eyes",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0579-v1-1",
+      "project_id": "itchio-0579",
+      "display_title": "Part 2 – Gaming History in Twine",
+      "platform": "itch.io",
+      "public_url": "https://mehmetigaugsburgedu.itch.io/part-2-gaming-history-in-twine",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0590-v1-1",
+      "project_id": "itchio-0590",
+      "display_title": "Change The Vote",
+      "platform": "itch.io",
+      "public_url": "https://onygox.itch.io/change-the-vote",
+      "known_dimensions": [
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "educational_purpose",
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0591-v1-1",
+      "project_id": "itchio-0591",
+      "display_title": "HoloLang",
+      "platform": "itch.io",
+      "public_url": "https://iyergin.itch.io/hololang",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0595-v1-1",
+      "project_id": "itchio-0595",
+      "display_title": "Clinical Encounters: Tommy",
+      "platform": "itch.io",
+      "public_url": "https://healthimpactstudio.itch.io/clinical-encounters-tommy",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0596-v1-1",
+      "project_id": "itchio-0596",
+      "display_title": "Clinical Encounters: Marcus",
+      "platform": "itch.io",
+      "public_url": "https://healthimpactstudio.itch.io/clinical-encounters-marcus",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0604-v1-1",
+      "project_id": "itchio-0604",
+      "display_title": "A simple English sentence, playable narrative",
+      "platform": "itch.io",
+      "public_url": "https://ventedpennies.itch.io/a-simple-english-sentence",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ]
+    },
+    {
+      "knowledge_id": "kc-itchio-0605-v1-1",
+      "project_id": "itchio-0605",
+      "display_title": "What Would You Do As a Nigerian Tribal Chief",
+      "platform": "itch.io",
+      "public_url": "https://nogungbu73072.itch.io/what-would-you-do-as-a-nigerian-tribal-chief",
+      "known_dimensions": [
+        "educational_purpose",
+        "interactive_narrative_form",
+        "if_mechanics",
+        "interaction_education_relationship"
+      ],
+      "missing_dimensions": [
+        "intended_audience",
+        "application_setting"
+      ]
+    }
+  ]
+}

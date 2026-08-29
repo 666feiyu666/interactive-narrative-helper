@@ -8,13 +8,16 @@ This file applies only to `agent/educational-design-helper/`.
   repository-level `AGENTS.md`, especially its `cases`, `coding`, and
   `provenance` sheets. Do not create another cleaned dataset or full-corpus
   review queue inside this component.
-- Runtime code may read only approved model-facing knowledge snapshots. It must
+- Runtime code may read only approved model-facing knowledge snapshots or
+  formal releases. It must
   not read from `corpus/restricted-sources/` or accept source-page records as
   provider input.
 - Keep provider adapters behind explicit interfaces. Prompts and model
   configuration must remain separately versioned.
-- Validate public inputs and outputs against the component schemas. Validate
-  knowledge against `corpus/schemas/knowledge-card.schema.json`.
+- Validate public inputs and outputs against the selected output profile.
+  Validate v0.1 cards against `knowledge-card.schema.json` and v0.2 items and
+  manifests against the formal Track A knowledge schemas under
+  `corpus/schemas/`.
 - Preserve knowledge IDs and the exact retrieved set in every run trace.
 - Do not claim that creator-described educational intent demonstrates learning
   effectiveness.

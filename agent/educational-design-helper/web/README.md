@@ -1,16 +1,19 @@
 # Educational Design Helper web interface
 
-This browser client runs over the component's local HTTP API. It displays
-request interpretation, evidence sufficiency, design directions, supporting
-knowledge identifiers, transfer assumptions, limitations, and recoverable
-errors. Retrieved Knowledge Card IDs open a local, model-facing card view. A
-completed result can be downloaded as a readable Markdown report or as the
-complete structured JSON response wrapper.
+The default v0.2 interface is a single-turn Chinese design workbench: one
+question field, a design diagnosis, three comparable direction cards, public
+reference links, a prototype next step, an optional follow-up question, and
+versioned Markdown or JSON export. Internal knowledge categories, retrieval
+IDs, evidence disclaimers, and source-management details are not displayed.
+It keeps loading, error, ready, and complete states visually distinct and was
+verified from an 820-pixel desktop window to a 1720-pixel-wide display without
+horizontal overflow.
 
-The web client must not call model providers directly or load restricted corpus
-material.
+When the server selects v0.1, the same client renders the preserved structured
+directions and local Knowledge Card dialog. Exports include the output version
+in their filenames so v0.1 and v0.2 artifacts cannot be confused.
 
-Use `npm start` from the component directory and open
-`http://127.0.0.1:3000/`. Directly opening `index.html` is supported only as a
-styled launch preview; the preview disables prompt submission and points to the
-HTTP address.
+The client calls only the local HTTP API. It never calls a model provider or
+loads restricted corpus material directly. Use `npm start` or the no-network
+`npm run start:fixture` command and open `http://127.0.0.1:3000/`. Opening
+`index.html` directly provides only a launch preview and disables submission.

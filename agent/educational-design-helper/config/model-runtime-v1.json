@@ -1,5 +1,6 @@
 {
   "config_version": "track-a-openai-runtime/v1",
+  "output_version": "0.2",
   "generation": {
     "reasoning_effort": "low",
     "max_output_tokens": 6000,
@@ -9,6 +10,8 @@
   "retrieval": {
     "method": "embedding-cosine-top-k/v1",
     "top_k": 5,
+    "cross_case_pattern_top_k": 8,
+    "design_card_top_k": 8,
     "embedding_batch_size": 64
   },
   "server": {

@@ -54,13 +54,33 @@ Creator-description screening and coding remain active research work. The
 confirmed v1.1 scoped substantive-OR pass records all 606 decisions in the
 canonical workbook and freezes 122 model-facing case precedents: 2
 complete-core Tier B cards and 120 partial-substantive Tier C cards. Another
-122 uncertain records remain for human revision. In parallel, maintained
-development has begun on the Track A Educational
-Interactive Narrative Design Helper. Its initial contracts separate local
-source evidence from model-facing knowledge cards so the first
-knowledge snapshot can run through the same Harness that later releases will
-use. This snapshot passed a deterministic second-pass audit but not independent
-human double-coding. The cross-track design-brief schema remains deferred.
+122 uncertain records remain for human revision. This snapshot passed a
+deterministic second-pass audit but not independent human double-coding.
+
+Maintained Track A development now includes an executable Educational
+Interactive Narrative Design Helper. Its default v0.2 profile consumes a
+deterministic formal release containing 6 domain syntheses, 194 cross-case
+patterns with at least two supporting cases, and all 122 case design cards. It
+uses separate pattern and card retrieval indexes to build a 6 + 8 + 8
+candidate pool, then asks the model for a structured diagnosis and exactly
+three comparable design directions. The server resolves one to three selected
+case references to public titles and game-page links locally, so those details
+never enter the provider payload. The v0.1 structured profile remains runnable
+for compatibility.
+
+The first real external-model Journaling run failed human output-quality
+acceptance because the answer exposed internal knowledge organization and
+repeated evidence caveats instead of advancing the design task. The in-place
+v0.2 remediation has passed local fixture, contract, HTTP, export, and
+browser-interface regression checks. The user accepted the remediated v0.2
+behavior on 2026-08-29. The failed run remains preserved as regression history;
+this acceptance does not establish research effectiveness or replace a later
+confirmatory external-model evaluation.
+
+This software progress does not mean human coding is complete, that the
+short-term research question has been answered, or that Helper advice quality,
+author utility, or learning effectiveness has been established. The
+cross-track design-brief schema remains deferred.
 
 Raw project-page HTML and verbatim evidence remain local mining inputs, not
 runtime Helper inputs.

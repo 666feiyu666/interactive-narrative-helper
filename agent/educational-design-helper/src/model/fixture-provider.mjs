@@ -1,8 +1,9 @@
 export class FixtureProvider {
   name = "fixture";
 
-  constructor({ vectorsByText = new Map(), responseFactory = null } = {}) {
+  constructor({ vectorsByText = new Map(), embeddingFactory = null, responseFactory = null } = {}) {
     this.vectorsByText = vectorsByText;
+    this.embeddingFactory = embeddingFactory;
     this.responseFactory = responseFactory;
     this.embeddingModel = "fixture-embedding-v1";
     this.generationModel = "fixture-generation-v1";
@@ -10,7 +11,7 @@ export class FixtureProvider {
 
   async embed(texts) {
     const vectors = texts.map((text) => {
-      const vector = this.vectorsByText.get(text);
+      const vector = this.vectorsByText.get(text) ?? this.embeddingFactory?.(text);
       if (!vector) throw new Error(`No fixture embedding exists for: ${text}`);
       return vector;
     });

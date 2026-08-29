@@ -24,8 +24,17 @@ Track A maintained development now creates that downstream validation need:
 - `knowledge-snapshot.schema.json` defines the versioned manifest, input and
   artifact hashes, review method, counts, and limitations for a frozen
   model-facing snapshot.
+- `track-a-knowledge-item.schema.json` defines the shared envelope and
+  type-specific requirements for domain syntheses, cross-case patterns, and
+  case design cards in the formal v0.2 runtime release.
+- `track-a-knowledge-release.schema.json` defines the formal release manifest,
+  source boundary, deterministic builder policy, counts, file hashes,
+  aggregate model-facing hash, and limitations.
 
 The schemas accept both the strict v1.0 release and the current v1.1 release.
 Version 1.1 adds an explicit coverage profile, Tier C partial precedents,
 optional empty mechanic lists when no mechanic is stated, and a versioned
 inclusion policy without changing the local-evidence/model-facing boundary.
+The formal schemas retain that boundary and require cross-case pattern support
+of at least two cases; they do not assert independent human validation or
+learning effectiveness.

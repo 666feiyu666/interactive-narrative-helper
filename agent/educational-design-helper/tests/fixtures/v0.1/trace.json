@@ -1,0 +1,61 @@
+{
+  "schema_version": "educational-design-run-trace/v1",
+  "run_id": "run-v0-1-fixture",
+  "started_at": "2026-08-29T00:00:00Z",
+  "completed_at": "2026-08-29T00:00:01Z",
+  "status": "succeeded",
+  "failure_stage": null,
+  "request_id": "request-v0-1-fixture",
+  "knowledge_snapshot_id": "track-a-itchio-v1.1-knowledge-v1",
+  "embedding_index": {
+    "schema_version": "track-a-embedding-index/v1",
+    "provider": "fixture",
+    "model": "fixture-embedding-v1",
+    "dimensions": 2,
+    "knowledge_cards_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "index_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "retrieval_execution": {
+    "method": "embedding-cosine-top-k/v1",
+    "provider": "fixture",
+    "model": "fixture-embedding-v1",
+    "query_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "latency_ms": 0,
+    "usage": {
+      "input_tokens": 1,
+      "output_tokens": 0,
+      "total_tokens": 1
+    }
+  },
+  "retrieval": [
+    {
+      "rank": 1,
+      "knowledge_id": "kc-itchio-0006-v1-1",
+      "score": 1
+    }
+  ],
+  "model_calls": [
+    {
+      "stage": "design_advisor",
+      "provider": "fixture",
+      "model": "fixture-generation-v1",
+      "prompt_version": "design-advisor/v1",
+      "model_facing_knowledge_ids": ["kc-itchio-0006-v1-1"],
+      "attempt": 1,
+      "request_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "response_sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "latency_ms": 0,
+      "usage": {
+        "input_tokens": 1,
+        "output_tokens": 1,
+        "total_tokens": 2
+      },
+      "error_category": null
+    }
+  ],
+  "validation": {
+    "status": "passed",
+    "errors": []
+  },
+  "error": null
+}

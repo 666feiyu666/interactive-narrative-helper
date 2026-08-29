@@ -211,6 +211,8 @@ export function createDesignAdvisor({
 
       return {
         run_id: runId,
+        helper_version: "0.1.0",
+        output_version: "0.1",
         request,
         retrieval: trace.retrieval,
         response,

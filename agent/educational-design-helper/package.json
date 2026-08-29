@@ -1,14 +1,15 @@
 {
   "name": "interactive-narrative-helper-track-a",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
   "description": "Maintained Track A Educational Interactive Narrative Design Helper runtime.",
   "scripts": {
     "start": "node src/server/start.mjs",
+    "start:fixture": "node src/server/start-fixture.mjs",
     "dev": "node --watch src/server/start.mjs",
     "build-index": "node src/cli/build-index.mjs",
-    "test": "node --test tests/runtime-core.test.mjs",
+    "test": "node --test tests/runtime-core.test.mjs tests/runtime-v2.test.mjs tests/knowledge-release.test.mjs",
     "test:contracts": "node --test ../../tests/agent/component-boundaries.test.mjs ../../tests/agent/schema-contracts.test.mjs",
     "test:all": "npm run test && npm run test:contracts"
   },

@@ -3,9 +3,13 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 
 import { paths } from "../config/paths.mjs";
-import { createDesignRequest } from "../harness/request.mjs";
+import { createCompactDesignRequest, createDesignRequest } from "../harness/request.mjs";
 import { DesignRunError } from "../harness/design-advisor.mjs";
-import { toModelFacingKnowledge } from "../knowledge/model-facing.mjs";
+import { CompactDesignRunError } from "../harness/compact-design-advisor.mjs";
+import {
+  toModelFacingKnowledge,
+  toModelFacingKnowledgeItem,
+} from "../knowledge/model-facing.mjs";
 import { assertSchema } from "../validation/public-schemas.mjs";
 
 const staticFiles = new Map([
@@ -56,29 +60,60 @@ async function sendStatic(response, fileName, contentType) {
 }
 
 export function createHttpServer(runtime) {
+  const outputVersion = runtime.outputVersion ?? "0.1";
+  const isCompact = outputVersion === "0.2";
   return createServer(async (request, response) => {
     const url = new URL(request.url ?? "/", "http://127.0.0.1");
     try {
       if (request.method === "GET" && url.pathname === "/api/health") {
+        const sourceCount = isCompact
+          ? runtime.release.manifest.source.source_design_card_count
+          : runtime.snapshot.cards.length;
         sendJson(response, 200, {
           status: "ready",
-          snapshot_id: runtime.snapshot.manifest.snapshot_id,
-          knowledge_cards: runtime.snapshot.cards.length,
-          index_model: runtime.indexResult.index.model,
+          output_version: outputVersion,
+          knowledge_id: isCompact
+            ? runtime.release.manifest.knowledge_release_id
+            : runtime.snapshot.manifest.snapshot_id,
+          snapshot_id: isCompact ? null : runtime.snapshot.manifest.snapshot_id,
+          knowledge_cards: sourceCount,
+          index_model: isCompact
+            ? runtime.indexes.case_design_card.index.model
+            : runtime.indexResult.index.model,
         });
         return;
       }
 
       if (request.method === "GET" && url.pathname === "/api/meta") {
+        const sourceCount = isCompact
+          ? runtime.release.manifest.source.source_design_card_count
+          : runtime.snapshot.cards.length;
+        const review = isCompact
+          ? runtime.release.manifest.source
+          : runtime.snapshot.manifest.review;
+        const limitations = isCompact
+          ? runtime.release.manifest.limitations
+          : runtime.snapshot.manifest.limitations;
         sendJson(response, 200, {
           title: "Educational Interactive Narrative Design Helper",
-          snapshot_id: runtime.snapshot.manifest.snapshot_id,
-          knowledge_cards: runtime.snapshot.cards.length,
+          helper_version: runtime.outputProfile?.helperVersion ?? (isCompact ? "0.2.0" : "0.1.0"),
+          output_version: outputVersion,
+          knowledge_id: isCompact
+            ? runtime.release.manifest.knowledge_release_id
+            : runtime.snapshot.manifest.snapshot_id,
+          snapshot_id: isCompact ? null : runtime.snapshot.manifest.snapshot_id,
+          knowledge_cards: sourceCount,
+          knowledge_counts: isCompact ? runtime.release.manifest.counts : {
+            design_cards: runtime.snapshot.cards.length,
+          },
           generation_model: runtime.config.openai.generationModel,
           embedding_model: runtime.config.openai.embeddingModel,
-          human_double_coding_complete:
-            runtime.snapshot.manifest.review.human_double_coding_complete,
-          limitations: runtime.snapshot.manifest.limitations,
+          human_double_coding_complete: review.human_double_coding_complete,
+          limitations,
+          release_status: isCompact ? "accepted" : "compatibility",
+          scope_note: isCompact
+            ? null
+            : `This run uses ${sourceCount} creator-description Knowledge Cards and does not demonstrate learning effectiveness.`,
         });
         return;
       }
@@ -89,18 +124,27 @@ export function createHttpServer(runtime) {
           sendJson(response, 400, { error: "Invalid Knowledge Card ID." });
           return;
         }
-        const card = runtime.snapshot.byId.get(knowledgeId);
+        const card = (isCompact ? runtime.release : runtime.snapshot).byId.get(knowledgeId);
         if (!card) {
           sendJson(response, 404, { error: "Knowledge Card not found." });
           return;
         }
-        sendJson(response, 200, toModelFacingKnowledge(card));
+        sendJson(
+          response,
+          200,
+          isCompact ? toModelFacingKnowledgeItem(card) : toModelFacingKnowledge(card),
+        );
         return;
       }
 
       if (request.method === "POST" && url.pathname === "/api/design") {
-        const body = await readJsonBody(request, runtime.config.server.max_request_bytes);
-        const requestObject = createDesignRequest(body.message, body.requested_direction_count ?? 3);
+        const body = await readJsonBody(
+          request,
+          runtime.config.server?.max_request_bytes ?? 20_000,
+        );
+        const requestObject = isCompact
+          ? createCompactDesignRequest(body.message)
+          : createDesignRequest(body.message, body.requested_direction_count ?? 3);
         assertSchema("Design request", runtime.validators.request(requestObject));
         const result = await runtime.runDesign(requestObject);
         sendJson(response, 200, result);
@@ -115,7 +159,8 @@ export function createHttpServer(runtime) {
 
       sendJson(response, 404, { error: "Not found." });
     } catch (error) {
-      const isDesignRunError = error instanceof DesignRunError;
+      const isDesignRunError =
+        error instanceof DesignRunError || error instanceof CompactDesignRunError;
       const isInputError =
         !isDesignRunError &&
         /must|enter|invalid|too large|4,000|valid JSON/iu.test(error.message ?? "");

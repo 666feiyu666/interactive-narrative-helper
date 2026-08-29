@@ -1,0 +1,26 @@
+[
+  {
+    "scenario_id": "journaling",
+    "raw_question": "我想设计一个 Journaling 类应用，怎样让记录与回看形成互动叙事体验？"
+  },
+  {
+    "scenario_id": "middle_school_cyberbullying",
+    "raw_question": "我想帮助中学生通过互动叙事反思网络欺凌中的角色选择和后果。"
+  },
+  {
+    "scenario_id": "museum_family_visitors",
+    "raw_question": "我想为博物馆家庭访客设计一个共同探索展品故事的互动体验。"
+  },
+  {
+    "scenario_id": "complete_input",
+    "raw_question": "请为 12 至 14 岁学生设计课堂使用的历史主题互动叙事：目标是比较不同见证者的叙述，采用分支选择与回看机制，并限制为一次 35 分钟的小组活动。"
+  },
+  {
+    "scenario_id": "no_direct_precedent",
+    "raw_question": "如果当前知识没有直接先例，怎样探索一个供深海考古训练使用、通过声呐记录重建事件顺序的互动叙事方向？"
+  },
+  {
+    "scenario_id": "chinese_query_english_knowledge",
+    "raw_question": "如何用互动故事帮助成年学习者比较同一事件的不同叙述视角？"
+  }
+]

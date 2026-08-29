@@ -12,6 +12,15 @@ macro-level design assistant. It consumes reviewed, model-facing knowledge
 derived from the educational Interactive Fiction corpus and helps educators or
 narrative designers compare traceable design directions.
 
+Its default v0.2 profile now has an executable local runtime and web interface,
+a formal three-type knowledge release, typed retrieval, structured design
+diagnosis, three comparable directions, locally resolved public references,
+and typed run traces. The first real Journaling output was rejected; the
+revised behavior passed local verification and user acceptance on 2026-08-29.
+The v0.1 structured profile remains available for compatibility. This
+implementation status is not research evidence of advice quality or author
+utility.
+
 It does not read restricted source pages, claim that creator-described intent
 is learning-effect evidence, or generate a complete interactive story.
 

@@ -100,8 +100,11 @@ test("Track B schema identifiers use the preserved boundary path", async () => {
 test("Track A public schemas remain inside the Track A component", async () => {
   for (const filename of [
     "design-request.schema.json",
+    "design-request-v2.schema.json",
     "design-response.schema.json",
+    "design-response-v2.schema.json",
     "run-trace.schema.json",
+    "run-trace-v2.schema.json",
   ]) {
     const schema = JSON.parse(
       await readFile(

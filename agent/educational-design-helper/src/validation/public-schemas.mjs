@@ -12,13 +12,16 @@ function formatAjvErrors(errors = []) {
   });
 }
 
-export async function createSchemaValidators() {
+export async function createSchemaValidators({ profile = null } = {}) {
   const schemaFiles = {
-    request: paths.requestSchema,
-    response: paths.responseSchema,
-    trace: paths.runTraceSchema,
+    request: profile?.requestSchema ?? paths.requestSchema,
+    response: profile?.responseSchema ?? paths.responseSchema,
+    trace: profile?.runTraceSchema ?? paths.runTraceSchema,
     knowledgeCard: paths.knowledgeCardSchema,
     knowledgeSnapshot: paths.knowledgeSnapshotSchema,
+    knowledgeItem: paths.knowledgeItemSchema,
+    knowledgeRelease: paths.knowledgeReleaseSchema,
+    referenceCatalog: paths.referenceCatalogSchema,
   };
 
   const entries = await Promise.all(
@@ -28,7 +31,7 @@ export async function createSchemaValidators() {
     ]),
   );
 
-  const ajv = new Ajv2020({ allErrors: true, strict: true });
+  const ajv = new Ajv2020({ allErrors: true, strict: true, strictRequired: false });
   addFormats(ajv);
 
   return Object.fromEntries(

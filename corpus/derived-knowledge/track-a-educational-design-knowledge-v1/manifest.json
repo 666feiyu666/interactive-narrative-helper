@@ -1,0 +1,53 @@
+{
+  "schema_version": "track-a-knowledge-release/v1",
+  "knowledge_release_id": "track-a-educational-design-knowledge-v1",
+  "created_at": "2026-08-29T00:00:00Z",
+  "source": {
+    "source_snapshot_id": "track-a-itchio-v1.1-knowledge-v1",
+    "source_design_card_count": 122,
+    "source_cards_sha256": "b1ddede701c7c2e8d11906eac9eea219f267f7dcb3076f16abc452b181f02e89",
+    "human_double_coding_complete": false
+  },
+  "construction": {
+    "builder_version": "track-a-educational-design-knowledge-builder/v1",
+    "minimum_pattern_support": 2,
+    "pattern_dimensions": [
+      "interactive_narrative_form+if_mechanics",
+      "educational_purpose+intended_audience",
+      "educational_purpose+application_setting",
+      "educational_purpose+interactive_narrative_form",
+      "interaction_education_relationship+if_mechanics"
+    ]
+  },
+  "counts": {
+    "domain_synthesis": 6,
+    "cross_case_patterns": 194,
+    "design_cards": 122,
+    "total": 322
+  },
+  "files": {
+    "domain_synthesis": {
+      "path": "domain-synthesis.ndjson",
+      "count": 6,
+      "sha256": "e5a2e8335b3e9b611735fb44143c5fa4b705182f09944878286301afce04e10d"
+    },
+    "cross_case_patterns": {
+      "path": "cross-case-patterns.ndjson",
+      "count": 194,
+      "sha256": "8c9e404e6707d36ad844ca6914f1ac6c1a2dfacbee8de5cce2e11b53bcf99b51"
+    },
+    "design_cards": {
+      "path": "design-cards.ndjson",
+      "count": 122,
+      "sha256": "e50fd724dcd6bce7ca18c4aa3a3f6730f7d5471717ccd715fdf4447018e2da7f"
+    }
+  },
+  "model_facing_sha256": "2bd06e789e0c9fc8c1bcdd99805831dd010d6ddcf516deda6ef3f3c08a94cb93",
+  "limitations": [
+    "This release covers 122 automation-reviewed public itch.io creator-description cases, not the broader educational Interactive Fiction population.",
+    "Cross-case patterns are deterministic development summaries with support_n >= 2, not independently human-confirmed research findings.",
+    "Missing and uncertain fields remain explicit and are not inferred.",
+    "Creator-described educational purpose is not evidence of learning effectiveness."
+  ],
+  "model_facing": true
+}

@@ -23,9 +23,13 @@ function validateIndex(index, snapshot, provider, embeddingModel) {
   return expectedIds.size === 0;
 }
 
-async function readCompatibleIndex(snapshot, provider, embeddingModel) {
+function resolveIndexPath(indexRoot = null) {
+  return indexRoot ? path.join(indexRoot, "knowledge-cards.json") : paths.embeddingIndex;
+}
+
+async function readCompatibleIndex(snapshot, provider, embeddingModel, filePath) {
   try {
-    const bytes = await readFile(paths.embeddingIndex);
+    const bytes = await readFile(filePath);
     const index = JSON.parse(bytes.toString("utf8"));
     if (!validateIndex(index, snapshot, provider, embeddingModel)) return null;
     return { index, indexSha256: sha256(bytes) };
@@ -35,7 +39,12 @@ async function readCompatibleIndex(snapshot, provider, embeddingModel) {
   }
 }
 
-export async function buildEmbeddingIndex(snapshot, provider, runtimeConfig) {
+export async function buildEmbeddingIndex(
+  snapshot,
+  provider,
+  runtimeConfig,
+  { indexRoot = null } = {},
+) {
   const entries = [];
   const batchSize = runtimeConfig.retrieval.embedding_batch_size;
   for (let offset = 0; offset < snapshot.cards.length; offset += batchSize) {
@@ -67,19 +76,27 @@ export async function buildEmbeddingIndex(snapshot, provider, runtimeConfig) {
     entries,
   };
   const serialized = `${JSON.stringify(index, null, 2)}\n`;
-  await mkdir(path.dirname(paths.embeddingIndex), { recursive: true });
-  await writeFile(paths.embeddingIndex, serialized, "utf8");
+  const filePath = resolveIndexPath(indexRoot);
+  await mkdir(path.dirname(filePath), { recursive: true });
+  await writeFile(filePath, serialized, "utf8");
   return { index, indexSha256: sha256(serialized) };
 }
 
-export async function ensureEmbeddingIndex(snapshot, provider, runtimeConfig) {
+export async function ensureEmbeddingIndex(
+  snapshot,
+  provider,
+  runtimeConfig,
+  { indexRoot = null } = {},
+) {
+  const filePath = resolveIndexPath(indexRoot);
   const existing = await readCompatibleIndex(
     snapshot,
     provider,
     runtimeConfig.openai.embeddingModel,
+    filePath,
   );
   if (existing) return { ...existing, rebuilt: false };
-  const built = await buildEmbeddingIndex(snapshot, provider, runtimeConfig);
+  const built = await buildEmbeddingIndex(snapshot, provider, runtimeConfig, { indexRoot });
   return { ...built, rebuilt: true };
 }
 

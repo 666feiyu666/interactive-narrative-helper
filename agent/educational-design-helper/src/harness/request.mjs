@@ -23,3 +23,19 @@ export function createDesignRequest(rawQuestion, requestedDirectionCount = 3) {
     requested_direction_count: requestedDirectionCount,
   };
 }
+
+export function createCompactDesignRequest(rawQuestion) {
+  if (typeof rawQuestion !== "string" || rawQuestion.trim().length === 0) {
+    throw new Error("请输入教育互动叙事设计问题。");
+  }
+  if (rawQuestion.length > 4000) {
+    throw new Error("设计问题不能超过 4,000 个字符。");
+  }
+
+  return {
+    schema_version: "educational-design-request/v2",
+    output_version: "0.2",
+    request_id: createId("request"),
+    raw_question: rawQuestion,
+  };
+}

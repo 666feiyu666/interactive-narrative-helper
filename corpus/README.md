@@ -2,9 +2,11 @@
 
 Corpus mining is the current Track A method for understanding how creators
 describe Interactive Fiction in educational contexts. It now supports the
-first traceable case precedents and model-facing snapshot for the macro
-Educational Interactive Narrative Design Helper. Retrieval and evaluation
-remain downstream work.
+first traceable case precedents, model-facing snapshot, and deterministic
+formal knowledge release for the macro Educational Interactive Narrative
+Design Helper. A typed retrieval implementation now consumes that formal
+release; semantic retrieval quality and research evaluation remain downstream
+work.
 
 - `catalog/` records candidate works, provenance, discovery method, and rights.
 - `annotations/` connects creator statements to normalized purpose, audience,
@@ -30,9 +32,11 @@ payloads and the dedicated browser profile remain under the ignored
 `restricted-sources/itchio-public-text/` path.
 
 Future acquisition should separate source preservation from offline mining;
-raw HTML is not intended to be passed directly to either future Helper
-direction. Initial knowledge contracts are now implemented; retrieval details
-and broader pattern synthesis remain open to later evidence.
+raw HTML is not intended to be passed directly to either Helper direction.
+Initial snapshot and formal-release contracts, deterministic pattern
+construction, and typed runtime retrieval are implemented. Broader population
+coverage, independent coding, pattern validation, and research evaluation
+remain open.
 
 The stable first offline transformation is
 [`protocols/itchio-offline-page-cleaning-v1.0.md`](protocols/itchio-offline-page-cleaning-v1.0.md).
@@ -53,3 +57,11 @@ complete-core Tier B cards and 120 partial-substantive Tier C cards. Another
 model-facing release is
 [`derived-knowledge/track-a-itchio-v1.1-knowledge-v1/`](derived-knowledge/track-a-itchio-v1.1-knowledge-v1/).
 The strict v1.0 two-card release remains preserved for comparison.
+
+The default Helper v0.2 profile consumes
+[`derived-knowledge/track-a-educational-design-knowledge-v1/`](derived-knowledge/track-a-educational-design-knowledge-v1/).
+It deterministically organizes the same 122 precedents into 6 domain
+syntheses, 194 support-filtered patterns, and 122 case design cards. It adds no
+new sources and does not imply human validation or field-wide prevalence. A
+separate local runtime catalog joins those card IDs to public titles and
+itch.io pages after generation; it is not model-facing knowledge.
