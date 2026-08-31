@@ -1,20 +1,11 @@
 # Research cases
 
-`cases/` stores stable, bounded story inputs and technique-specific research
-tasks for Track B. A case can define source and provenance, audience, reviewed
-design intentions, invariants, permitted changes, and task-specific exploration
-bounds without prescribing the Partner's answers.
+`cases/` stores stable, bounded scenario settings used to test Agent behavior. 
 
-The only currently specified story-level task is Track B1 counterfactual action
-and consequence exploration. Its cases additionally define a canonical action,
-character goal, counterfactual question, and requested alternatives. These
-fields are not a generic contract for every possible narrative technique.
+A case may specify the target user, task goal, available context, design knowledge provided to the Agent, relevant constraints, human-control points, permitted actions, required outputs, and the aspects of behavior to be observed. It may also preserve stable inputs and invariants needed to compare Agent behavior across different prompts, knowledge conditions, models, or interaction designs.
 
-Macro Track A precedents and patterns belong under `corpus/`. An educator- or
-author-reviewed Educational Interactive Narrative Design Brief may reference a
-case and add selected purpose, audience, setting, or interaction constraints,
-but must not silently overwrite the stable base case.
+Cases may be created for both Track A and Track B. They should be organized according to the Agent direction and research question they support, without assuming that every Agent or technique requires the same fields.
 
-Cases must not include copyrighted modern wording or assets unless the project
-has documented permission. When a traditional story is public domain, record
-the underlying tradition separately from any modern edition or translation.
+A case is not an experiment or a research result. The exact prompt, model, tools, knowledge condition, run output, evaluation, and interpretation belong under `experiments/`. Reusable instruments used to run cases belong under `testbeds/`.
+
+Cases must record the provenance and rights status of any included source material. They must not contain copyrighted text, personal information, participant data, or third-party assets unless their use has been explicitly authorized and documented.

@@ -1,30 +1,15 @@
 # Agent research boundaries
 
-This directory contains research definitions of Agent roles and capabilities.
-It does not contain the display MVP.
+This directory contains research definitions for two Helper Agents. Both Agent directions are intended to support designers using design knowledge established through data mining.
 
 ## Track A
 
-Track A Agent building has not started. Data mining must first establish what
-creator-described evidence can be coded and synthesized reliably. Only then may
-research-agent-building define a role, capabilities, knowledge boundary,
-human-control relationship, probes, and evaluation.
+Track A is the current priority. The immediate plan is to complete the necessary data-mining work, translate the resulting design knowledge into an inspectable Agent role and knowledge boundary, and get the Track A Helper Agent running.
 
-The runnable presentation is kept separately under
-../app/educational-design-helper-mvp/. It must not be described as the Track A
-Agent.
+Its role, capabilities, knowledge boundary, human-control relationship, probes, and evaluation must remain grounded in what the data-mining research can support. A runnable Agent is a research instrument; running successfully does not by itself establish Agent capability or research validity.
 
 ## Track B
 
-[narrative-technique-design-partner/](narrative-technique-design-partner/)
-preserves the long-term Story-level Narrative Technique Design Partner boundary.
-Track B is not in current development scope.
+Track B follows the same design principle: it is a Helper Agent grounded in design knowledge derived from data mining.
 
-Its only specified technique is the counterfactual module under
-narrative-technique-design-partner/techniques/counterfactual/. Those schemas
-remain specific to alternative actions, causal consequences, later choices,
-endings, and supported meaning projections. They are not a generic Track B
-contract.
-
-A future human-reviewed design brief may connect the tracks, but no
-machine-readable bridge has been fixed.
+Track B remains a later research direction. Its specific role, capabilities, knowledge boundary, interaction model, and evaluation should be developed after the Track A Agent has been established and run.
