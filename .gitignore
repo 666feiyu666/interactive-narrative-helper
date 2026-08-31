@@ -1,10 +1,10 @@
-# Operating-system and editor files
+# Local operating-system and editor files
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
 
-# Python environments and caches
+# Local environments, dependencies, and caches
 __pycache__/
 *.py[cod]
 .venv/
@@ -19,6 +19,11 @@ node_modules/
 .env.*
 !.env.example
 
+# Personal working rules and local applications
+/AGENTS.md
+/.agents/
+/app/
+
 # Generated research material
 outputs/*
 !outputs/README.md
@@ -28,11 +33,3 @@ experiments/**/runs/*
 # Restricted corpus material is never tracked by default
 corpus/restricted-sources/*
 !corpus/restricted-sources/README.md
-
-# Local Agent methods and application prototypes
-app/*
-.agents/*
-
-# App and Agents
-app/*
-.agents/*
