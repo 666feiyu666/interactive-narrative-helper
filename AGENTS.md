@@ -11,12 +11,10 @@ must not redefine the research questions or human-authority boundaries.
 - Canonical remote:
   `https://github.com/666feiyu666/interactive-narrative-helper`.
 - The default branch is `main`.
-- `legacy/theory-guided-story-generator/` is prior work, not a current
-  baseline.
-- `testbeds/fox-and-crow/` is the independently versioned
-  `https://github.com/666feiyu666/Fox-and-Crow.git` submodule.
-- Do not rewrite history, change submodule provenance, push, deploy, or publish
-  without explicit authorization.
+- Downstream applications may be maintained in independent repositories rather
+  than embedded as submodules here.
+- Do not rewrite history, push, deploy, or publish without explicit
+  authorization.
 
 ## Research program
 
@@ -110,8 +108,8 @@ generation, source compatibility, consequence projection, meaning projection,
 and author utility/control separable. Fluent prose is not evidence of these
 capabilities.
 
-The design-time Partner is distinct from the runtime `Story Agent` in the
-Fox-and-Crow testbed.
+The design-time Partner is distinct from any runtime `Story Agent` used by a
+downstream application.
 
 ## Project-local skill routing
 
@@ -150,7 +148,7 @@ interactive-narrative-helper/
   testbeds/      # runnable research instruments
   tools/         # acquisition, cleaning, analysis, and reporting utilities
   outputs/       # generated, disposable working output
-  legacy/        # preserved predecessor implementations
+  legacy/        # predecessor implementations retained when needed
 ```
 
 Use these terms consistently:

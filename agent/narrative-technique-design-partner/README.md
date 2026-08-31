@@ -38,7 +38,7 @@ This component does not:
 - choose the educator's educational purpose, audience, setting, interaction
   pattern, or story technique;
 - write an entire finished story;
-- operate the Fox-and-Crow runtime Story Agent;
+- operate a downstream runtime Story Agent;
 - claim that named example techniques are implemented or evaluated; or
 - treat thematic or educational interpretations as uniquely correct.
 

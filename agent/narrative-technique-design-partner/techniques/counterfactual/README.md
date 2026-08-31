@@ -28,7 +28,7 @@ This component does not:
 - choose the educator's educational purpose, audience, setting, or interaction
   pattern;
 - write an entire finished story;
-- operate the Fox-and-Crow runtime Story Agent; or
+- operate a downstream runtime Story Agent; or
 - treat thematic or educational interpretations as uniquely correct.
 
 A future author-reviewed design brief may carry a selected Track A direction

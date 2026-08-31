@@ -153,5 +153,5 @@ educator's or author's design process.
   Story-level Narrative Technique Design Partner is implemented.
 - Bridge: the Design Brief is a confirmed program concept but has no fixed
   machine-readable contract.
-- Testbed: the Fox-and-Crow application remains an independent research instrument,
-  not either design-time Helper.
+- Testbeds: no runnable downstream application is currently tracked in this
+  repository.

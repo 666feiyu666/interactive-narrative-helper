@@ -74,11 +74,7 @@ app README.
 | testbeds/ | Independently runnable research instruments |
 | tools/ | Acquisition, cleaning, analysis, and reporting utilities |
 | outputs/ | Generated, disposable working output |
-| legacy/ | Preserved predecessor implementations |
-
-The Fox-and-Crow application remains an independently versioned Git submodule
-at testbeds/fox-and-crow/. The earlier theory-guided generator remains prior
-work under legacy/; neither is the current design-time Agent.
+| legacy/ | Preserved predecessor implementations, when retention is needed |
 
 ## Research frameworks
 
@@ -102,8 +98,4 @@ application, generated fixture, or passing software test.
 
 ## Clone
 
-    git clone --recurse-submodules https://github.com/666feiyu666/interactive-narrative-helper.git
-
-For an existing clone:
-
-    git submodule update --init --recursive
+    git clone https://github.com/666feiyu666/interactive-narrative-helper.git

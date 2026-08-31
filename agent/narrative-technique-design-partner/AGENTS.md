@@ -23,8 +23,7 @@ This file applies to `agent/narrative-technique-design-partner/`.
   a frozen schema.
 - Preserve author authority over technique framing, source constraints,
   interpretation, selection, revision, and final design.
-- Keep this design-time Partner separate from the Fox-and-Crow runtime Story
-  Agent.
+- Keep this design-time Partner separate from downstream runtime Story Agents.
 
 More deeply nested technique guidance may protect module-specific contracts but
 must not redefine the shared Track B role or silently authorize implementation.

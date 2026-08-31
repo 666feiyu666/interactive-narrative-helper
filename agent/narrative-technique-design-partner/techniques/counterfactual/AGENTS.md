@@ -18,5 +18,4 @@ This file applies only to
 - Do not import implementation files from the display MVP under `app/`. A
   future author-reviewed design brief is the only planned bridge and is not yet
   a frozen schema.
-- Keep this design-time Partner separate from the Fox-and-Crow runtime Story
-  Agent.
+- Keep this design-time Partner separate from downstream runtime Story Agents.

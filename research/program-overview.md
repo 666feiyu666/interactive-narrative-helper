@@ -65,12 +65,6 @@ Track A provides a compatible macro design direction but does not replace,
 validate, or claim to implement either the story-level Partner or its B1
 module.
 
-## Existing research instrument
-
-The independently versioned `Fox-and-Crow` application is the first playable
-testbed. It remains a research instrument and demonstrator rather than the
-definition of the whole research program.
-
 ## Program boundary
 
 The project distinguishes macro design exploration, concrete story-level
