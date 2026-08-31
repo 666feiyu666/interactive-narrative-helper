@@ -28,3 +28,11 @@ experiments/**/runs/*
 # Restricted corpus material is never tracked by default
 corpus/restricted-sources/*
 !corpus/restricted-sources/README.md
+
+# Local Agent methods and application prototypes
+app/*
+.agents/*
+
+# App and Agents
+app/*
+.agents/*
