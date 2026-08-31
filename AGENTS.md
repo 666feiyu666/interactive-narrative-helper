@@ -2,29 +2,38 @@
 
 ## Scope
 
-This file applies to the entire `interactive-narrative-helper` research repository. A
-more deeply nested `AGENTS.md` may add component-specific instructions, but it
-must not silently redefine the project-level research question or the role of the
-research agent.
+This file applies to the entire `interactive-narrative-helper` research
+repository. Nested `AGENTS.md` files may add component-specific rules, but
+must not redefine the research questions or human-authority boundaries.
 
 ## Project identity and repositories
 
-- Canonical project remote for future work:
+- Canonical remote:
   `https://github.com/666feiyu666/interactive-narrative-helper`.
-- The remote's default branch is `main`. Its earlier theory- and prompt-guided
-  story generator is preserved under `legacy/theory-guided-story-generator/`.
-  Treat it as prior work, not as the current research definition or an already
-  validated experimental baseline.
-- `testbeds/fox-and-crow/` is an independently versioned, runnable Git submodule
-  whose remote is
-  `https://github.com/666feiyu666/Fox-and-Crow.git`.
-- Preserve the histories and deployment assumptions of both repositories. Do
-  not rewrite history, change submodule provenance, or push without explicit
-  authorization.
+- The default branch is `main`.
+- `legacy/theory-guided-story-generator/` is prior work, not a current
+  baseline.
+- `testbeds/fox-and-crow/` is the independently versioned
+  `https://github.com/666feiyu666/Fox-and-Crow.git` submodule.
+- Do not rewrite history, change submodule provenance, push, deploy, or publish
+  without explicit authorization.
 
-## Research program and active study
+## Research program
 
-The project retains this Track B program-level research question:
+The current short-term Track A question is:
+
+> How do creators of educational Interactive Fiction distributed through game
+> platforms describe their educational purposes, intended audiences,
+> application settings, and interactive narrative forms, and what identifiable,
+> reusable types, characteristics, and design combinations appear in those
+> descriptions?
+
+The broader source universe may include itch.io, Steam, other game platforms,
+and related catalogues. The accepted acquisition currently covers only public
+itch.io project pages. Creator descriptions are primary evidence for how
+creators position a work; they are not evidence of learning effectiveness.
+
+The Track B program question is:
 
 > To what extent can a generative agent act as an author-controlled,
 > story-level narrative technique design partner in adapting classic
@@ -33,8 +42,7 @@ The project retains this Track B program-level research question:
 > player experience, interaction, narrative development, thematic meaning,
 > and educational purpose?
 
-The earlier counterfactual question is preserved as **Track B1 —
-Counterfactual Action and Consequence Exploration**:
+Track B1 retains the narrower counterfactual question:
 
 > To what extent can a generative agent act as a counterfactual narrative
 > design partner in adapting classic children's stories into multi-ending
@@ -42,359 +50,177 @@ Counterfactual Action and Consequence Exploration**:
 > actions and projecting their consequences for plot development, possible
 > endings, thematic meaning, and educational purpose?
 
-Do not broaden either question into the generic question of whether an agent
-can write an entire interactive story. The Track B program scope may name
-transformations of events and consequences, perspective and information, time
-and sequence, or role and agency, but these examples are not implemented
-modules or evidence of technique-general capability.
+Do not broaden either Track B question into whether an Agent can write a whole
+interactive story. Changes to the research level, target user, evidence
+standard, or Agent role require explicit user confirmation.
 
-The confirmed short-term study is narrower and precedes that goal:
+## Confirmed current state
 
-> How do creators of educational Interactive Fiction distributed through game
-> platforms describe their educational purposes, intended audiences,
-> application settings, and interactive narrative forms, and what identifiable,
-> reusable types, characteristics, and design combinations appear in those
-> descriptions?
+Track A is at the source-preparation boundary:
 
-Current work is data mining: clarify terminology and population coverage,
-acquire usable source material, define inclusion, and determine what
-creator-described application and design characteristics the available source
-layers can support. The broader source universe may include educational IF
-distributed through itch.io, Steam, other game platforms, and related
-catalogues. The current accepted acquisition is limited to public itch.io
-project pages. Public creator descriptions are the primary evidence for claims
-about how creators position their work; they are not required to establish
-learning effectiveness before they can be analyzed for that purpose.
+- The frozen itch.io manifest contains 606 candidates. It is a discovery
+  inventory, not a screened educational-IF corpus.
+- The authorized raw acquisition
+  `itchio-page-bundle-full-001` contains 606 successful page bundles under
+  the ignored restricted-source tree.
+- The deterministic offline derivation
+  `itchio-page-cleaning-full-001` contains 606 source records. Cleaning
+  establishes reproducible source preparation only.
+- Formal screening, research coding, synthesis, data-mining analysis, and
+  evaluation have not started.
+- Track A Agent role/capability modeling, knowledge design, retrieval research,
+  Agent evaluation, and maintained Agent implementation have not started.
+- Track B remains a preserved research boundary; no Track B runtime is in the
+  current scope.
 
-The program-level relationship between the current study and the long-term
-story-level work is confirmed: they are two connected design-time
-directions of the umbrella **Interactive Narrative Helper**. The current study
-supports the maintained macro-level Educational Interactive Narrative Design
-Helper; the long-term question supports the Story-level Narrative Technique
-Design Partner, whose only currently specified module is the Counterfactual
-Narrative Design Partner. They should connect through an author-reviewed design
-brief rather than by passing raw source material directly between systems.
-Initial Track A knowledge, request, response, and run-trace contracts are now
-confirmed for maintained development. Retrieval implementation and the bridge
-schema remain open to evidence and later decisions. Raw source HTML is not
-runtime input to either Helper capability.
+The earlier workbook, annotations, coding rules, knowledge snapshots, formal
+release, compatibility profiles, and claimed acceptance history are
+superseded development artifacts. They are not authoritative research inputs
+or evidence and must not be used to resume Track A. Their eventual deletion is
+a cleanup operation, not loss of a research version; Git history remains the
+historical record.
 
-Changes to either research level, target user, or Agent role require explicit
-user confirmation.
+## Display MVP
 
-## Current work and two design-time directions
+`app/educational-design-helper-mvp/` is a runnable presentation prototype. It
+demonstrates a possible interface and response shape.
 
-The current research artifact is the collected and analyzed evidence needed to
-answer the short-term creator-description question. This is **Track A — macro
-educational design exploration**. Its maintained Helper is intended to help
-educators and narrative designers compare creator-grounded combinations of
-educational purpose, intended audience, application setting, interactive form,
-and the described relationship between interaction and educational intent. It
-should provide traceable design precedents and alternatives, not prescribe one
-correct educational design. Its maintained component now includes v0.1 and
-v0.2 public contracts, an executable local runtime and interface, the first
-formal knowledge release over the widened automation-reviewed snapshot, typed
-retrieval, validation, and run traces. The remediated v0.2 output behavior
-passed user acceptance on 2026-08-29. Independent human double-coding,
-confirmatory external-model evaluation, and research evaluation are not yet
-complete.
+- `npm run start` must start a deterministic offline display without an API
+  key.
+- `npm run start:live` may use an external model through an app-local ignored
+  `.env`.
+- Bundled `demo-data/` records are legacy-generated display fixtures. They
+  are not formal data-mining findings, a validated knowledge base, or evidence
+  of Agent capability, recommendation quality, author utility, or educational
+  effectiveness.
+- The MVP must not read raw or cleaned restricted-source records at runtime.
+- Do not describe this app as the implemented Track A Agent.
 
-**Track B — story-level narrative technique exploration** defines the
-author-facing, design-time **Story-level Narrative Technique Design Partner**.
-It operates after a concrete story or story situation and reviewed design
-direction have been identified, and before full branch authoring or runtime
-implementation.
+## Track B boundaries
 
-Track B is not part of the current development scope. Preserve its research
-definition, author-control boundary, and technique-specific contracts, but do
-not implement its runtime, Harness, interface, evaluation, generic schemas, or
-additional technique modules unless the user later authorizes that work
-explicitly.
+The prospective Story-level Narrative Technique Design Partner operates after
+a concrete story and reviewed design direction have been identified and before
+full branch authoring or runtime implementation. It preserves author-declared
+invariants, works within a framed technique, proposes inspectable
+transformations, exposes assumptions and risks, and leaves selection,
+interpretation, revision, and final design to the author.
 
-Its shared responsibilities are to:
+Track B1 is the only specified technique module. It keeps action-space
+generation, source compatibility, consequence projection, meaning projection,
+and author utility/control separable. Fluent prose is not evidence of these
+capabilities.
 
-1. preserve explicitly declared invariants of the source story;
-2. work within an author-framed narrative technique and permitted changes;
-3. propose inspectable, substantively different story-level transformations;
-4. explain possible implications for experience, interaction, narrative
-   development, thematic meaning, and educational purpose; and
-5. expose assumptions, risks, and required changes for author review.
+The design-time Partner is distinct from the runtime `Story Agent` in the
+Fox-and-Crow testbed.
 
-**Track B1 — counterfactual action and consequence exploration** retains the
-existing Counterfactual Narrative Design Partner, research question, stable
-case/proposal schemas, and focused responsibilities. It accepts a pivotal
-canonical action, character goal, counterfactual question, invariants, and
-mutable assumptions; proposes substantively different alternative actions;
-and projects inspectable causal developments through reactions, conflicts,
-further choices, possible endings, and supported meaning shifts.
+## Project-local skill routing
 
-The agent must not present a theme or educational purpose as the single correct
-interpretation. These are reasoned possibilities for the author to accept,
-revise, combine, or reject. The author retains creative and interpretive
-authority.
+Project-specific Codex methods live under `.agents/skills/`. Keep this layer
+separate from `agent/`, which contains research-defined Agent boundaries.
 
-The two tracks may share a human-reviewed design brief. Track A can propose the
-educational topic, audience, setting, interaction pattern, rationale, and
-supporting precedents; the educator or author selects and revises them. Track B
-can then consume the confirmed direction together with a concrete story,
-invariants, permitted changes, and a technique-specific task. For Track B1,
-that task also includes the canonical action, character goal, and
-counterfactual question. This bridge is a program concept, not yet a fixed
-machine-readable contract.
+- Use `research-data-mining` for terminology, population and source coverage,
+  acquisition, screening, coding, analysis, data quality, bias, validity, and
+  the scripts or notebooks required for those tasks.
+- Use `research-agent-building` only when research findings are being
+  translated into an Agent role, capability model, knowledge boundary,
+  human-control relationship, minimal prototype, probe, or Agent evaluation.
+- Use `guided-software-development` only after the user explicitly decides to
+  productize a researched Agent or research tool as a complete application.
+  Do not route data-mining utilities or minimal Agent prototypes through it.
+- Use `research-through-design` only if the user explicitly adopts that
+  methodology.
 
-Keep the design-time agent distinct from the runtime `Story Agent` inside the
-Fox-and-Crow testbed. The runtime agent reacts to player input and narrates
-visible prose; it is not the long-term research artifact defined above.
-
-## Track B capability boundaries
-
-Shared Track B concerns may include source compatibility, substantive
-transformation, interactive potential, inspectability, meaning projection, and
-author utility and control. Do not assume that all narrative techniques share
-one machine-readable contract or one operational evaluation instrument.
-
-Track B1 research designs and implementations should keep these
-counterfactual-specific dimensions separable:
-
-- **Action-space generation:** diversity and substantive difference among
-  alternative strategies.
-- **Source compatibility:** consistency with preserved character goals, world
-  rules, and story identity.
-- **Consequence projection:** causal coherence across immediate effects,
-  intermediate conflicts, further choices, and endings.
-- **Meaning projection:** traceable relationships between changed events and
-  possible thematic or educational shifts.
-- **Author utility and control:** whether authors can understand, select, edit,
-  and develop the proposals without losing creative authority.
-
-Fluent prose is not evidence that these capabilities have been achieved. Prefer
-structured, inspectable outputs and evaluate the dimensions independently.
+A skill may organize work inside confirmed scope but may not invent a research
+question, corpus decision, evidence standard, Agent role, or evaluation
+finding.
 
 ## Target repository structure
-
-Maintain the following repository boundaries:
 
 ```text
 interactive-narrative-helper/
   README.md
   AGENTS.md
-  research/       # RQ, constructs, scope, methods, ethics, decisions
-  agent/          # Track A Helper and Track B narrative-technique boundaries
-  cases/          # stable story inputs and technique-specific task definitions
-  corpus/         # catalog, annotations, schemas, derived knowledge, rights data
-  experiments/    # protocols, conditions, runs, evaluations, analyses
-  testbeds/       # runnable research instruments such as Fox-and-Crow
-  tools/          # corpus, evaluation, and reporting utilities
-  outputs/        # generated figures, tables, and reports
-  legacy/         # preserved predecessor implementations when needed
+  .agents/       # project-local research skills
+  research/      # RQs, constructs, methods, ethics, decisions
+  app/           # runnable presentation/product prototypes
+  agent/         # research-defined Agent roles and boundaries
+  cases/         # stable story inputs and technique-specific tasks
+  corpus/        # source catalog, restricted sources, and future research data
+  experiments/   # research protocols, runs, evaluations, and analyses
+  testbeds/      # runnable research instruments
+  tools/         # acquisition, cleaning, analysis, and reporting utilities
+  outputs/       # generated, disposable working output
+  legacy/        # preserved predecessor implementations
 ```
 
 Use these terms consistently:
 
-- `tests/` means automated software verification.
-- `experiments/` means reproducible research comparisons with protocols and
-  results.
-- `testbeds/` means runnable artifacts used across multiple experiments.
-- `cases/` means stable story inputs, invariants, technique-specific task
-  definitions, and design briefs; a case does not require a runnable
-  application.
-- `legacy/` preserves predecessor code that has not yet been adapted into a
-  valid baseline for the current RQ.
+- `tests/`: automated software verification.
+- `experiments/`: reproducible research comparisons and results.
+- `testbeds/`: runnable instruments used across experiments.
+- `cases/`: stable story inputs, invariants, task definitions, and reviewed
+  design briefs.
+- `app/`: runnable presentation or product prototypes, not research evidence.
+- `agent/`: Agent roles, capabilities, contracts, and research boundaries.
+- `outputs/`: generated workspace; never an authoritative source-data or
+  research-version store.
+- `legacy/`: predecessor code preserved when needed.
 
-The Fox-and-Crow application belongs at `testbeds/fox-and-crow/` as a Git
-submodule. Preserve its independent history and deployment assumptions. Changes
-inside it must be committed in its own repository before the parent repository
-updates the recorded submodule commit.
+## Authoritative acquisition and cleaning evidence
 
-## Research artifact contracts
+Git-safe provenance and contracts:
 
-Each story-level task should make the following explicit in a machine-readable
-form where practical:
+```text
+corpus/catalog/itchio-public-text/manifest.json
+corpus/catalog/itchio-public-text/acquisition-run-full-001.md
+corpus/catalog/itchio-public-text/cleaning-run-full-001.md
+corpus/protocols/itchio-public-page-bundle-v1.0.md
+corpus/protocols/itchio-offline-page-cleaning-v1.0.md
+```
 
-- source and rights/provenance;
-- target audience;
-- reviewed design intention and narrative-technique framing;
-- story facts and invariants that must be preserved;
-- facts or premises that may change;
-- requested exploration bounds.
+Ignored restricted payloads:
 
-Each Track B1 counterfactual case additionally defines the canonical action and
-character goal, counterfactual question, and requested number and type of
-alternative actions.
+```text
+corpus/restricted-sources/itchio-public-text/
+  runs/itchio-page-bundle-full-001/
+  derived/itchio-page-cleaning-full-001/
+```
 
-Each Track B proposal should expose, as appropriate to its technique:
+Preserve the raw run, cleaning derivation, hashes, stable `project_id` joins,
+and provenance. Do not recreate cleaning unless the user explicitly requests
+it. Future Track A research must begin by designing the actual screening,
+coding, and analysis method over these retained source-preparation outputs.
 
-- proposed transformation and rationale;
-- compatibility with source constraints;
-- implications for experience, interaction, information, or narrative
-  development;
-- possible thematic shift and its narrative evidence;
-- possible educational implications and their narrative evidence;
-- required source changes, assumptions, and risks.
+## Corpus, rights, and privacy
 
-Each Track B1 proposal additionally exposes the alternative action and
-motivation, immediate consequence, subsequent causal developments and new
-conflict, further interactive choices, and one or more possible endings.
+- Do not commit copyrighted full texts, downloaded games, personal
+  information, or third-party assets without documented rights.
+- Keep raw pages and cleaned source records out of Git.
+- Do not scrape, contact external services, send corpus material to an external
+  model, or publish a dataset without explicit authorization and a rights
+  review.
+- Raw HTML is not runtime input to either Helper direction.
+- Never commit secrets, `.env` files, private URLs, credentials, participant
+  data, or identifiable interaction logs.
+- Work involving participants, especially children, requires an explicit
+  ethics, consent, privacy, and data-management plan.
 
-Define schemas before building elaborate interfaces. Store prompts, model
-configuration, and evaluation criteria separately so experiments can vary one
-condition without silently changing others.
-
-## Experiment requirements
-
-Every numbered experiment should record:
-
-- the research question or capability it tests;
-- cases and exact input versions;
-- agent, prompt, model, provider, and knowledge condition;
-- sampling parameters and run date;
-- raw output location and any transformation steps;
-- evaluator instructions and criteria;
-- results, exclusions, limitations, and source commit identifiers.
-
-Do not use a handful of persuasive examples as evidence of capability. Preserve
-failed and rejected outputs where permissions allow, distinguish exploratory
-runs from confirmatory evaluations, and avoid changing prompts or criteria
-after seeing results without documenting the change.
-
-## Corpus, copyright, and privacy
-
-- Corpus collection and data mining serve the short-term RQ; acquisition alone
-  is not the research result.
-- Do not commit copyrighted full texts, downloaded game packages, personal
-  information, or third-party assets without a documented right to do so.
-- Keep restricted raw sources out of Git by default. Prefer provenance records,
-  derived structural annotations, and minimal evidence excerpts.
-- Do not pass restricted raw HTML directly to a future Agent. Detailed
-  knowledge and retrieval handling remain undecided until the mining stage
-  establishes what can be derived reliably.
-- Do not scrape external services, send corpus material to an external model,
-  or publish a dataset without explicit authorization and a rights review.
-- Never commit API keys, `.env` files, private URLs, credentials, or participant
-  data.
-- Work involving children or recruited participants requires an explicit ethics,
-  consent, privacy, and data-management plan before data collection.
-
-## Development and documentation rules
+## Research and development rules
 
 - Before changing a component, read its README, configuration, tests, and any
   nested `AGENTS.md`.
-- Preserve user changes and the history of both existing repositories. Do not
-  treat a clean local checkout as permission to rewrite or publish it.
-- Keep confirmed research goals, implemented behavior, experimental evidence,
-  interpretation, and future plans clearly separated.
-- A planning document is not implementation evidence; passing unit tests are not
-  evidence of author utility or narrative quality.
-- Prefer small, reversible changes and the narrowest meaningful verification.
-- Add or update automated tests when changing executable behavior or schemas.
-- Keep generated runs and large outputs out of source directories. Track only
-  deliberately selected fixtures or reproducibility artifacts.
-- Update path-sensitive documentation, notebook bootstrap URLs, deployment
-  assumptions, and tests together when repository paths change.
-- Do not deploy, push, publish, rewrite Git history, or migrate external data
-  unless the user explicitly requests it.
-
-## Current authoritative Track A working data
-
-The current canonical working dataset for screening, research coding, and the
-first knowledge extraction is:
-
-```text
-outputs/itchio-sheet/
-  itchio-educational-if-candidates-v1.0.xlsx
-```
-
-This workbook is the accepted working interface over
-`itchio-page-cleaning-full-001`. Do not recreate another cleaned dataset,
-review queue, or 606-row coding surface from the restricted source records.
-Begin current Track A work from this workbook unless the user explicitly
-confirms a newer canonical workbook.
-
-Workbook responsibilities are fixed as follows:
-
-- `README` records workbook version, source derivation, counts, and evidence
-  boundaries.
-- `cases` contains the 606 flat cleaned source records. `description_clean` is
-  the current text used for screening and coding; `project_id` is the stable
-  join key.
-- `coding` contains 606 project rows and is the current surface for
-  educational purpose, target audience, application setting, interactive
-  narrative form, IF mechanics, evidence, coding status, uncertainty, and
-  review fields. The confirmed v1.1 scoped substantive-OR run records 122
-  `coded`, 122 `uncertain`, and 362 `not_applicable` rows. `uncertain` rows
-  remain the next human-review layer in this same sheet.
-- `manual_review` contains only the 21 deterministic cleaning exceptions. It is
-  not a general screening or knowledge-extraction queue.
-- `field_coverage` defines workbook columns, coverage, missing-value meaning,
-  and research role.
-- `provenance` connects all 606 project IDs to source runs, hashes, and retained
-  local paths.
-- `engagement` is an exploratory public-rating view and is not an inclusion or
-  knowledge-quality signal.
-
-The adjacent `.xlsx.inspect.ndjson` and `.work/` files are generated inspection
-and workbook-build artifacts, not alternate analytical inputs. They may contain
-sampled source text and remain ignored output material.
-
-Current workflow begins with screening and coding in the existing workbook:
-
-```text
-cases + field_coverage + provenance
-  -> screening decisions recorded through coding status and notes
-  -> evidence-grounded coding in coding
-  -> reviewed model-facing knowledge cards
-  -> versioned knowledge snapshot and formal runtime knowledge release
-  -> retrieval and Harness
-```
-
-Use `record_path` or `description_path` only to verify provenance, resolve one
-of the 21 `manual_review` exceptions, or inspect evidence that the workbook
-cannot represent. Do not bypass the workbook to repeat full-manifest cleaning.
-Preserve any human edits in `coding` and `manual_review`; never regenerate or
-overwrite the workbook without first verifying the preservation behavior and
-receiving authorization for that exact write.
-
-If a later workbook replaces version 1.0, update this section,
-`outputs/README.md`, `corpus/README.md`, and all path-sensitive tools and tests
-together.
-
-## Current implementation boundary
-
-- The repository structure and documents define intended research behavior.
-  The frozen v1.1 knowledge snapshot and its formal v0.2 runtime release are
-  implemented development inputs, and the Track A local runtime is executable.
-  This does not prove that data mining has answered the short-term RQ, that
-  human coding is complete, or that the Track A Agent is effective.
-- The frozen itch.io manifest is a candidate discovery snapshot, not a confirmed
-  educational-IF corpus. The stable 1.0 acquisition contains 606 successful page
-  bundles, and the stable 1.0 offline cleaning contains 606 source records;
-  neither result is terminology, relevance, inclusion, or quality evidence.
-- Preserve the accepted full acquisition and cleaning outputs unless a later
-  cleanup is explicitly authorized. Superseded implementation drafts,
-  diagnostic runs, and protocol trials do not require retention once the
-  current contract, tests, and full-run evidence contain the necessary
-  constraints.
-- The current Track A development snapshot is
-  `corpus/derived-knowledge/track-a-itchio-v1.1-knowledge-v1/`. It contains 122
-  model-facing case precedents promoted by the scoped substantive-OR policy: 2
-  complete-core Tier B cards and 120 partial-substantive Tier C cards. The
-  strict v1.0 two-card snapshot remains preserved for comparison. Neither is
-  evidence of corpus representativeness, human coding agreement, learning
-  effectiveness, or Helper quality.
-- The default v0.2 runtime release is
-  `corpus/derived-knowledge/track-a-educational-design-knowledge-v1/`. It is a
-  deterministic organization of that same 122-card snapshot into 6 domain
-  syntheses, 194 support-filtered cross-case patterns, and 122 case design
-  cards; it does not add source coverage or human validation.
-- `legacy/theory-guided-story-generator/` remains runnable prior work. Do not
-  silently modify it into the new Agent or call it a baseline until a comparable
-  experimental condition is specified.
-- `testbeds/fox-and-crow/` is a runtime research instrument, not the design-time
-  Agent defined by the long-term RQ.
-- Current maintained implementation connects the accepted Track A development
-  snapshot and formal release to the component under
-  `agent/educational-design-helper/`. Track B is not currently being developed;
-  its boundary under `agent/narrative-technique-design-partner/`, the
-  counterfactual contracts under `techniques/counterfactual/schemas/`, and
-  stable task definitions under `cases/` are retained only as long-term
-  research boundaries.
+- Keep confirmed goals, current evidence, implementation, interpretation, and
+  future plans distinct.
+- Acquisition and cleaning completion are not screening, coding, analysis, or
+  a research result.
+- A display MVP is not an Agent capability model or evaluation.
+- Passing tests establish software behavior only.
+- Define research protocols before numbered experiments. Record cases and
+  exact inputs, conditions, prompts/models/providers, run dates, raw outputs,
+  transformations, evaluator instructions, results, limitations, and source
+  commits.
+- Preserve failures where research permissions require it, but do not treat
+  obsolete development fixtures as research versions.
+- Prefer small reversible changes and update path-sensitive documentation and
+  tests together.
+- Preserve user changes and both repository histories.

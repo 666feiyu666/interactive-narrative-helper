@@ -1,5 +1,9 @@
 # Decision: Make the formal-knowledge v0.2 profile the Track A Helper default
 
+> **Superseded on 2026-08-31.** The implementation is now a display-only MVP;
+> its former release/version/acceptance claims are not current research state.
+> See 2026-08-31-reset-to-source-preparation-and-display-mvp.md.
+
 - **Date:** 2026-08-29
 - **Status:** accepted on 2026-08-29 after one rejected output and in-place
   remediation

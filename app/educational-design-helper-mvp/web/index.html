@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="用于展示教育互动叙事设计助手构想的本地 MVP；不代表正式研究结果。"
+    />
+    <title>Interactive Narrative Helper</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <a class="brand" href="/" aria-label="Interactive Narrative Helper 首页">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span>
+            <strong>Interactive Narrative Helper</strong>
+            <small>教育互动叙事设计助手 · 展示 MVP</small>
+          </span>
+        </a>
+        <div class="runtime-status" id="runtime-status" role="status">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>正在连接本地运行时…</span>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="context-panel" aria-labelledby="context-title">
+          <div>
+            <div class="eyebrow">Design field notes</div>
+            <h1 id="context-title">把一个想法展开成可比较的设计方向。</h1>
+            <p class="context-intro">
+              输入一个还不完整的想法。助手会诊断关键决定、提出三个不同方向，并附上可以打开查看的参考案例。
+            </p>
+          </div>
+
+          <dl class="runtime-facts" id="runtime-facts">
+            <div><dt>产物状态</dt><dd>载入中</dd></div>
+            <div><dt>研究状态</dt><dd>载入中</dd></div>
+            <div><dt>示例案例</dt><dd>—</dd></div>
+            <div><dt>运行模式</dt><dd>—</dd></div>
+          </dl>
+
+          <div class="boundary-note">
+            <span aria-hidden="true">i</span>
+            <p>
+              这是展示性 MVP。示例数据和输出不能作为正式数据挖掘结论、Agent
+              能力验证或教育效果证据。
+            </p>
+          </div>
+        </aside>
+
+        <section class="design-desk" aria-label="设计探索工作区">
+          <div class="desk-scroll" id="desk-scroll">
+            <div class="desk-inner" id="conversation-log" aria-live="polite">
+              <section class="launch-notice" id="launch-notice" hidden>
+                <div class="notice-mark" aria-hidden="true">!</div>
+                <div>
+                  <div class="eyebrow">Preview file detected</div>
+                  <h2>请打开本地运行中的应用。</h2>
+                  <p>
+                    直接打开 HTML 只能预览界面。请在
+                    <code>app/educational-design-helper-mvp</code> 运行
+                    <code>npm run start</code>，
+                    然后访问本地地址。
+                  </p>
+                  <a class="launch-link" href="http://127.0.0.1:3000/">
+                    打开 http://127.0.0.1:3000 <span aria-hidden="true">→</span>
+                  </a>
+                </div>
+              </section>
+
+              <section class="welcome" id="welcome">
+                <div class="welcome-number" aria-hidden="true">01</div>
+                <div>
+                  <div class="eyebrow">从一个问题开始</div>
+                  <h2>先展开设计空间，再决定要写成什么。</h2>
+                  <p>
+                    可以只写主题，也可以补充受众、场景和互动想法。信息不完整时，助手仍会提供建议，并把重要未知项留给你决定。
+                  </p>
+                  <button class="example-button" id="example-button" type="button">
+                    <span>填入日记式应用示例</span><span aria-hidden="true">↗</span>
+                  </button>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <div class="composer-wrap">
+            <form class="composer" id="prompt-form">
+              <label for="prompt-input">描述你的教育互动叙事想法</label>
+              <textarea
+                id="prompt-input"
+                name="message"
+                rows="3"
+                maxlength="4000"
+                placeholder="例如：我想设计一个 Journaling 类应用……"
+                required
+              ></textarea>
+              <div class="composer-footer">
+                <span>Ctrl / ⌘ + Enter 发送</span>
+                <button class="send-button" id="send-button" type="submit">
+                  <span>探索设计方向</span><span class="send-arrow" aria-hidden="true">→</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script defer src="./export-format.js"></script>
+    <script defer src="./app.js"></script>
+  </body>
+</html>

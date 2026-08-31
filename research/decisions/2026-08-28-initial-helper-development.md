@@ -1,5 +1,10 @@
 # Decision: Begin maintained Track A Helper development
 
+> **Superseded on 2026-08-31.** This development direction is retained only as
+> historical context. It is not the current project state or a research
+> baseline. See
+> 2026-08-31-reset-to-source-preparation-and-display-mvp.md.
+
 > **Later Track B boundary revision:**
 > [`2026-08-28-track-b-narrative-technique-scope.md`](2026-08-28-track-b-narrative-technique-scope.md)
 > preserves the Track A development decision below but replaces the original

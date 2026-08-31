@@ -1,0 +1,4 @@
+interface:
+  display_name: "研究型数据挖掘"
+  short_description: "界定研究总体、筛选来源并形成可追溯且有边界的证据结论"
+  default_prompt: "使用 $research-data-mining 界定研究总体、筛选来源并形成可追溯的证据结论。"

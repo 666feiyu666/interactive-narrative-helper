@@ -29,9 +29,8 @@ must remain scoped to that source coverage and wording.
 The mined findings may support the macro Educational Interactive Narrative
 Design Helper, which can pass an educator- or author-selected direction through
 a reviewed design brief to the story-level Narrative Technique Design Partner.
-That program relationship is confirmed; the Track A knowledge and runtime
-contracts are maintained separately, while the cross-track bridge and Track B
-software contracts remain future work.
+That program relationship is confirmed; Track A knowledge and Agent contracts,
+the cross-track bridge, and Track B software contracts all remain future work.
 
 ## Track B program-level research question
 

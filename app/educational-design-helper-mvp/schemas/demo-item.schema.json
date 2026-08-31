@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/666feiyu666/interactive-narrative-helper/app/educational-design-helper-mvp/schemas/demo-item.schema.json",
+  "title": "Educational Design Helper MVP Demo Item",
+  "type": "object",
+  "required": ["knowledge_id", "knowledge_type", "retrieval_text"],
+  "properties": {
+    "knowledge_id": { "type": "string", "pattern": "^[a-z][a-z0-9_-]*$" },
+    "knowledge_type": { "enum": ["domain_synthesis", "cross_case_pattern", "case_design_card"] },
+    "retrieval_text": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": true
+}

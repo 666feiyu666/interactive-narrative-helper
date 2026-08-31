@@ -18,7 +18,7 @@ This file applies to `agent/narrative-technique-design-partner/`.
   authorized development work.
 - Do not add corpus screening, macro educational-design retrieval, or Track A
   knowledge construction here.
-- Do not import internal files from `agent/educational-design-helper/`. A
+- Do not import implementation files from the display MVP under `app/`. A
   future author-reviewed design brief is the only planned bridge and is not yet
   a frozen schema.
 - Preserve author authority over technique framing, source constraints,

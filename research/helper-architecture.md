@@ -1,9 +1,8 @@
 # Interactive Narrative Helper Architecture
 
-Status: program-level structure confirmed on 2026-08-28 and Track B broadened
-to a story-level narrative-technique family later that day. Maintained Track A
-development includes knowledge, request, response, run-trace, annotation, and
-snapshot contracts plus the widened 122-card v1.1 model-facing snapshot. The
+Status: the program-level two-track structure and Track B scope are preserved.
+Track A currently has an acquired and deterministically cleaned source
+inventory only. Formal data mining and Agent building have not started. The
 design-brief contract remains future work. Track B is a long-term research
 boundary and is not part of the current development scope.
 
@@ -112,9 +111,9 @@ direction together with a concrete story case and a technique-specific task.
 For Track B1, that task additionally includes the pivotal canonical action,
 character goal, and counterfactual question.
 
-This list remains a conceptual cross-track interface, not a frozen schema. The
-Track A runtime can develop independently while mining establishes which macro
-fields and relationships can be coded reliably.
+This list remains a conceptual cross-track interface, not a frozen schema.
+Mining must first establish which macro fields and relationships can be coded
+reliably before a Track A Agent contract is designed.
 
 ## Shared authority boundary
 
@@ -140,19 +139,13 @@ educator's or author's design process.
 
 ## Current implementation state
 
-- Track A: source acquisition and cleaning are complete for the frozen itch.io
-  candidate inventory. The v1.1 scoped substantive-OR run records 606
-  decisions, promotes 122 precedents (2 complete-core Tier B and 120
-  partial-substantive Tier C), and leaves 122 uncertain records for human
-  review. The maintained Helper now has versioned v0.1 and v0.2 contracts, an
-  executable local runtime and web interface, a formal v0.2 knowledge release,
-  typed retrieval, structured design diagnosis, three-direction output, local
-  public-reference resolution, deterministic response validation, and run
-  traces. The first real external-model Journaling run was rejected on output
-  quality; the in-place remediation has fixture and software-regression
-  evidence and passed user acceptance on 2026-08-29. Independent human
-  double-coding, confirmatory external-model evaluation, and research evidence
-  of Helper quality remain incomplete.
+- Track A: source acquisition and deterministic cleaning are complete for the
+  frozen 606-item itch.io candidate inventory. Screening, research coding,
+  analysis, synthesis, and evaluation have not started. No maintained Track A
+  Agent or validated Agent knowledge base exists.
+- Display app: `app/educational-design-helper-mvp/` is a runnable presentation
+  prototype using legacy-generated demo fixtures. It is not Track A research
+  evidence or the implemented Track A Agent.
 - Track B: the program boundary is preserved under
   `agent/narrative-technique-design-partner/`. The counterfactual case and
   proposal schemas remain under its `techniques/counterfactual/` module. Track
@@ -160,5 +153,5 @@ educator's or author's design process.
   Story-level Narrative Technique Design Partner is implemented.
 - Bridge: the Design Brief is a confirmed program concept but has no fixed
   machine-readable contract.
-- Runtime: the Fox-and-Crow testbed remains an independent research instrument,
+- Testbed: the Fox-and-Crow application remains an independent research instrument,
   not either design-time Helper.

@@ -59,6 +59,12 @@ acquisition and deterministic cleaning establish source-processing behavior
 only. They do not by themselves answer the short-term RQ; creator-description
 screening, coding, and synthesis remain required.
 
+Those later research stages have not started. Earlier automated workbook
+coding and derived knowledge are superseded development attempts, not pilot
+findings or a reusable baseline. A new mining design must explicitly define
+terminology, inclusion, coding, quality review, bias, validity, and the claims
+that the retained source layers can support.
+
 Any later knowledge or retrieval method for the macro Helper will be specified
 after mining establishes what creator-described patterns can be derived
 reliably. A selected macro direction may later enter Track B through a

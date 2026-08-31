@@ -1,34 +1,23 @@
 # Research decisions
 
-Use this directory for decisions that materially change the RQ, constructs,
-system boundary, case contract, experimental comparison, or interpretation of
-evidence. Each decision should record its date, alternatives, rationale,
-consequences, and whether it is reversible.
+Use this directory for decisions that materially change a research question,
+construct, population, evidence interpretation, Agent role, system boundary,
+case contract, or experimental comparison.
 
-Operational collection, cleaning, parser, and run choices belong with their
-current corpus protocols, tools, tests, and run reports rather than in this
-directory. Create a research decision only when a choice materially changes the
-research question, population, constructs, evidence interpretation, ethics, or
-another durable research boundary.
+## Current decisions
 
-## Confirmed decisions
+- [2026-08-31 reset to source preparation and display MVP](2026-08-31-reset-to-source-preparation-and-display-mvp.md)
+  is the current Track A state. It retains acquisition and cleaning, records
+  that formal mining and Agent building have not started, and reclassifies the
+  runnable prototype under app/ as display-only.
+- [2026-08-28 Track B narrative-technique scope](2026-08-28-track-b-narrative-technique-scope.md)
+  preserves Story-level Narrative Technique Design Partner as the Track B
+  program boundary and counterfactual action/consequence as its only specified
+  module.
+- [2026-08-28 two-track architecture](2026-08-28-two-track-helper-architecture.md)
+  preserves the umbrella program, the separate macro and story-level tracks,
+  and the concept of a human-reviewed bridge.
 
-- [`2026-08-29-track-a-helper-v0.2.md`](2026-08-29-track-a-helper-v0.2.md)
-  makes the formal-knowledge v0.2 profile the Track A Helper default while
-  preserving v0.1 compatibility and the existing research-evidence boundary;
-  its first output-quality acceptance failed, and the documented in-place
-  remediation passed user acceptance on 2026-08-29.
-- [`2026-08-28-track-b-narrative-technique-scope.md`](2026-08-28-track-b-narrative-technique-scope.md)
-  broadens Track B's program boundary to story-level narrative technique
-  exploration while retaining counterfactual action and consequence as its
-  only currently specified technique module.
-- [`2026-08-28-two-track-helper-architecture.md`](2026-08-28-two-track-helper-architecture.md)
-  confirms the umbrella Helper, its macro and story-level tracks, their
-  human-reviewed bridge, and the creator-description evidence target. Its
-  counterfactual-only definition of Track B is superseded by the later
-  narrative-technique-scope decision.
-- [`2026-08-28-initial-helper-development.md`](2026-08-28-initial-helper-development.md)
-  starts maintained Track A development, separates the two Agent components,
-  and fixes the local-evidence/model-facing-knowledge runtime boundary. Its
-  original Track B path is retained as historical context and superseded by
-  the later narrative-technique-scope decision.
+The 2026-08-28 initial Track A development decision and the 2026-08-29
+formal-knowledge runtime decision are superseded. Their files are historical
+context, not current research state or a baseline.

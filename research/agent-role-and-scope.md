@@ -1,11 +1,9 @@
 # Story-Level Narrative Technique Partner Role and Scope
 
 This document defines Track B of the umbrella
-[Interactive Narrative Helper architecture](helper-architecture.md). Track A's
-maintained macro design Helper is grounded in corpus-derived creator
-descriptions and is owned separately by
-`agent/educational-design-helper/`; it is not specified in this Track B role
-document.
+[Interactive Narrative Helper architecture](helper-architecture.md). Track A
+data mining and Agent building have not started; the runnable app prototype is
+not a Track A Agent. This document specifies only the preserved Track B role.
 
 ## Shared Track B role
 

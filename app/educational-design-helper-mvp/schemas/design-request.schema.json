@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/666feiyu666/interactive-narrative-helper/app/educational-design-helper-mvp/schemas/design-request.schema.json",
+  "title": "Educational Interactive Narrative Design MVP Request",
+  "type": "object",
+  "required": ["schema_version", "request_id", "raw_question"],
+  "properties": {
+    "schema_version": { "const": "educational-design-request" },
+    "request_id": { "type": "string", "pattern": "^[a-z][a-z0-9_-]*$" },
+    "raw_question": { "type": "string", "minLength": 1, "maxLength": 4000 }
+  },
+  "additionalProperties": false
+}

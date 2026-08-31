@@ -15,7 +15,7 @@ This file applies only to
 - Treat the schemas as preserved contracts. Change their semantics only after
   an explicit Track B research or development decision; repository-level
   compatibility checks may continue to validate them read-only.
-- Do not import internal files from `agent/educational-design-helper/`. A
+- Do not import implementation files from the display MVP under `app/`. A
   future author-reviewed design brief is the only planned bridge and is not yet
   a frozen schema.
 - Keep this design-time Partner separate from the Fox-and-Crow runtime Story

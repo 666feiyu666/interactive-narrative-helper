@@ -1,5 +1,9 @@
 # Decision: Two-track Interactive Narrative Helper architecture
 
+> **Current-state note (2026-08-31):** the two-track research architecture is
+> retained, but Track A has been reset to source preparation. Formal data
+> mining and Agent building have not started; the runnable app is display-only.
+
 > **Later scope revision:**
 > [`2026-08-28-track-b-narrative-technique-scope.md`](2026-08-28-track-b-narrative-technique-scope.md)
 > retains the two-track architecture and human-reviewed bridge while broadening
