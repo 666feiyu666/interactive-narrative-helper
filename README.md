@@ -1,3 +1,5 @@
-# Interactive Narrative Helper
+# Learning to Design Projects from Design Projects
+
+Interactive Narrative Helper
 
 Interactive Narrative Helper is an in-progress research project on human-controlled design-knowledge Helper Agents for Interactive Fiction, grounded in knowledge derived from data-mining research. It investigates two directions situated at different points in the design workflow: an upstream Track A that uses research-supported knowledge about educational purpose, audience, setting, and interaction to assist early design framing, and a downstream Track B that supports story-level narrative technique design within a concrete story context. Current work focuses on building the upstream Track A Helper Agent; the downstream direction remains a later research track, and the project’s methods and implementations may continue to change as the research develops.
