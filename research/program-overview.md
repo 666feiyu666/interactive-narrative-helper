@@ -1,74 +1,80 @@
 # Interactive Narrative Helper Research Program
 
-This workspace studies evidence-grounded, design-time support for educators and
-narrative authors. **Interactive Narrative Helper** is the umbrella program;
-its planned work forms two connected but independently evaluable
-directions.
-
 ## Program architecture
 
-### Track A — Macro educational design exploration
+Interactive Narrative Helper studies evidence-grounded, human-controlled
+design support for educational Interactive Fiction at two distinct levels.
 
-Track A asks how creators publicly describe educational purposes, intended
-audiences, application settings, interactive narrative forms, and the
-relationships between interaction and educational intent. A future
-**Educational Interactive Narrative Design Helper** may help an educator or
-designer compare traceable design precedents and alternative directions before
-committing to a specific story, but that Agent has not been modeled or
-implemented.
+- **Track A — macro educational design exploration** studies how creators
+  describe educational purposes, intended audiences, application settings,
+  interactive narrative forms, and relationships between interaction and
+  educational intent. A future Helper may use reviewed findings to help an
+  educator or designer compare traceable precedents and possible directions.
+- **Track B — story-level narrative technique exploration** studies a
+  prospective design partner that works from a concrete story and an
+  author-reviewed direction to propose inspectable, technique-specific
+  transformations. It operates before full branch writing and runtime
+  implementation.
+- **Track B1 — counterfactual action and consequence exploration** is the only
+  specified Track B technique. It focuses on alternative character actions and
+  their causal, interactive, thematic, and educational implications.
 
-### Track B — Story-level narrative technique exploration
+The tracks may connect through an educator- or author-reviewed design brief,
+but they have different inputs, methods, evidence, and evaluation criteria.
 
-Track B defines the prospective **Story-level Narrative Technique Design
-Partner**. It helps an author who already has a concrete story and reviewed
-design direction explore inspectable, technique-specific transformations while
-retaining authority over source constraints, interpretation, and final design.
-Its conceptual space may concern events and consequences, perspective and
-information, time and sequence, or role and agency.
-
-The only currently specified technique is **Track B1 — Counterfactual Action
-and Consequence Exploration**. It preserves the existing Counterfactual
-Narrative Design Partner question and contracts for alternative character
-actions, causal developments, later choices, endings, and supported meaning
-projections. The broader examples are not implemented modules or evidence of a
-technique-general Agent.
 
 ![Full Interactive Narrative Helper research framework](figures/full-program-framework.svg)
 
-The bridge does not make the two tracks one undifferentiated Agent. Track A and
-Track B have different inputs, outputs, evidence, and evaluation criteria.
-Their current division and conceptual interface are detailed in
-[`helper-architecture.md`](helper-architecture.md).
+## Research questions
 
-## Current research stage
+### Track A
 
-The active stage prepares sources for future Track A data mining. The broader
-source universe is educational IF distributed across platforms such as itch.io
-and Steam. Current work has completed one public itch.io candidate inventory,
-its authorized page acquisition, and deterministic offline cleaning. The
-inventory remains unscreened. Formal terminology work, inclusion, coding,
-analysis, synthesis, and evaluation have not started.
+> How do creators of educational Interactive Fiction distributed through game
+> platforms describe their educational purposes, intended audiences,
+> application settings, and interactive narrative forms, and what identifiable,
+> reusable types, characteristics, and design combinations appear in those
+> descriptions?
 
-No Track A findings or reviewed model-facing knowledge currently exist. Agent
-role and capability modeling must wait for research evidence. Raw HTML and
-cleaned records remain local source material, not runtime input to either
-Helper direction. The separate app display is an MVP with legacy demo fixtures,
-not a research result.
+Creator descriptions are primary evidence for how creators position a work.
+They are not evidence that an interaction was implemented as described or that
+it produced a learning effect.
 
-## Long-term research direction
+### Track B
 
-The program asks whether a generative agent can act as an author-controlled,
-story-level narrative technique design partner when authors adapt classic
-children's stories into interactive narratives. Track B1 retains the focused
-question of counterfactual action and consequence in multi-ending adaptation.
-Track A provides a compatible macro design direction but does not replace,
-validate, or claim to implement either the story-level Partner or its B1
-module.
+> To what extent can a generative agent act as an author-controlled,
+> story-level narrative technique design partner in adapting classic
+> children's stories into interactive narratives, by proposing inspectable
+> technique-specific transformations and explaining their implications for
+> player experience, interaction, narrative development, thematic meaning,
+> and educational purpose?
 
-## Program boundary
+Track B concerns bounded design exploration, not autonomous full-story
+writing. Possible technique families such as events and consequences,
+perspective and information, time and sequence, or role and agency describe a
+conceptual space; they are not implemented modules or demonstrated
+capabilities.
 
-The project distinguishes macro design exploration, concrete story-level
-technique exploration, full branch authoring, and runtime narration. The two
-Helper tracks cover only the first two. General media generation and
-interactive-runtime tools remain outside this repository unless they are
-brought in through an explicit project contract.
+### Track B1
+
+> To what extent can a generative agent act as a counterfactual narrative
+> design partner in adapting classic children's stories into multi-ending
+> interactive narratives, by proposing distinct yet story-compatible character
+> actions and projecting their consequences for plot development, possible
+> endings, thematic meaning, and educational purpose?
+
+Its operational questions concern:
+
+- substantive alternatives rather than paraphrases of a canonical action;
+- coherent consequences through reactions, conflicts, later choices, and
+  possible endings;
+- thematic and educational interpretations traceable to the changed action and
+  its consequences; and
+- whether authors can understand, revise, combine, select, or reject proposals
+  while retaining creative and interpretive control.
+
+## Current work
+
+The project is currently working on Track A. Source preparation is complete for 606 public itch.io candidate pages. Current work is to design the screening, coding, and analysis method for the creator descriptions. Track B remains a later research direction.
+
+![Track A iterative research framework](figures/current-study-framework.svg)
+
